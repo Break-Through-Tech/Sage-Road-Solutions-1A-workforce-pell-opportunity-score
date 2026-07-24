@@ -18,127 +18,112 @@
 
 ---
 
-### 🔍 SME Feedback from the Break Through Tech Evaluation Team
+## 📋 BTT Internal Evaluation Notes
+*(This section is for BTT staff and CAs only — remove before sharing with students)*
 
-*Challenge Advisor: Please address the following feedback by editing this page. Your AI Studio Coach can help make project adjustments as needed, too. In addition to the grey section above, this section should be removed before sharing the repo with your student team.*
+### Technical Vetting
+| Check | Status | Notes |
+| :--- | :--- | :--- |
+| Python Compatibility | 🟢 | The project utilizes standard scikit-learn and XGBoost libraries which are fully supported in Google Colab environment. |
+| Data Readiness | 🟡 | While public, the datasets (IPEDS, BLS, O*NET, Census) involve complex relational merging across multiple schemas, which will be time-consuming for students. |
+| Resource Check | 🟢 | Fits within standard CPU-based compute; no GPUs or paid APIs required. |
+
+### Internal Scores
+- **Student Fit Score:** 7/10
+- **Technical Depth Score:** 8/10
+- **Overall Recommendation:** REVISE
+
+### Advisor Feedback Draft
+This project offers a strong opportunity to apply ensemble methods to high-impact social data. To succeed, first, simplify the data ingestion phase by providing a pre-merged 'base' file to avoid 10 weeks of cleaning. Second, implement a strict time-based validation holdout set to ensure the model generalizes to future credential cycles. I recommend we proceed with these scoping adjustments to ensure the dashboard remains a feasible deliverable.
 
 ---
 
-# [Project Title]
+# Workforce Pell Opportunity Score: Predicting High-Impact Short-Term Education Programs
 
-**Company / Org:** [Company / Org Name]  
-**Challenge Advisor:** [Name, Title, Email]  
-**Program:** Break Through Tech AI Studio - Fall 2026
+**Company / Org:** Other  
+**Challenge Advisor:** Beth Davis, bethdavisnc@gmail.com  
+**Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
 
-## 🏢 About [Company / Org Name]
-
-[2-3 sentences about your company: what you do, your industry, etc. You may also choose to specify your specific department or team.]
+## 🏢 About Other
+This project focuses on the intersection of higher education and labor market analytics, aiming to optimize the impact of Workforce Pell grants. The team will collaborate to build data-driven tools that assist policymakers and educational institutions in identifying short-term programs that lead to successful workforce integration.
 
 ---
 
 ## 🎯 The Challenge
-
 ### Project Summary
-[In 2-3 sentences, describe what you're asking the team to do. Be specific about the type of data, ML techniques, and potential impact.]
-
-> **Example:** "In this project, your team will use customer transaction data and classification algorithms to build a model that predicts which users are likely to churn. This will help our retention team prioritize outreach."
+The team will develop an explainable machine learning model to predict the alignment of short-term education programs with regional labor market demands and Workforce Pell criteria. By leveraging integrated datasets from IPEDS, O*NET, and Census sources, the team will utilize gradient-boosted decision trees and SHAP-based explainability to create an actionable "Opportunity Score." This work will culminate in an interactive dashboard designed to guide equitable investment in high-quality workforce training programs.
 
 ### Success Criteria
-[What does success look like? Describe evaluation metrics (accuracy, F1 score, etc.) or qualitative outcomes that would make this project valuable to your company.]
+Model accuracy, precision, recall, and F1 score for classification tasks. ROC-AUC. Cross-validation performance. Ability to identify institutional and regional characteristics associated with Workforce Pell readiness. Generation of an interpretable Workforce Pell Opportunity Score. Production of actionable recommendations.
 
 ### Project Milestones
-
-Use these milestones to guide your work. Your team will create a **GitHub Projects board** to track tasks within each milestone.
-
+Use these milestones to guide your work. Your team will create a GitHub Projects board to track tasks within each milestone.
 | Month | Milestone | Key Activities |
 |-------|-----------|----------------|
-| **September** | [e.g., Data Understanding] | [e.g., Explore dataset, handle missing values, document findings] |
-| **October** | [e.g., Model Development] | [e.g., Train baseline model, experiment with approaches, iterate] |
-| **November** | [e.g., Evaluation & Presentation] | [e.g., Finalize model, prepare presentation, document results] |
+| **September** | Data Exploration & Preprocessing | Develop scripts for joining heterogeneous datasets using CIP codes; conduct exploratory data analysis to identify data quality gaps and potential outliers. |
+| **October** | Feature Engineering & Baseline Modeling | Engineer predictive features related to labor demand and institutional capacity; deploy baseline Logistic Regression and Random Forest models for classification. |
+| **November** | Model Optimization & Evaluation | Perform hyperparameter tuning on XGBoost models; conduct cross-validation and verify predictive performance against held-out temporal data. |
+| **December** | Insights, Deliverables & Presentation | Finalize the interpretability module using SHAP; deploy the interactive dashboard and synthesize findings into an executive-level presentation for stakeholders. |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
 ---
 
 ## 📊 Dataset
-
-**Name and Source:** [Dataset name and where it's from]  
-**Format:** [e.g., CSV, JSON, images]  
-**Size:** [Approximate size in MB/GB]  
-**Location:** [Link to dataset or instructions for accessing it]
+**Name and Source:** Publicly available education and labor market data (IPEDS, College Scorecard, BLS, O*NET, Census ACS)  
+**Format:** CSV / Structured Relational  
+**Size:** under 1gb  
+**Location:** Provided via secure shared folder link upon project commencement.
 
 ### Key Details
-- [Brief description of what's in the data]
-- [Any known limitations or preprocessing needed]
-- [Link to data dictionary or documentation, if available]
+- Structured relational education, workforce, labor market, and demographic datasets linked through common geographic and program identifiers (datasets include IPEDS, College Scorecard, BLS Occupational Employment Statistics, O*NET, U.S. Census ACS, and CIP code crosswalks).
+- Teams must strictly monitor for data leakage between geographic entities and ensure that training sets are split according to chronological credential cycles to prevent performance inflation.
 
 ---
 
 ## 🛠️ Suggested Approach
-
-**ML Problem Type:** [e.g., Classification, Regression, NLP, Computer Vision, LLM/RAG]
-
+**ML Problem Type:** Classification  
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
-
-**Evaluation Metrics:**
-- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+- Random Forest
+- XGBoost
+- Gradient Boosting
+- Logistic Regression
+**Evaluation Metrics:** Classification accuracy, precision, recall, F1-score, and ROC-AUC; model interpretability metrics via SHAP.
 
 ---
 
 ## 📚 Resources to Get Started
-
 The following resources will help your team understand the problem space and potential technical approaches for this project:
-
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
-- [e.g., Link to an industry report or case study]
-
+- U.S. Department of Education Workforce Pell Grant eligibility guidelines and reporting standards.
 **Technical Tutorials:**
-- [e.g., Link to a free tutorial on the ML technique(s) involved]
-- [e.g., Link to documentation for a key library or tool]
-
+- Scikit-learn documentation on Ensemble Methods and SHAP documentation for model explainability.
 **Code Examples:**
-- [e.g., Link to a relevant GitHub repo]
-- [e.g., Link to a sample implementation or starter code]
-
-**Other:**
-- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
-
-*Feel free to explore beyond these, and share anything interesting you find with me!*
+- Sample GitHub repositories showcasing pipeline integration of Census and BLS data.
 
 ---
 
-## 🤝 How We'll Work Together (v2)
-
-**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
-
- **Other ways to reach out to me with questions:** 
-* [e.g., Your team's channel within Break Through Tech’s Discord space]
-* [e.g., Email; please copy your teammates and AI Studio Coach]
-* [e.g., Request a team check-in on Zoom]
-* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
-
-> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
-
-**Recommended free coding / collaboration tools**
-* […]
-* […]
+## 🤝 How We'll Work Together
+**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
+**Communication:** Email and designated team Slack/Teams channel.  
+**Response time:** Within 48 hours on business days.  
+**Recommended Tools:**
+- **Coding:** Google Colab Free Tier  
+- **Collaboration:** GitHub, Notion  
+- **Virtual Meetings:** Zoom, Google Meet  
 
 ---
 
 ## 🚀 Getting Started
+1. **Review this overview document** and note any questions for our first meeting.
+2. **Begin reviewing the dataset** using the link provided in the Dataset section.
+3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
 
-1. **Review this overview document** and note any questions for our first meeting
-2. **Begin reviewing the dataset** using the link above
-3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-
-I’m excited to work with you!
+I'm excited to work with you!
 
 ---
 
 ## ❓ Questions?
-
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
