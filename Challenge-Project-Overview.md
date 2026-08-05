@@ -42,6 +42,7 @@ This project offers a strong opportunity to apply ensemble methods to high-impac
 
 **Company / Org:** Other  
 **Challenge Advisor:** Beth Davis, bethdavisnc@gmail.com  
+**AI Studio Coach:** Hrushikesh Shetty, hrushikesh.shetty@breakthroughtech.org  
 **Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
