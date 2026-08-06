@@ -61,12 +61,17 @@ Model accuracy, precision, recall, and F1 score for classification tasks. ROC-AU
 
 ### Project Milestones
 Use these milestones to guide your work. Your team will create a GitHub Projects board to track tasks within each milestone.
+
 | Month | Milestone | Key Activities |
-|-------|-----------|----------------|
-| **September** | Data Exploration & Preprocessing | Develop scripts for joining heterogeneous datasets using CIP codes; conduct exploratory data analysis to identify data quality gaps and potential outliers. |
-| **October** | Feature Engineering & Baseline Modeling | Engineer predictive features related to labor demand and institutional capacity; deploy baseline Logistic Regression and Random Forest models for classification. |
-| **November** | Model Optimization & Evaluation | Perform hyperparameter tuning on XGBoost models; conduct cross-validation and verify predictive performance against held-out temporal data. |
-| **December** | Insights, Deliverables & Presentation | Finalize the interpretability module using SHAP; deploy the interactive dashboard and synthesize findings into an executive-level presentation for stakeholders. |
+| :--- | :--- | :--- |
+| September | Data Integration, Preprocessing & Feature Alignment | • Ingest and link multi-source structured datasets (IPEDS, College Scorecard, BLS OEWS, O*NET, Census ACS) via common geographic and CIP/SOC program identifiers.<br>• Clean missing values, standardize regional economic metrics, and engineer baseline features (local median wage ratio, completion rates, tuition-to-wage ratio).<br>• Define primary target variables (post-completion earnings lift, employment rates) and establish baseline modeling pipelines. |
+| October | Opportunity Score Modeling & Pipeline Optimization | • Develop predictive regression and classification models (Random Forest, XGBoost, Ridge Regression) to forecast high-impact program outcomes.<br>• Construct and validate the composite "Workforce Pell Opportunity Score" index balancing financial ROI, completion rate, and regional wage premium.<br>• Perform hyperparameter tuning, cross-validation, and evaluate model performance across program types. |
+| November / December | Model Explainability, Interactive Dashboard & Capstone Deliverables | • Apply SHAP value interpretability to highlight key institutional and economic drivers behind high opportunity scores.<br>• Build an interactive Streamlit dashboard allowing educational leaders and policymakers to search, filter, and compare program scores by region and CIP code.<br>• Finalize clean, reproducible GitHub repository, documentation, and stakeholder presentation deck. |
+
+### Stretch Goals
+* **Policy "What-If" Scenario Simulator:** Build an interactive UI module that simulates how changes in program tuition, duration, or regional wage growth impact a program's overall Workforce Pell Opportunity Score.
+* **Geographic Labor Market Alignment Mapping:** Implement a spatial mapping tool linking local O*NET/BLS job opening projections directly with regional community college short-term credential offerings.
+* **Equity & Access Fairness Audit:** Conduct a systematic subgroup audit to evaluate whether the scoring framework equitably highlights high-value programs across underrepresented demographic groups and low-income geographic census tracts.
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
