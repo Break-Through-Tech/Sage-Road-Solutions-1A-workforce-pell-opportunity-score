@@ -54,24 +54,44 @@ This project focuses on the intersection of higher education and labor market an
 
 ## 🎯 The Challenge
 ### Project Summary
-The team will develop an explainable machine learning model to predict the alignment of short-term education programs with regional labor market demands and Workforce Pell criteria. By leveraging integrated datasets from IPEDS, O*NET, and Census sources, the team will utilize gradient-boosted decision trees and SHAP-based explainability to create an actionable "Opportunity Score." This work will culminate in an interactive dashboard designed to guide equitable investment in high-quality workforce training programs.
+In this project, students will use publicly available education, workforce, and labor market data—including IPEDS, College Scorecard, BLS Occupational Employment Statistics, O*NET, and U.S. Census data—to develop an explainable machine learning model that estimates the likelihood that short-term education programs align with Workforce Pell priorities and regional workforce demand. Using feature engineering, gradient-boosted decision trees, clustering, and SHAP-based explainability, the team will identify the institutional, demographic, and labor market characteristics associated with strong workforce outcomes. The resulting Opportunity Score and interactive dashboard will help colleges, workforce agencies, employers, and policymakers identify where investments in short-term credential programs are most likely to improve employment outcomes and expand equitable access to high-quality training.
 
 ### Success Criteria
-Model accuracy, precision, recall, and F1 score for classification tasks. ROC-AUC. Cross-validation performance. Ability to identify institutional and regional characteristics associated with Workforce Pell readiness. Generation of an interpretable Workforce Pell Opportunity Score. Production of actionable recommendations.
+
+_Evaluation metrics:_ 
+- Data source quality and selection criteria
+- Model accuracy, precision, recall, and F1 score for classification tasks.
+- ROC-AUC where appropriate.
+- Cross-validation performance to assess generalizability.
+- Model explainability 
+
+_Business success metrics_   
+- Ability to identify institutional and regional characteristics associated with Workforce Pell readiness.
+- Generation of an interpretable Workforce Pell Opportunity Score for institutions or programs.
+- Production of actionable recommendations that education leaders, workforce agencies, and policymakers could use to prioritize investments.
+- Delivery of a reproducible open-source workflow and interactive dashboard suitable for future expansion.
+
+A successful project will demonstrate that publicly available education and labor market data can be combined to produce meaningful, explainable predictions that support strategic planning for Workforce Pell implementation.
+
+### Stretch Goals
+
+Potential extensions include:
+
+- Developing a recommendation engine that suggests new certificate programs based on regional workforce demand.
+- Forecast future labor market demand using time-series analysis.
+- Incorporate additional public datasets such as state workforce projections or broadband access.
+- Build a conversational AI assistant using a Retrieval-Augmented Generation (RAG) architecture that answers questions such as: "Which Illinois community colleges have the greatest Workforce Pell opportunity?"; "Why did this institution receive a high opportunity score?"
+- Deploy the dashboard as a lightweight web application.
+- Evaluate model fairness across institution types (community colleges, Minority-Serving Institutions, HBCUs, HSIs, rural institutions) to identify potential sources of algorithmic bias.
 
 ### Project Milestones
 Use these milestones to guide your work. Your team will create a GitHub Projects board to track tasks within each milestone.
 
 | Month | Milestone | Key Activities |
-| :--- | :--- | :--- |
-| September | Data Integration, Preprocessing & Feature Alignment | • Ingest and link multi-source structured datasets (IPEDS, College Scorecard, BLS OEWS, O*NET, Census ACS) via common geographic and CIP/SOC program identifiers.<br>• Clean missing values, standardize regional economic metrics, and engineer baseline features (local median wage ratio, completion rates, tuition-to-wage ratio).<br>• Define primary target variables (post-completion earnings lift, employment rates) and establish baseline modeling pipelines. |
-| October | Opportunity Score Modeling & Pipeline Optimization | • Develop predictive regression and classification models (Random Forest, XGBoost, Ridge Regression) to forecast high-impact program outcomes.<br>• Construct and validate the composite "Workforce Pell Opportunity Score" index balancing financial ROI, completion rate, and regional wage premium.<br>• Perform hyperparameter tuning, cross-validation, and evaluate model performance across program types. |
-| November / December | Model Explainability, Interactive Dashboard & Capstone Deliverables | • Apply SHAP value interpretability to highlight key institutional and economic drivers behind high opportunity scores.<br>• Build an interactive Streamlit dashboard allowing educational leaders and policymakers to search, filter, and compare program scores by region and CIP code.<br>• Finalize clean, reproducible GitHub repository, documentation, and stakeholder presentation deck. |
-
-### Stretch Goals
-* **Policy "What-If" Scenario Simulator:** Build an interactive UI module that simulates how changes in program tuition, duration, or regional wage growth impact a program's overall Workforce Pell Opportunity Score.
-* **Geographic Labor Market Alignment Mapping:** Implement a spatial mapping tool linking local O*NET/BLS job opening projections directly with regional community college short-term credential offerings.
-* **Equity & Access Fairness Audit:** Conduct a systematic subgroup audit to evaluate whether the scoring framework equitably highlights high-value programs across underrepresented demographic groups and low-income geographic census tracts.
+|---|---|---|
+| September | Data Discovery, Integration, and Exploratory Analysis | • Identify and acquire public datasets (IPEDS, College Scorecard, BLS Occupational Employment Statistics, O*NET, U.S. Census ACS, and CIP code crosswalks).<br>• Design a unified data model linking institutions, academic programs, occupations, and regional labor markets.<br>• Perform exploratory data analysis to identify missing data, regional trends, and candidate predictive features.<br>• Develop an initial feature set and establish baseline models for comparison.<br>• **Deliverable:** Clean, integrated analytical dataset, feature dictionary, exploratory dashboard, and baseline predictive model. |
+| October | Machine Learning Model Development | • Engineer features representing institutional quality, labor market demand, demographic characteristics, and regional economic conditions.<br>• Develop and compare multiple machine learning models (Random Forest, XGBoost, Gradient Boosting, Logistic Regression).<br>• Evaluate model performance using cross-validation.<br>• Apply explainability techniques to identify the most influential variables.<br>• **Deliverable:** Candidate prediction models with documented performance metrics and explainability analysis. |
+| November | Visualization, Validation, and Decision Support Tool | • Select the best-performing model.<br>• Build an interactive dashboard allowing users to explore Workforce Pell Opportunity Scores by institution, region, or program.<br>• Validate results against known Workforce Pell criteria and expert review.<br>• Prepare technical documentation, reproducible notebooks, and final presentation materials.<br>• **Deliverable:** Final predictive model, interactive dashboard, GitHub repository, technical documentation, and executive presentation. |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
@@ -81,55 +101,83 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 **Name and Source:** Publicly available education and labor market data (IPEDS, College Scorecard, BLS, O*NET, Census ACS)  
 **Format:** CSV / Structured Relational  
 **Size:** under 1gb  
-**Location:** Provided via secure shared folder link upon project commencement.
+**Location:** 
+- IPEDS: https://nces.ed.gov/ipeds/use-the-data   
+- College Scorecard: https://collegescorecard.ed.gov/data/   
+- Bureau of Labor Statistics Occupational Employment and Wage Statistics: https://www.bls.gov/oes/   
+- O*NET Data: https://www.onetcenter.org/database.html   
+- U.S. Census American Community Survey: https://www.census.gov/programs-surveys/acs/data.html 
 
 ### Key Details
-- Structured relational education, workforce, labor market, and demographic datasets linked through common geographic and program identifiers (datasets include IPEDS, College Scorecard, BLS Occupational Employment Statistics, O*NET, U.S. Census ACS, and CIP code crosswalks).
-- Teams must strictly monitor for data leakage between geographic entities and ensure that training sets are split according to chronological credential cycles to prevent performance inflation.
-
+- [Brief description of what's in the data]
+- [Any known limitations or preprocessing needed]
+- [Link to data dictionary or documentation, if available]
+  
 ---
 
 ## 🛠️ Suggested Approach
-**ML Problem Type:** Classification  
-**Recommended Libraries:**
-- Random Forest
-- XGBoost
-- Gradient Boosting
-- Logistic Regression
-**Evaluation Metrics:** Classification accuracy, precision, recall, F1-score, and ROC-AUC; model interpretability metrics via SHAP.
 
+**ML Problem Type:** Classification,Regression,Clustering,Recommendation Systems,Large Language Models (LLMs)/ Generative AI  
+
+**Recommended Libraries:**
+- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+
+**Evaluation Metrics:**
+- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+  
 ---
 
 ## 📚 Resources to Get Started
+
 The following resources will help your team understand the problem space and potential technical approaches for this project:
+
 **Background Reading:**
-- U.S. Department of Education Workforce Pell Grant eligibility guidelines and reporting standards.
+- [e.g., Link to an article or blog post about the problem domain]
+- [e.g., Link to an industry report or case study]
+
 **Technical Tutorials:**
-- Scikit-learn documentation on Ensemble Methods and SHAP documentation for model explainability.
+- [e.g., Link to a free tutorial on the ML technique(s) involved]
+- [e.g., Link to documentation for a key library or tool]
+
 **Code Examples:**
-- Sample GitHub repositories showcasing pipeline integration of Census and BLS data.
+- [e.g., Link to a relevant GitHub repo]
+- [e.g., Link to a sample implementation or starter code]
+
+**Other:**
+- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
+
+*Feel free to explore beyond these, and share anything interesting you find with me!*
 
 ---
 
 ## 🤝 How We'll Work Together
-**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** Email and designated team Slack/Teams channel.  
-**Response time:** Within 48 hours on business days.  
-**Recommended Tools:**
-- **Coding:** Google Colab Free Tier  
-- **Collaboration:** GitHub, Notion  
-- **Virtual Meetings:** Zoom, Google Meet  
+
+**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
+
+ **Other ways to reach out to me with questions:** 
+* [e.g., Your team's channel within Break Through Tech’s Discord space]
+* [e.g., Email; please copy your teammates and AI Studio Coach]
+* [e.g., Request a team check-in on Zoom]
+* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
+
+> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
+
+**Recommended free coding / collaboration tools**
+* […]
+* […]
 
 ---
 
 ## 🚀 Getting Started
-1. **Review this overview document** and note any questions for our first meeting.
-2. **Begin reviewing the dataset** using the link provided in the Dataset section.
-3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
 
-I'm excited to work with you!
+1. **Review this overview document** and note any questions for our first meeting
+2. **Begin reviewing the dataset** using the link above
+3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+
+I’m excited to work with you!
 
 ---
 
 ## ❓ Questions?
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
+
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
