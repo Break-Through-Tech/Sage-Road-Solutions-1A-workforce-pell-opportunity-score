@@ -40,14 +40,14 @@ This project offers a strong opportunity to apply ensemble methods to high-impac
 
 # Workforce Pell Opportunity Score: Predicting High-Impact Short-Term Education Programs
 
-**Company / Org:** Sage Road Solutions 
+**Company / Org:** Sage Road Solutions   
 **Challenge Advisor:** Beth Davis, bethdavisnc@gmail.com  
 **AI Studio Coach:** Hrushikesh Shetty, hrushikesh.shetty@breakthroughtech.org  
 **Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
 
-## 🏢 About Other
+## 🏢 About Sage Road Solutions
 This project focuses on the intersection of higher education and labor market analytics, aiming to optimize the impact of Workforce Pell grants. The team will collaborate to build data-driven tools that assist policymakers and educational institutions in identifying short-term programs that lead to successful workforce integration.
 
 ---
