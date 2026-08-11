@@ -156,9 +156,9 @@ The following resources will help your team understand the problem space and pot
 
  **Other ways to reach out to me with questions:** 
 * [e.g., Your team's channel within Break Through Tech’s Discord space]
-* [e.g., Email; please copy your teammates and AI Studio Coach]
-* [e.g., Request a team check-in on Zoom]
-* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
+* email: bethdavisnc@gmail.com. I'm in Central Time, and emails are best before or after the work day. Please copy your teammates and AI Studio Coach on all emails. 
+* N/A 
+* I will aim to respond within 48 hours. If you have a specific time by which you would like me to respond, please include that information in the email. 
 
 > 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
 
