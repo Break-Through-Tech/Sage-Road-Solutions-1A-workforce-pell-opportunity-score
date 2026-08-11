@@ -40,7 +40,7 @@ This project offers a strong opportunity to apply ensemble methods to high-impac
 
 # Workforce Pell Opportunity Score: Predicting High-Impact Short-Term Education Programs
 
-**Company / Org:** Other  
+**Company / Org:** Sage Road Solutions 
 **Challenge Advisor:** Beth Davis, bethdavisnc@gmail.com  
 **AI Studio Coach:** Hrushikesh Shetty, hrushikesh.shetty@breakthroughtech.org  
 **Program:** Break Through Tech AI Studio - Fall 2026  
