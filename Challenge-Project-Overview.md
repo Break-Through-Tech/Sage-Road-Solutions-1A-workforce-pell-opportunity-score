@@ -120,10 +120,22 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 **ML Problem Type:** Classification,Regression,Clustering,Recommendation Systems,Large Language Models (LLMs)/ Generative AI  
 
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+- pandas
+- numpy
+- scikit-learn
+- XGBoost / LightGBM
+- SHAP
+- matplotlib / seaborn
+- plotly
+- streamlit
 
 **Evaluation Metrics:**
-- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+- Accuracy, Precision, Recall, F1
+- ROC-AUC
+- RMSE, MAE, R² (if framed as regression)
+- Silhouette score (for clustering)
+- Cross-validation performance
+
   
 ---
 
