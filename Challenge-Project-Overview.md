@@ -132,7 +132,7 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 **Evaluation Metrics:**
 - Accuracy, Precision, Recall, F1
 - ROC-AUC
-- RMSE, MAE, R² (if framed as regression)
+- RMSE, MAE, R²
 - Silhouette score (for clustering)
 - Cross-validation performance
 
