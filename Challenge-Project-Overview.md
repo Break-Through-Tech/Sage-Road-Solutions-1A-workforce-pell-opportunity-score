@@ -117,7 +117,7 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 
 ## 🛠️ Suggested Approach
 
-**ML Problem Type:** Classification,Regression,Clustering,Recommendation Systems,Large Language Models (LLMs)/ Generative AI  
+**ML Problem Type:** Classification, Regression, Clustering, Recommendation Systems, Large Language Models (LLMs)/ Generative AI  
 
 **Recommended Libraries:**
 - pandas
