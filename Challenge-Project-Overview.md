@@ -106,7 +106,9 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 - College Scorecard: https://collegescorecard.ed.gov/data/   
 - Bureau of Labor Statistics Occupational Employment and Wage Statistics: https://www.bls.gov/oes/   
 - O*NET Data: https://www.onetcenter.org/database.html   
-- U.S. Census American Community Survey: https://www.census.gov/programs-surveys/acs/data.html 
+- U.S. Census American Community Survey: https://www.census.gov/programs-surveys/acs/data.html
+- Post Secondary Employment Outcomes [https://lehd.ces.census.gov/applications/pseo/?](https://lehd.ces.census.gov/data/pseo_documentation.html) & https://www.census.gov/data/developers/data-sets/pseo.html?utm_source=chatgpt.com
+- type=earnings&compare=postgrad&specificity=2&state=08&institution=08&degreelevel=05&gradcohort=0000-3&filter=50&program=52,45
 
 ### Key Details
 - **What's in the data:** IPEDS is the master list of U.S. colleges - where each one is located, what type it is, and what degrees and certificates it awarded, broken down by subject area (CIP code). College Scorecard adds outcomes: how many students finished, what they earned afterward, and how much debt they took on. BLS OEWS tells you, for each job type (SOC code) in each region of the country, how many people work in it and what it pays. O*NET describes the jobs themselves - what training they need, what skills they use. Census ACS fills in the local picture: income, education levels, and employment for each county.
@@ -144,15 +146,46 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
-- [e.g., Link to an industry report or case study]
+-[ [e.g., Link to an article or blog post about the problem domain]]
+Bipartisan Workforce Pell Act fact sheet 
+https://democrats-edworkforce.house.gov/imo/media/doc/bipartisan_workforce_pell_act_fact_sheet.pdf Helps explain where the policy architecture came from: short programs, employer/labor-market alignment and explicit quality safeguards were central to the proposals well before enactment.
+
+Variability in approach 
+(https://workforcepell.substack.com/p/workforce-pell-an-early-look-at-states?utm_source=substack&publication_id=6494247&post_id=207040077&utm_medium=email&utm_content=share&utm_campaign=email-share&isFreemail=true&r=6w2gc&triedRedirect=true)
+
+U.S. Department of Education — Final Workforce Pell Rule / announcement 
+https://www.ed.gov/about/news/press-release/us-department-of-education-issues-final-rule-create-new-workforce-pell-grant-program
+This is now the authoritative starting point. Workforce Pell took effect July 1, 2026, and covers qualifying short-term programs beginning at 8 weeks. The eligibility structure is deliberately performance-based rather than merely based on program length.
+ED final-rule announcement
+
+ED Workforce Pell Final Rule Fact Sheet 
+https://www.ed.gov/media/document/workforce-pell-grant-final-rule-fact-sheet-114075.pdf
+Among other requirements, eligible programs generally must fall in the 150–599 clock-hour / 8-to-less-than-15-week range.
+Workforce Pell final-rule fact sheet
+
+Federal Student Aid implementation material 
+https://fsapartners.ed.gov/sites/default/files/attachments/2026-03/Pell%20Eligibility%20for%20Workforce%20Programs.pdf
+ Institutions were permitted to begin applying for ED approval of eligible workforce programs on July 1, 2026.
+FSA: Pell eligibility for Workforce Programs
+
+Why this is hard. Long report from the Urban Institute 
+https://www.urban.org/research/publication/should-federal-government-fund-short-term-postsecondary-certificate-programs
+
+A perspective that the program is bad: 
+https://www.newamerica.org/insights/the-bad-policy-that-wont-die-and-has-gotten-worse-short-term-pell/?utm_source=chatgpt.com
+
+Postsecondary Commission Texas Study - longitudinal and wage data 
+https://www.texas-psc.org/bachelors/programmatic-cohorts 
+
+https://www.urban.org/research/publication/how-many-short-term-training-programs-would-gain-access-pell-grants-under-new-proposal
+
 
 **Technical Tutorials:**
 - [e.g., Link to a free tutorial on the ML technique(s) involved]
 - [e.g., Link to documentation for a key library or tool]
 
 **Code Examples:**
-- [e.g., Link to a relevant GitHub repo]
+Data from Urban Institute analysis  (https://github.com/UrbanInstitute/The-Learning-Curve/tree/main/2023_03_29-Short_term)
 - [e.g., Link to a sample implementation or starter code]
 
 **Other:**
