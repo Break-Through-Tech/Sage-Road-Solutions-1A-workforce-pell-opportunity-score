@@ -107,7 +107,7 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 - Bureau of Labor Statistics Occupational Employment and Wage Statistics: https://www.bls.gov/oes/   
 - O*NET Data: https://www.onetcenter.org/database.html   
 - U.S. Census American Community Survey: https://www.census.gov/programs-surveys/acs/data.html
-- Post Secondary Employment Outcomes [https://lehd.ces.census.gov/applications/pseo/?](https://lehd.ces.census.gov/data/pseo_documentation.html) &
+- Post Secondary Employment Outcomes [https://lehd.ces.census.gov/applications/pseo/?](https://lehd.ces.census.gov/data/pseo_documentation.html) 
 
 ### Key Details
 - **What's in the data:** IPEDS is the master list of U.S. colleges - where each one is located, what type it is, and what degrees and certificates it awarded, broken down by subject area (CIP code). College Scorecard adds outcomes: how many students finished, what they earned afterward, and how much debt they took on. BLS OEWS tells you, for each job type (SOC code) in each region of the country, how many people work in it and what it pays. O*NET describes the jobs themselves - what training they need, what skills they use. Census ACS fills in the local picture: income, education levels, and employment for each county.
