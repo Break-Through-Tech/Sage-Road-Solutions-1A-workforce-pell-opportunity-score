@@ -148,23 +148,23 @@ The following resources will help your team understand the problem space and pot
 https://www.dol.gov/resource-library/providing-public-workforce-services-job-seekers-30-month-impact-findings-wia-adult 
 
 **Background Reading:**
-**Bipartisan Workforce Pell Act fact sheet **
+Bipartisan Workforce Pell Act fact sheet 
 https://democrats-edworkforce.house.gov/imo/media/doc/bipartisan_workforce_pell_act_fact_sheet.pdf Helps explain where the policy architecture came from: short programs, employer/labor-market alignment and explicit quality safeguards were central to the proposals well before enactment.
 
-**Variability in approach **
+Variability in approach 
 (https://workforcepell.substack.com/p/workforce-pell-an-early-look-at-states?utm_source=substack&publication_id=6494247&post_id=207040077&utm_medium=email&utm_content=share&utm_campaign=email-share&isFreemail=true&r=6w2gc&triedRedirect=true)
 
-**U.S. Department of Education — Final Workforce Pell Rule / announcement **
+U.S. Department of Education — Final Workforce Pell Rule / announcement
 https://www.ed.gov/about/news/press-release/us-department-of-education-issues-final-rule-create-new-workforce-pell-grant-program
 This is now the authoritative starting point. Workforce Pell took effect July 1, 2026, and covers qualifying short-term programs beginning at 8 weeks. The eligibility structure is deliberately performance-based rather than merely based on program length.
 ED final-rule announcement
 
-**ED Workforce Pell Final Rule Fact Sheet **
+ED Workforce Pell Final Rule Fact Sheet 
 https://www.ed.gov/media/document/workforce-pell-grant-final-rule-fact-sheet-114075.pdf
 Among other requirements, eligible programs generally must fall in the 150–599 clock-hour / 8-to-less-than-15-week range.
 Workforce Pell final-rule fact sheet
 
-**Federal Student Aid implementation material **
+Federal Student Aid implementation material
 https://fsapartners.ed.gov/sites/default/files/attachments/2026-03/Pell%20Eligibility%20for%20Workforce%20Programs.pdf
  Institutions were permitted to begin applying for ED approval of eligible workforce programs on July 1, 2026.
 FSA: Pell eligibility for Workforce Programs
