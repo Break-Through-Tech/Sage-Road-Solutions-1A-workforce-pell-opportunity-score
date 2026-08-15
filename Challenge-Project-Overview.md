@@ -107,7 +107,7 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 - Bureau of Labor Statistics Occupational Employment and Wage Statistics: https://www.bls.gov/oes/   
 - O*NET Data: https://www.onetcenter.org/database.html   
 - U.S. Census American Community Survey: https://www.census.gov/programs-surveys/acs/data.html
-- Post Secondary Employment Outcomes [https://lehd.ces.census.gov/applications/pseo/?](https://lehd.ces.census.gov/data/pseo_documentation.html) & https://www.census.gov/data/developers/data-sets/pseo.html?utm_source=chatgpt.com
+- Post Secondary Employment Outcomes [https://lehd.ces.census.gov/applications/pseo/?](https://lehd.ces.census.gov/data/pseo_documentation.html) & https://www.census.gov/data/developers/data-sets/pseo.html
 - type=earnings&compare=postgrad&specificity=2&state=08&institution=08&degreelevel=05&gradcohort=0000-3&filter=50&program=52,45
 
 ### Key Details
