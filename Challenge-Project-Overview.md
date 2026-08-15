@@ -172,7 +172,7 @@ Why this is hard. Long report from the Urban Institute
 https://www.urban.org/research/publication/should-federal-government-fund-short-term-postsecondary-certificate-programs
 
 A perspective that the program is bad: 
-https://www.newamerica.org/insights/the-bad-policy-that-wont-die-and-has-gotten-worse-short-term-pell/?utm_source=chatgpt.com
+https://www.newamerica.org/insights/the-bad-policy-that-wont-die-and-has-gotten-worse-short-term-pell/
 
 Postsecondary Commission Texas Study - longitudinal and wage data 
 https://www.texas-psc.org/bachelors/programmatic-cohorts 
