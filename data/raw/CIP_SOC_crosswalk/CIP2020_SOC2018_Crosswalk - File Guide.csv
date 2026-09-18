@@ -1,0 +1,8 @@
+File Name,Description
+CIP-SOC,This file crosswalks 2020 CIP Codes to 2018 SOC Codes in ascending order by CIP Code. 
+SOC-CIP,This file crosswalks 2018 SOC Codes to 2020 CIP Codes in ascending order by SOC Code.
+New CIP,This file contains only NEW 2020 CIP Codes. It crosswalks NEW 2020 CIP Codes to 2018 SOC Codes in ascending order by CIP Code.
+New SOC,This file contains only NEW 2018 SOC Codes. It crosswalks NEW 2018 SOC Codes to 2020 CIP Codes in asceding order by SOC Code.
+Added Matches,This file contains only NEW matches that were added after reviewing the 2010 CIP SOC Crosswalk.
+Unmatched CIP Codes,This file contains CIP Codes that do not have a corresponding SOC Code.
+Unmatched SOC Codes,This file contains SOC Codes that do not have a corresponding CIP Codes.
