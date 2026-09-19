@@ -9,7 +9,7 @@
 | Cassandra Hinds   | @Cassandra-Hinds| [Needs to be changed] Data exploration, visualization, overall project coordination            |
 | Lynntram Nguyen   | @lynntram       | [Needs to be changed] Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Andrew Lin        | @Andrewlin77    | [Needs to be changed] Data preprocessing, feature engineering, data validation                 |
-| Carly Quach       | @               | [Needs to be changed] Model selection, hyperparameter tuning, model training and optimization  |
+| Carly Quach       | @carlyquachh    | [Needs to be changed] Model selection, hyperparameter tuning, model training and optimization  |
 | Cindy Ambriz      | @cambriz05      | [Needs to be changed] Model evaluation, performance analysis, results interpretation           |
 
 ---
