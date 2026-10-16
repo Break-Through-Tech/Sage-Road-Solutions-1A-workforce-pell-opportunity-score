@@ -39,7 +39,6 @@
 00141700,University of Connecticut,CT,09
 00142200,University of Hartford,CT,09
 00142500,Eastern Connecticut State University,CT,09
-00143600,Capitol Technology University,MD,24
 00144100,University of the District of Columbia,DC,11
 00154100,Abraham Baldwin Agricultural College,GA,13
 00154200,Agnes Scott College,GA,13
@@ -159,8 +158,6 @@
 00184300,Vincennes University,IN,18
 00184400,Wabash College,IN,18
 00184800,Southeastern Community College,IA,19
-00185000,Central College,IA,19
-00185400,Coe College,IA,19
 00185700,Southwestern Community College,IA,19
 00186400,Iowa Lakes Community College,IA,19
 00186500,Iowa Central Community College,IA,19
@@ -168,7 +165,6 @@
 00187500,Iowa Valley Community College District,IA,19
 00187700,North Iowa Area Community College,IA,19
 00189000,University of Northern Iowa,IA,19
-00189100,University of Dubuque,IA,19
 00189200,University of Iowa,IA,19
 00193712,Ottawa University - Jeffersonville,IN,18
 00200500,Nicholls State University,LA,22
@@ -193,39 +189,6 @@
 00205300,University of Maine,ME,23
 00205400,University of Southern Maine,ME,23
 00205500,University of Maine - Machias,ME,23
-00205700,Allegany College of Maryland,MD,24
-00205800,Anne Arundel Community College,MD,24
-00206100,Baltimore City Community College,MD,24
-00206200,Bowie State University,MD,24
-00206300,Community College of Baltimore County,MD,24
-00206400,College of Southern Maryland,MD,24
-00206500,Notre Dame of Maryland University,MD,24
-00206700,Washington Adventist University,MD,24
-00206800,Coppin State University,MD,24
-00207100,Frederick Community College,MD,24
-00207200,Frostburg State University,MD,24
-00207300,Goucher College,MD,24
-00207400,Hagerstown Community College,MD,24
-00207500,Harford Community College,MD,24
-00207600,Hood College,MD,24
-00207700,Johns Hopkins University,MD,24
-00207800,Loyola University Maryland,MD,24
-00208000,Maryland Institute College of Art,MD,24
-00208300,Morgan State University,MD,24
-00208600,Mount Saint Mary's University,MD,24
-00208900,Prince George's Community College,MD,24
-00209100,Salisbury University,MD,24
-00209200,St. John's College,MD,24
-00209500,Saint Mary's College of Maryland,MD,24
-00209900,Towson University,MD,24
-00210200,University of Baltimore,MD,24
-00210300,"University of Maryland, College Park",MD,24
-00210400,"University of Maryland, Baltimore",MD,24
-00210500,University of Maryland - Baltimore County,MD,24
-00210600,University of Maryland - Eastern Shore,MD,24
-00210700,Stevenson University,MD,24
-00210800,Washington College,MD,24
-00210900,McDaniel College,MD,24
 00216100,University of Massachusetts - Lowell,MA,25
 00216700,Berkshire Community College,MA,25
 00216800,Cape Cod Community College,MA,25
@@ -315,50 +278,6 @@
 00253300,Montana State University - Northern,MT,30
 00253600,University of Montana (The),MT,30
 00253700,University of Montana Western (The),MT,30
-00259600,Atlantic Cape Community College,NJ,34
-00259700,Bloomfield College,NJ,34
-00259800,Caldwell University,NJ,34
-00259900,Centenary University,NJ,34
-00260000,Saint Elizabeth University,NJ,34
-00260300,Drew University,NJ,34
-00260700,Fairleigh Dickinson University - Metro Campus,NJ,34
-00260701,Fairleigh Dickinson University - Florham Campus,NJ,34
-00260800,Georgian Court University,NJ,34
-00260900,Rowan University,NJ,34
-00261000,Felician University,NJ,34
-00261300,New Jersey City University,NJ,34
-00261500,Middlesex College,NJ,34
-00261700,Montclair State University,NJ,34
-00262000,UMDNJ-New Jersey Medical School,NJ,34
-00262100,New Jersey Institute of Technology,NJ,34
-00262200,Kean University,NJ,34
-00262400,Ocean County College,NJ,34
-00262500,William Paterson University of New Jersey,NJ,34
-00262700,Princeton University,NJ,34
-00262800,Rider University,NJ,34
-00262900,"Rutgers, the State University of New Jersey - New Brunswick Campus",NJ,34
-00262901,"Rutgers, the State University of New Jersey - Camden Campus",NJ,34
-00262902,"Rutgers, the State University of New Jersey - Newark Campus",NJ,34
-00263800,Saint Peter's University,NJ,34
-00263900,Stevens Institute of Technology,NJ,34
-00264200,College of New Jersey (The),NJ,34
-00264300,Union College,NJ,34
-00265100,Eastern New Mexico University,NM,35
-00265101,Eastern New Mexico University - Roswell,NM,35
-00265102,Eastern New Mexico University - Ruidoso,NM,35
-00265300,New Mexico Highlands University,NM,35
-00265400,New Mexico Institute of Mining & Technology,NM,35
-00265500,New Mexico Junior College,NM,35
-00265700,New Mexico State University,NM,35
-00265701,New Mexico State University - Alamogordo,NM,35
-00265702,New Mexico State University - Dona Ana Community College Espina,NM,35
-00265703,New Mexico State University - Carlsbad,NM,35
-00266000,San Juan College,NM,35
-00266300,University of New Mexico,NM,35
-00266302,University of New Mexico - Valencia,NM,35
-00266303,University of New Mexico - Los Alamos,NM,35
-00266304,University of New Mexico - Taos,NM,35
-00266400,Western New Mexico University,NM,35
 00268700,CUNY Brooklyn College,NY,36
 00268800,City College of New York - CUNY,NY,36
 00268900,CUNY Hunter College,NY,36
@@ -431,15 +350,11 @@
 00298400,University of North Carolina at Wilmington (The),NC,37
 00298600,Winston-Salem State University,NC,37
 00301800,Bowling Green State University,OH,39
-00302400,Case Western Reserve University,OH,39
 00302600,Central State University,OH,39
 00303200,Cleveland State University,OH,39
-00303300,Mount St. Joseph University,OH,39
-00303500,Ohio Dominican University,OH,39
 00304000,Cuyahoga Community College,OH,39
 00304600,Franklin University,OH,39
 00305100,Kent State University,OH,39
-00306600,Lake Erie College,OH,39
 00306800,Lorain County Community College,OH,39
 00307700,Miami University,OH,39
 00307800,Wright State University,OH,39
@@ -449,10 +364,7 @@
 00311900,Sinclair Community College,OH,39
 00312300,University of Akron (The),OH,39
 00312500,University of Cincinnati,OH,39
-00312700,University of Dayton,OH,39
 00313100,University of Toledo,OH,39
-00313500,Walsh University,OH,39
-00314400,Xavier University,OH,39
 00314500,Youngstown State University,OH,39
 00314600,Western Oklahoma State College,OK,40
 00315000,Cameron University,OK,40
@@ -519,11 +431,6 @@
 00332920,Pennsylvania State University (The) - Harrisburg,PA,42
 00332921,Pennsylvania State University (The) - Brandywine,PA,42
 00332922,Pennsylvania State University (The) - Dickinson Law,PA,42
-00337900,University of Pittsburgh,PA,42
-00337901,University of Pittsburgh - Titusville,PA,42
-00337902,University of Pittsburgh - Johnstown,PA,42
-00337903,University of Pittsburgh - Bradford,PA,42
-00337904,University of Pittsburgh - Greensburg,PA,42
 00340200,Bryant University,RI,44
 00340600,Providence College,RI,44
 00341700,Allen University,SC,45
@@ -564,19 +471,7 @@
 00347000,South Dakota School of Mines and Technology,SD,46
 00347100,South Dakota State University,SD,46
 00347400,University of South Dakota,SD,46
-00347800,Austin Peay State University,TN,47
-00348300,Columbia State Community College,TN,47
 00348400,Covenant College,GA,13
-00348700,East Tennessee State University,TN,47
-00350400,University of Tennessee Southern,TN,47
-00350900,University of Memphis (The),TN,47
-00351000,Middle Tennessee State University,TN,47
-00352200,Tennessee State University,TN,47
-00352300,Tennessee Technological University,TN,47
-00352900,University of Tennessee - Chattanooga,TN,47
-00353000,University of Tennessee - Knoxville,TN,47
-00353006,University of Tennessee  -  Health Science Center,TN,47
-00353100,University of Tennessee - Martin,TN,47
 00353900,Alvin Community College,TX,48
 00354000,Amarillo College,TX,48
 00354100,Angelo State University,TX,48
@@ -637,7 +532,6 @@
 00366500,West Texas A&M University,TX,48
 00366800,Wharton County Junior College,TX,48
 00367100,Utah Tech University,UT,49
-00367200,Ensign College,UT,49
 00367500,University of Utah,UT,49
 00367600,Utah State University - College of Eastern Utah,UT,49
 00367700,Utah State University,UT,49
@@ -723,7 +617,6 @@
 00396900,University of Minnesota - Twin Cities,MN,27
 00396903,University of Minnesota - Rochester,MN,27
 00398100,University of North Carolina School of the Arts,NC,37
-00398200,Cleveland Institute of Art (The),OH,39
 00399000,Florence - Darlington Technical College,SC,45
 00399100,Greenville Technical College,SC,45
 00399200,Piedmont Technical College,SC,45
@@ -731,8 +624,6 @@
 00399400,Spartanburg Community College,SC,45
 00399500,Central Carolina Technical College,SC,45
 00399600,York Technical College,SC,45
-00399800,Chattanooga State Community College,TN,47
-00399900,Cleveland State Community College,TN,47
 00400300,Central Texas College District,TX,48
 00400400,Brightpoint Community College,VA,51
 00400900,Mesabi Range College,MN,27
@@ -749,19 +640,13 @@
 00454900,Leeward Community College,HI,15
 00457900,International Business College,IN,18
 00457901,International Business College - Indianapolis Campus,IN,18
-00458600,Purdue University Global,IN,18
 00458700,Northeast Iowa Community College,IA,19
 00459500,Hawkeye Community College,IA,19
 00459800,Iowa Western Community College,IA,19
 00460000,Northwest Iowa Community College,IA,19
 00462500,Delgado Community College,LA,22
-00465000,Chesapeake College,MD,24
 00471100,State Technical College of Missouri,MO,29
 00471300,Three Rivers College,MO,29
-00473600,Bergen Community College,NJ,34
-00474000,Mercer County Community College,NJ,34
-00474200,Central New Mexico Community College,NM,35
-00474300,Clovis Community College,NM,35
 00475900,CUNY York College,NY,36
 00476500,CUNY Graduate School & University Center,NY,36
 00478800,Herkimer County Community College - SUNY Office of Community Colleges,NY,36
@@ -771,7 +656,6 @@
 00492500,Horry - Georgetown Technical College,SC,45
 00492600,Tri-County Technical College,SC,45
 00492700,University of South Carolina - Union,SC,45
-00493700,Jackson State Community College,TN,47
 00494800,Texas A&M University System Health Science Center,TX,48
 00495100,University of Texas Health Science Center at Houston,TX,48
 00495200,University of Texas Medical Branch at Galveston,TX,48
@@ -790,8 +674,6 @@
 00530900,Lake Area Technical College,SD,46
 00531300,North Central State College,OH,39
 00536300,Denmark Technical College,SC,45
-00537800,Northeast State Community College,TN,47
-00546100,Salem Community College,NJ,34
 00546700,SOWELA Technical Community College,LA,22
 00548800,Capital Area Technical College,LA,22
 00548900,Central Louisiana Technical Community College,LA,22
@@ -829,26 +711,16 @@
 00680400,Lakeland Community College,OH,39
 00681500,Orangeburg - Calhoun Technical College,SC,45
 00681900,Blue Ridge Community College,VA,51
-00683500,Dyersburg State Community College,TN,47
-00683600,Motlow State Community College,TN,47
-00686500,Camden County College,NJ,34
 00686700,Columbus State Community College,OH,39
 00687100,Virginia Peninsula Community College,VA,51
-00688100,University of New Mexico Gallup Branch,NM,35
-00690100,Rowan College of South Jersey - Gloucester County,NJ,34
-00690104,Rowan College of South Jersey - Cumberland County,NJ,34
-00691100,Montgomery  College,MD,24
 00693100,Waubonsee Community College,IL,17
 00693800,Linn-Benton Community College,OR,41
 00695100,University of South Carolina Upstate,SC,45
 00698100,Gateway Community College,CT,09
 00698200,Naugatuck Valley Community College,CT,09
 00702200,CUNY Lehman College,NY,36
-00708500,Mount Vernon Nazarene University,OH,39
 00709600,College of the Mainland,TX,48
 00709900,Virginia Highlands Community College,VA,51
-00710500,Southwest Tennessee Community College,TN,47
-00710700,Essex County College,NJ,34
 00710900,SUNY Old Westbury,NY,36
 00711100,North Country Community College,NY,36
 00711800,Parkland College,IL,17
@@ -878,9 +750,6 @@
 00769200,Moraine Valley Community College,IL,17
 00769300,Shawnee Community College,IL,17
 00769400,College of Lake County,IL,17
-00772900,County College of Morris,NJ,34
-00773000,Rowan College at Burlington County,NJ,34
-00773100,Raritan Valley Community College,NJ,34
 00776400,Southeast Technical College,SD,46
 00793300,Front Range Community College,CO,08
 00793800,Lincoln College of Technology,IN,18
@@ -890,13 +759,9 @@
 00807600,John A. Logan College,IL,17
 00808000,State Fair Community College,MO,29
 00813300,Zane State College,OH,39
-00814500,Nashville State Community College,TN,47
-00817500,Howard Community College,MD,24
 00827800,Terra State Community College,OH,39
 00828400,Mitchell Technical College,SD,46
-00830800,Cecil College,MD,24
 00840300,Indian Hills Community College,IA,19
-00840400,Brookdale Community College,NJ,34
 00842300,Ivy Tech Community College of Indiana - Region 2,IN,18
 00850300,Mountain View College,TX,48
 00850400,Richland College,TX,48
@@ -907,12 +772,9 @@
 00866000,Germanna Community College,VA,51
 00866100,Southside Virginia Community College,VA,51
 00867700,Northwest State Community College,OH,39
-00885400,New Mexico State University Grants Branch,NM,35
 00886200,East Central College,MO,29
-00886300,Walters State Community College,TN,47
 00889600,Pikes Peak State College,CO,08
 00897600,Clayton State University,GA,13
-00905400,West Virginia Northern Community College,WV,54
 00905800,Bethel University,MN,27
 00905803,Bethel University - Bethel Seminary Saint Paul,MN,27
 00915900,Paul D. Camp Community College,VA,51
@@ -925,8 +787,6 @@
 00931400,Great Falls College Montana State University,MT,30
 00932200,Williamsburg Technical College,SC,45
 00933300,University of Illinois at Springfield,IL,17
-00934400,Ramapo College of New Jersey,NJ,34
-00934500,Stockton University,NJ,34
 00950700,Georgia Highlands College,GA,13
 00954200,Community College of Denver,CO,08
 00954300,Red Rocks Community College,CO,08
@@ -946,8 +806,6 @@
 00982600,Kennebec Valley Community College,ME,23
 00989600,Oakton College,IL,17
 00991000,Technical College of the Lowcountry - Beaufort Campus,SC,45
-00991200,Volunteer State Community College,TN,47
-00991400,Roane State Community College,TN,47
 00991700,Ivy Tech Community College of Indiana,IN,18
 00992300,Ivy Tech Community College of Indiana - Region 11,IN,18
 00992400,Ivy Tech Community College of Indiana - Region 6,IN,18
@@ -959,12 +817,9 @@
 00993600,Middlesex Community College,MA,25
 00994100,Belmont College,OH,39
 00994200,Shawnee State University,OH,39
-00996200,Luna Community College,NM,35
 00997500,Northwest Louisiana Technical Community College,LA,22
 00998100,Morgan Community College,CO,08
 00998700,Saint Anthony College of Nursing,IL,17
-00999400,Passaic County Community College,NJ,34
-01001400,Garrett College,MD,24
 01001900,University of Texas Southwestern Medical Center (The),TX,48
 01002000,Lewis and Clark Community College,IL,17
 01002700,James A. Rhodes State College,OH,39
@@ -992,7 +847,6 @@
 01045300,Washington State Community College,OH,39
 01049100,Hennepin Technical College,MN,27
 01053000,Quinebaug Valley Community College,CT,09
-01053900,Northern New Mexico Community College,NM,35
 01054600,Century College,MN,27
 01063300,Houston Community College,TX,48
 01067400,Texas Tech University Health Sciences Center,TX,48
@@ -1007,79 +861,60 @@
 01116100,Texas A&M University - Corpus Christi,TX,48
 01116300,University of Texas at Tyler,TX,48
 01116500,Uintah Basin Technical College,UT,49
-01116700,Community College of Vermont,VT,50
 01121000,Bunker Hill Community College,MA,25
 01122000,Windward Community College,HI,15
 01128200,Oklahoma State University Center for Health Sciences,OK,40
-01164400,University of Maryland Global Campus,MD,24
 01167800,State University of New York Polytechnic Institute,NY,36
 01171100,University of Houston - Clear Lake,TX,48
 01193000,Roxbury Community College,MA,25
 01201500,Austin Community College,TX,48
 01216500,Atlanta Metropolitan  State College,GA,13
-01246200,Eastwick College - Hackensack Campus.,NJ,34
-01269300,Pellissippi State Community College,TN,47
 01275000,Edison State Community College,OH,39
 01281300,John Wood Community College,IL,17
 01287000,Southern State Community College,OH,39
 01287500,Pickens Technical College,CO,08
-01295400,Hudson County Community College,NJ,34
 01303907,South University - Columbia,SC,45
 01323100,University of Houston - Victoria,TX,48
 02053000,Liberty University,VA,51
-02053700,Eastwick College - Ramsey Campus,NJ,34
 02055400,Bossier Parish Community College,LA,22
 02063700,Sherman College of Straight Chiropractic,SC,45
-02073900,Wor-Wic Community College,MD,24
 02074400,Illinois Eastern Community Colleges -Frontier Community College,IL,17
 02074800,Life University,GA,13
 02077400,North Lake College,TX,48
-02092300,Eastwick College - Nutley Campus,NJ,34
 02100200,Brookhaven College,TX,48
 02107800,University of Hawaii - West Oahu,HI,15
 02115400,Bridgerland Technical College,UT,49
 02116300,Pueblo Community College,CO,08
-02117500,Naropa University,CO,08
-02127900,Sojourner-Douglass College,MD,24
 02140800,Martin University,IN,18
-02146400,Institute of American Indian & Alaska Native Culture & ArtsDevelopment,NM,35
 02156200,Technical College of the Rockies,CO,08
 02156600,Davis Technical College,UT,49
 02166100,Elaine P. Nunez Community College,LA,22
 02180108,Ross Medical Education Center -,IN,18
 02185400,Saint Augustine College,IL,17
-02192200,Thomas Edison State University,NJ,34
 02244900,Goodwin University,CT,09
 02245505,Fortis College - Indianapolis Campus,IN,18
 02276900,Community College of Aurora,CO,08
-02278100,Santa Fe Community College,NM,35
 02315400,Northeast Texas Community College,TX,48
 02341300,Palo Alto College,TX,48
 02346500,Ogden-Weber Technical College,UT,49
 02348500,Lamar State College - Port Arthur,TX,48
-02357600,Navajo Technical University,NM,35
 02358200,Lamar State College - Orange,TX,48
 02361400,Collin County Community College District,TX,48
 02454400,Northeast Ohio Medical University,OH,39
-02503900,Warren County Community College,NJ,34
-02511000,Southwestern Indian Polytechnic Institute,NM,35
 02530600,Saint Charles Community College,MO,29
 02533602,Ross Medical Education Center - Fort Wayne,IN,18
 02555400,University of Texas M.D. Anderson Cancer Center,TX,48
-02568800,Sussex County Community College,NJ,34
 02615800,College of Court Reporting,IN,18
 03064600,Texas Southmost College,TX,48
 03083000,Ozarks Technical Community College,MO,29
 03083800,Heartland Community College,IL,17
 03091300,Regent University,VA,51
-03100700,Carroll Community College,MD,24
 03103400,South Texas College,TX,48
 03106000,Missouri State University - West Plains,MO,29
 03122900,York County Community College,ME,23
 03129100,Fond du Lac Tribal & Community College,MN,27
 03170300,Texas A & M University - Texarkana,TX,48
 03191300,CUNY School of Law,NY,36
-03206300,Mesalands Community College,NM,35
 03234300,Charter Oak State College,CT,09
 03258300,Southern Methodist College,SC,45
 03339400,Western Governors University,US,00
