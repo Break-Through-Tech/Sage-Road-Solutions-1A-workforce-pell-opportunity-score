@@ -1,2 +1,6 @@
 .venv/
 .ipynb_checkpoints/
+
+# PSEO full employment file is 3 GB (GitHub limit is 100 MB).
+# The repo uses the small extract data/raw/PSEO/pseof_certificates_2025.csv instead.
+data/raw/PSEO/pseof_all_2025.csv
