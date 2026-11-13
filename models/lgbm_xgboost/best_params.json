@@ -1,0 +1,24 @@
+{
+  "best_variant": "LightGBM - numeric only",
+  "params": {
+    "xgb": {
+      "clf__subsample": 0.7,
+      "clf__reg_lambda": 1,
+      "clf__n_estimators": 800,
+      "clf__min_child_weight": 1,
+      "clf__max_depth": 8,
+      "clf__learning_rate": 0.02,
+      "clf__colsample_bytree": 0.7
+    },
+    "lgbm": {
+      "clf__subsample": 1.0,
+      "clf__reg_lambda": 1,
+      "clf__num_leaves": 31,
+      "clf__n_estimators": 800,
+      "clf__min_child_samples": 10,
+      "clf__max_depth": -1,
+      "clf__learning_rate": 0.02,
+      "clf__colsample_bytree": 0.7
+    }
+  }
+}
