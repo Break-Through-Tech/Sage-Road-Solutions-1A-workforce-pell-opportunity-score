@@ -151,7 +151,7 @@ Data from Urban Institute analysis  (https://github.com/UrbanInstitute/The-Learn
 
 **Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 
- **Other ways to reach out to me with questions:** 
+**Other ways to reach out to me with questions:** 
 email: bethdavisnc@gmail.com. I'm in Central Time, and emails are best before or after the work day. Please copy your teammates and AI Studio Coach on all emails. 
 * I will aim to respond within 48 hours. If you have a specific time by which you would like me to respond, please include that information in the email. 
 
