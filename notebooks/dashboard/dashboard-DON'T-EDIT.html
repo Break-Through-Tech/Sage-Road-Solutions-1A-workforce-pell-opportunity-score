@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Workforce Pell Opportunity Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1f4f2;--panel:#fff;--ink:#1d2a27;--mut:#5d6b67;--line:#dde4e0;--acc:#2f6b57;--acc2:#e0a63a;--hi:#2f6b57;--md:#e0a63a;--lo:#b8584a;--slot:#eaf1fe;--slotc:#2c4f9e;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121917;--panel:#1a2421;--ink:#e6eeea;--mut:#98a8a2;--line:#2b3834;--acc:#5fb392;--hi:#5fb392;--md:#e6b755;--lo:#d7776a;--slot:#1d2a44;--slotc:#9db8f2;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121917;--panel:#1a2421;--ink:#e6eeea;--mut:#98a8a2;--line:#2b3834;--acc:#5fb392;--hi:#5fb392;--md:#e6b755;--lo:#d7776a;--slot:#1d2a44;--slotc:#9db8f2;color-scheme:dark}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font:15px/1.5 "Public Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;font-weight:600;margin:0}
+h1{font-size:26px}h2{font-size:19px}h3{font-size:16px}
+.app{display:grid;grid-template-columns:230px 1fr;min-height:100vh}
+nav{background:var(--panel);border-right:1px solid var(--line);padding:20px 14px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:4px}
+.brand{font-family:"Source Serif 4",serif;font-size:18px;font-weight:600;padding:0 8px 4px}
+.brand small{display:block;font:400 12px "Public Sans";color:var(--mut)}
+nav a{padding:9px 10px;border-radius:6px;color:var(--ink);text-decoration:none;font-weight:500}
+nav a:hover{background:var(--bg)}nav a.on{background:var(--acc);color:#fff}
+nav a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,tr:focus-visible{outline:2px solid var(--acc2);outline-offset:2px}
+.sp{flex:1}
+main{padding:24px 28px 40px;max-width:1200px;width:100%}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.top p{margin:4px 0 0;color:var(--mut)}
+.btn{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:7px 12px;font:500 14px inherit;font-family:inherit;cursor:pointer}
+.btn:hover{border-color:var(--acc)}.btn.p{background:var(--acc);border-color:var(--acc);color:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;gap:14px}.g4{grid-template-columns:repeat(4,1fr)}.g2{grid-template-columns:1.1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0}
+.card h3{margin-bottom:10px}
+.kpi b{display:block;font:600 30px "Source Serif 4",serif}
+.kpi span{color:var(--mut);font-size:13px}
+.slot{display:none;background:var(--slot);color:var(--slotc);border-radius:4px;padding:2px 7px;font:500 11.5px ui-monospace,Menlo,monospace;margin-top:6px;width:fit-content}
+body.slots .slot{display:block}
+.slot.i{display:inline-block;margin:0 0 0 8px}
+input,select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+input[type=search]{flex:1;min-width:200px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:var(--mut);font-weight:500;padding:8px;border-bottom:1px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid var(--line)}
+tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
+.wrap{overflow-x:auto}
+.pill{display:inline-block;border-radius:10px;padding:1px 9px;font-size:12.5px;font-weight:500;color:#fff}
+.hi{background:var(--hi)}.md{background:var(--md);color:#241a00}.lo{background:var(--lo)}
+.bar{height:8px;background:var(--bg);border-radius:4px;overflow:hidden;min-width:60px}
+.bar i{display:block;height:100%;background:var(--acc);border-radius:4px}
+.br{display:grid;grid-template-columns:150px 1fr 48px;gap:10px;align-items:center;margin:7px 0;font-size:13.5px}
+.br em{font-style:normal;color:var(--mut);text-align:right}
+.leg{display:flex;flex-direction:column;gap:6px;font-size:14px}
+.leg span:before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:8px;background:var(--c)}
+.donut{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.ph{border:1.5px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--mut);padding:20px;min-height:200px}
+.ok{color:var(--hi);font-weight:600}.warn{color:var(--md);font-weight:600}
+.cm{display:grid;grid-template-columns:auto 1fr 1fr;gap:6px;text-align:center;font-size:14px}
+.cm div{padding:14px 6px;border-radius:6px;background:var(--bg)}
+.view{display:none}.view.on{display:block}
+.note{background:var(--slot);color:var(--slotc);border-radius:6px;padding:8px 12px;font-size:13px;margin-bottom:16px}
+@media(max-width:860px){.app{grid-template-columns:1fr}nav{position:static;height:auto;flex-direction:row;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--line)}.brand,.sp{display:none}.g4,.g2,.g3{grid-template-columns:1fr 1fr}main{padding:18px 14px}}
+@media(max-width:560px){.g4,.g2,.g3{grid-template-columns:1fr}.br{grid-template-columns:110px 1fr 40px}}
+</style>
+</head>
+<body class="slots">
+<div class="app">
+<nav aria-label="Main">
+  <div class="brand">Workforce Pell<small>Opportunity Score</small></div>
+  <a href="#overview">Overview</a><a href="#institutions">Institutions</a><a href="#regions">Regions</a><a href="#programs">Programs</a><a href="#model">Model &amp; explainability</a><a href="#validation">Validation</a>
+  <div class="sp"></div>
+  <button class="btn" id="slotBtn">Hide data labels</button>
+  <button class="btn" id="themeBtn">Switch theme</button>
+</nav>
+<main>
+<div class="note">Template mode: figures below are illustrative. Blue labels mark where each pipeline output plugs in. Hide them with the button in the menu.</div>
+
+<section class="view" id="v-overview">
+  <div class="top"><div><h1>Workforce Pell opportunity overview</h1><p>Scores for 1,842 institutions · model v1.3 · data refreshed Nov 2026</p></div>
+  <div class="row"><select id="ovState" aria-label="State"><option>All states</option></select><button class="btn p" data-go="institutions">Explore institutions</button></div></div>
+  <div class="grid g4">
+    <div class="card kpi"><b>1,842</b><span>Institutions scored</span><div class="slot">data: scores.n_institutions</div></div>
+    <div class="card kpi"><b>61.4</b><span>Average opportunity score</span><div class="slot">data: scores.mean(score)</div></div>
+    <div class="card kpi"><b>412</b><span>High-opportunity institutions</span><div class="slot">data: scores.tier == "High"</div></div>
+    <div class="card kpi"><b>0.87</b><span>Model ROC-AUC (5-fold CV)</span><div class="slot">data: metrics.cv_roc_auc</div></div>
+  </div>
+  <div class="grid g2" style="margin-top:14px">
+    <div class="card"><h3>Likelihood of Workforce Pell readiness</h3><div class="donut" id="ovDonut"></div><div class="slot">data: scores.tier counts (predict_proba bins)</div></div>
+    <div class="card"><h3>Average score by region</h3><div id="ovRegions"></div><div class="slot">data: regional_agg.avg_score</div></div>
+  </div>
+  <div class="card" style="margin-top:14px"><div class="row" style="justify-content:space-between"><h3>Top 5 institutions</h3><button class="btn" data-go="institutions">View all</button></div><div class="wrap"><table id="ovTop"></table></div><div class="slot">data: scores.sort_values("score").head(5)</div></div>
+</section>
+
+<section class="view" id="v-institutions">
+  <div class="top"><div><h1>Institutions</h1><p>Search and compare opportunity scores</p></div><button class="btn" id="csvBtn">Export CSV</button></div>
+  <div class="row" style="margin-bottom:14px">
+    <input type="search" id="q" placeholder="Search by institution name, state or UNITID" aria-label="Search institutions">
+    <select id="typ" aria-label="Institution type"><option value="">All types</option><option>Community college</option><option>HBCU</option><option>HSI</option><option>Rural</option><option>Technical college</option></select>
+    <select id="tier" aria-label="Tier"><option value="">All tiers</option><option>High</option><option>Medium</option><option>Low</option></select>
+    <select id="srt" aria-label="Sort"><option value="score">Sort: score</option><option value="name">Sort: name</option><option value="programs">Sort: programs</option></select>
+  </div>
+  <div class="slot" style="margin:-6px 0 12px">data: institution_features.parquet (IPEDS + Scorecard) joined to scores</div>
+  <div class="grid g2">
+    <div class="card"><div class="wrap"><table><thead><tr><th>Institution</th><th>State</th><th>Type</th><th>Score</th><th>Tier</th></tr></thead><tbody id="instBody"></tbody></table></div><p id="cnt" style="color:var(--mut);font-size:13px;margin:10px 0 0"></p></div>
+    <div class="card" id="detail"></div>
+  </div>
+</section>
+
+<section class="view" id="v-regions">
+  <div class="top"><div><h1>Regions</h1><p>Opportunity by metro area and state, linked to local labor demand</p></div>
+  <select id="rmet" aria-label="Metric"><option value="score">Metric: avg score</option><option value="demand">Metric: demand index</option></select></div>
+  <div class="grid g2">
+    <div class="card"><h3>Map of opportunity</h3><div class="ph" style="min-height:300px">Choropleth map goes here<br>Color = average score by county or metro<div class="slot" style="margin:8px auto 0">data: geo/counties.geojson + regional_agg (OEWS area, ACS county)</div></div></div>
+    <div class="card"><h3>Regions ranked</h3><div id="regList"></div><div class="slot">data: regional_agg.csv (OEWS metro, ACS county rollup)</div></div>
+  </div>
+  <div class="card" style="margin-top:14px"><h3>Regional context: Chicago-Naperville-Elgin, IL</h3><div class="grid g4" id="regCtx"></div><div class="slot">data: acs.county_profile + oews.area_summary</div></div>
+</section>
+
+<section class="view" id="v-programs">
+  <div class="top"><div><h1>Programs</h1><p>Certificate programs mapped to occupations (CIP to SOC crosswalk)</p></div></div>
+  <div class="row" style="margin-bottom:14px"><input type="search" id="pq" placeholder="Search by program, CIP code or occupation" aria-label="Search programs"><select id="phrs" aria-label="Length"><option value="">All lengths</option><option value="in">Within 150–599 clock hours</option><option value="out">Outside range</option></select></div>
+  <div class="card"><div class="wrap"><table><thead><tr><th>Program (CIP)</th><th>Top occupation (SOC)</th><th>Clock hours</th><th>Annual openings</th><th>Median wage</th><th>Score</th></tr></thead><tbody id="progBody"></tbody></table></div><div class="slot">data: program_scores.csv (CIP → SOC weighted by crosswalk share)</div></div>
+</section>
+
+<section class="view" id="v-model">
+  <div class="top"><div><h1>Model &amp; explainability</h1><p>Gradient-boosted classifier selected after 5-fold cross-validation</p></div></div>
+  <div class="grid g4" id="mets"></div>
+  <div class="grid g2" style="margin-top:14px">
+    <div class="card"><h3>Model comparison (ROC-AUC)</h3><div id="cmp"></div><div class="slot">data: cv_results.csv</div></div>
+    <div class="card"><h3>Confusion matrix (holdout)</h3><div class="cm"><span></span><b>Pred. ready</b><b>Pred. not ready</b><b>Actual ready</b><div>312</div><div>48</div><b>Actual not</b><div>61</div><div>1,421</div></div><div class="slot">data: metrics.confusion_matrix</div></div>
+  </div>
+  <div class="card" style="margin-top:14px"><h3>Global feature importance (mean |SHAP|)</h3><div id="shap"></div><div class="slot">data: shap_values.parquet</div></div>
+</section>
+
+<section class="view" id="v-validation">
+  <div class="top"><div><h1>Validation &amp; documentation</h1><p>Checks against Workforce Pell criteria and expert review</p></div></div>
+  <div class="grid g2">
+    <div class="card"><h3>Criteria checks</h3><div class="wrap"><table id="crit"></table></div><div class="slot">data: validation/criteria_checks.csv</div></div>
+    <div class="card"><h3>Expert review log</h3><div id="exp"></div><div class="slot">data: validation/expert_review.md</div></div>
+  </div>
+  <div class="card" style="margin-top:14px"><h3>Fairness across institution types</h3><div id="fair"></div><div class="slot">data: fairness_audit.csv (mean score gap vs. all institutions)</div></div>
+  <div class="card" style="margin-top:14px"><h3>Documentation</h3><div class="row"><button class="btn" data-doc>Technical documentation</button><button class="btn" data-doc>Reproducible notebooks</button><button class="btn" data-doc>Feature dictionary</button><button class="btn" data-doc>GitHub repository</button><button class="btn" data-doc>Executive presentation</button></div><div class="slot">data: link each button to its file or repo URL</div><p id="docMsg" style="color:var(--mut);margin:10px 0 0"></p></div>
+</section>
+</main>
+</div>
+<script>
+const $=s=>document.querySelector(s),H=(el,h)=>el.innerHTML=h;
+const tier=s=>s>=70?'High':s>=50?'Medium':'Low',cls=t=>({High:'hi',Medium:'md',Low:'lo'})[t];
+const I=[
+["Prairie Valley Community College","IL","Community college","Central",84,.82,.14,.04,38,.54,41200,[["Local demand for target occupations",14],["Program completion rate",9],["Share of programs 150–599 hrs",7],["Regional unemployment rate",-3],["Employer partnerships",5]]],
+["Lakeshore Technical College","WI","Technical college","Great Lakes",81,.78,.17,.05,52,.61,43800,[["Share of programs 150–599 hrs",12],["Local demand for target occupations",10],["Median earnings (1 yr)",6],["Rural share of service area",-2],["Program completion rate",4]]],
+["Riverbend Community College","TX","Hispanic-serving (HSI)","South Central",76,.71,.2,.09,44,.48,36900,[["Local demand for target occupations",11],["Median earnings (1 yr)",5],["Program completion rate",-2],["Share of programs 150–599 hrs",8],["County median income",-1]]],
+["Cedar Hollow Technical Institute","NC","Technical college","Southeast",73,.66,.25,.09,29,.57,38400,[["Employer partnerships",9],["Program completion rate",6],["Local demand for target occupations",7],["Missing earnings data (suppressed)",-4],["Share of programs 150–599 hrs",5]]],
+["Magnolia State HBCU Workforce Center","MS","HBCU","Southeast",68,.58,.3,.12,21,.44,33100,[["Local demand for target occupations",8],["Regional unemployment rate",-5],["Share of programs 150–599 hrs",6],["Program completion rate",2],["Median earnings (1 yr)",-3]]],
+["High Plains Community College","NE","Rural","Plains",64,.49,.34,.17,18,.5,35200,[["Rural share of service area",-6],["Program completion rate",5],["Local demand for target occupations",4],["Missing earnings data (suppressed)",-5],["Share of programs 150–599 hrs",6]]],
+["Sunridge Community College","AZ","Hispanic-serving (HSI)","Southwest",62,.46,.36,.18,33,.42,34800,[["Share of programs 150–599 hrs",5],["Local demand for target occupations",6],["Program completion rate",-4],["County median income",-2],["Median earnings (1 yr)",3]]],
+["Appalachian Ridge Community College","WV","Rural","Appalachia",51,.31,.4,.29,14,.39,29700,[["Rural share of service area",-8],["Regional unemployment rate",-6],["Local demand for target occupations",-3],["Share of programs 150–599 hrs",4],["Employer partnerships",2]]],
+["Bayou Delta Technical College","LA","Technical college","South Central",47,.24,.41,.35,26,.36,31500,[["Program completion rate",-7],["Local demand for target occupations",3],["Missing earnings data (suppressed)",-5],["Share of programs 150–599 hrs",4],["County median income",-3]]],
+["Northern Pines Community College","MN","Community college","Great Lakes",78,.74,.19,.07,41,.58,40100,[["Local demand for target occupations",12],["Program completion rate",8],["Employer partnerships",6],["Share of programs 150–599 hrs",5],["Rural share of service area",-2]]],
+["Mesa Verde Community College","CO","Community college","Mountain",70,.62,.27,.11,35,.5,39200,[["Local demand for target occupations",9],["Median earnings (1 yr)",4],["Program completion rate",3],["Share of programs 150–599 hrs",5],["County median income",1]]],
+["Delta Crossing Community College","AR","Rural","South Central",44,.2,.42,.38,12,.33,28900,[["Rural share of service area",-7],["Program completion rate",-6],["Missing earnings data (suppressed)",-5],["Local demand for target occupations",-2],["Share of programs 150–599 hrs",3]]]
+].map((r,i)=>({id:100000+i*137,name:r[0],st:r[1],type:r[2],reg:r[3],score:r[4],ph:r[5],pm:r[6],pl:r[7],prog:r[8],comp:r[9],earn:r[10],shap:r[11]}));
+const R=[["Great Lakes",72,68,181],["Central",69,71,142],["Southeast",65,63,263],["South Central",61,66,238],["Southwest",60,64,119],["Mountain",58,57,97],["Plains",55,52,126],["Appalachia",49,48,154]];
+const P=[["Welding technology (48.0508)","Welders, cutters, solderers (51-4121)",450,"6,240","$47,500",82],["Medical assisting (51.0801)","Medical assistants (31-9092)",480,"9,810","$41,300",79],["Commercial driving (49.0205)","Heavy truck drivers (53-3032)",320,"11,420","$54,100",77],["Electrical lineworker (46.0399)","Line installers (49-9051)",580,"3,090","$78,200",75],["Phlebotomy (51.1009)","Phlebotomists (31-9097)",160,"3,720","$39,600",71],["Cybersecurity basics (11.1003)","Info security analysts (15-1212)",600,"2,480","$68,900",58],["Cosmetology (12.0401)","Hairdressers (39-5012)",1500,"4,300","$34,200",33]];
+function donut(p,sz=130){let c=2*Math.PI*44,o=0,s=`<svg width="${sz}" height="${sz}" viewBox="0 0 100 100" role="img" aria-label="Probability breakdown"><g transform="rotate(-90 50 50)">`;p.forEach(([v,col])=>{s+=`<circle cx="50" cy="50" r="44" fill="none" stroke="${col}" stroke-width="12" stroke-dasharray="${v*c} ${c}" stroke-dashoffset="${-o*c}"/>`;o+=v});return s+'</g></svg>'}
+const col={hi:'var(--hi)',md:'var(--md)',lo:'var(--lo)'};
+const bars=(rows,max,fmt=v=>v)=>rows.map(([l,v])=>`<div class="br"><span>${l}</span><div class="bar"><i style="width:${Math.abs(v)/max*100}%;${v<0?'background:var(--lo)':''}"></i></div><em>${fmt(v)}</em></div>`).join('');
+// overview
+H($('#ovDonut'),donut([[.22,col.hi],[.41,col.md],[.37,col.lo]])+`<div class="leg"><span style="--c:var(--hi)">High (70+): 22% · 412</span><span style="--c:var(--md)">Medium (50–69): 41% · 755</span><span style="--c:var(--lo)">Low (under 50): 37% · 675</span></div>`);
+H($('#ovRegions'),bars(R.map(r=>[r[0],r[1]]),100));
+const tbl=rows=>`<thead><tr><th>Institution</th><th>State</th><th>Score</th><th>Probability ready</th></tr></thead><tbody>`+rows.map(r=>`<tr data-id="${r.id}" tabindex="0"><td>${r.name}</td><td>${r.st}</td><td><b>${r.score}</b></td><td>${Math.round(r.ph*100)}%</td></tr>`).join('')+'</tbody>';
+H($('#ovTop'),tbl([...I].sort((a,b)=>b.score-a.score).slice(0,5)));
+$('#ovState').innerHTML+=[...new Set(I.map(i=>i.st))].sort().map(s=>`<option>${s}</option>`).join('');
+// institutions
+let sel=I[0];
+function detail(){const r=sel;H($('#detail'),`<div class="row" style="justify-content:space-between"><h2>${r.name}</h2><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></div><p style="color:var(--mut);margin:4px 0 14px">${r.type} · ${r.st} · ${r.reg} region · UNITID ${r.id}</p>
+<div class="donut">${donut([[r.ph,col.hi],[r.pm,col.md],[r.pl,col.lo]],120)}<div class="leg"><span style="--c:var(--hi)">Ready: ${Math.round(r.ph*100)}%</span><span style="--c:var(--md)">Borderline: ${Math.round(r.pm*100)}%</span><span style="--c:var(--lo)">Not ready: ${Math.round(r.pl*100)}%</span></div><div class="kpi"><b>${r.score}</b><span>Opportunity score</span></div></div>
+<div class="slot">data: scores.predict_proba for selected UNITID</div>
+<div class="grid g3" style="margin:14px 0"><div class="kpi"><b>${r.prog}</b><span>Short-term programs</span></div><div class="kpi"><b>${Math.round(r.comp*100)}%</b><span>Completion rate</span></div><div class="kpi"><b>$${r.earn.toLocaleString()}</b><span>Median earnings</span></div></div>
+<h3>Why this score (SHAP)</h3>${bars(r.shap.map(s=>[s[0],s[1]]),14,v=>(v>0?'+':'')+v)}<div class="slot">data: shap_values for selected UNITID (positive raises score)</div>
+<div class="row" style="margin-top:12px"><button class="btn p" data-go="programs">View programs</button><button class="btn" data-go="regions">View region</button></div>`)}
+function list(){const q=$('#q').value.toLowerCase(),t=$('#typ').value,ti=$('#tier').value,s=$('#srt').value;
+let rows=I.filter(r=>(!q||(r.name+r.st+r.id).toLowerCase().includes(q))&&(!t||r.type.includes(t))&&(!ti||tier(r.score)==ti));
+rows.sort((a,b)=>s=='name'?a.name.localeCompare(b.name):s=='programs'?b.prog-a.prog:b.score-a.score);
+H($('#instBody'),rows.map(r=>`<tr data-id="${r.id}" tabindex="0" class="${r.id==sel.id?'sel':''}"><td>${r.name}</td><td>${r.st}</td><td>${r.type}</td><td><b>${r.score}</b></td><td><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></td></tr>`).join('')||'<tr><td colspan="5">No institutions match. Clear a filter or try a different name.</td></tr>');
+$('#cnt').textContent=`Showing ${rows.length} of 1,842 institutions`}
+['q','typ','tier','srt'].forEach(i=>$('#'+i).addEventListener('input',list));
+document.addEventListener('click',e=>{const tr=e.target.closest('tr[data-id]');if(tr){sel=I.find(r=>r.id==tr.dataset.id);if(location.hash!='#institutions')location.hash='institutions';detail();list()}
+const g=e.target.closest('[data-go]');if(g)location.hash=g.dataset.go;
+if(e.target.closest('[data-doc]'))H($('#docMsg'),'Link this button to the file or repository URL.')});
+document.addEventListener('keydown',e=>{if(e.key=='Enter'&&e.target.matches('tr[data-id]'))e.target.click()});
+$('#csvBtn').onclick=()=>{const b=new Blob(['name,state,type,score\n'+I.map(r=>[`"${r.name}"`,r.st,`"${r.type}"`,r.score].join(',')).join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='opportunity_scores.csv';a.click()};
+// regions
+function regs(){const m=$('#rmet').value,k=m=='score'?1:2;H($('#regList'),[...R].sort((a,b)=>b[k]-a[k]).map(r=>`<div class="br"><span>${r[0]}</span><div class="bar"><i style="width:${r[k]}%"></i></div><em>${r[k]}</em></div><div style="color:var(--mut);font-size:12.5px;margin:-4px 0 4px">${r[3]} institutions</div>`).join(''))}
+$('#rmet').oninput=regs;regs();
+H($('#regCtx'),[["Median household income","$78,400"],["Adults with some college","58%"],["Unemployment rate","4.1%"],["Annual openings (target SOC)","24,310"]].map(c=>`<div class="kpi"><b>${c[1]}</b><span>${c[0]}</span></div>`).join(''));
+// programs
+function progs(){const q=$('#pq').value.toLowerCase(),f=$('#phrs').value;H($('#progBody'),P.filter(p=>(p[0]+p[1]).toLowerCase().includes(q)&&(!f||(f=='in')==(p[2]>=150&&p[2]<=599))).map(p=>`<tr><td>${p[0]}</td><td>${p[1]}</td><td>${p[2]} ${p[2]>599?'<span class="warn">over limit</span>':''}</td><td>${p[3]}</td><td>${p[4]}</td><td><b>${p[5]}</b></td></tr>`).join('')||'<tr><td colspan="6">No programs match. Try a CIP code or occupation title.</td></tr>')}
+['pq','phrs'].forEach(i=>$('#'+i).addEventListener('input',progs));progs();
+// model
+H($('#mets'),[["Accuracy","0.91"],["Precision","0.84"],["Recall","0.87"],["F1 score","0.86"]].map(m=>`<div class="card kpi"><b>${m[1]}</b><span>${m[0]}</span></div>`).join('')+'');
+$('#mets').insertAdjacentHTML('beforeend','<div class="slot" style="grid-column:1/-1">data: metrics.json (holdout set)</div>');
+H($('#cmp'),bars([["XGBoost",.87],["Gradient boosting",.86],["Random forest",.84],["Logistic regression",.78]].map(r=>[r[0],r[1]*100]),100,v=>(v/100).toFixed(2)));
+H($('#shap'),bars([["Local demand for target occupations",.31],["Share of programs 150–599 hrs",.24],["Program completion rate",.19],["Median earnings (1 yr)",.12],["Regional unemployment rate",.08],["Employer partnerships",.06]],.31,v=>v.toFixed(2)));
+// validation
+H($('#crit'),`<thead><tr><th>Criterion</th><th>Result</th><th>Status</th></tr></thead><tbody>`+[["Program length 150–599 clock hours","96% of scored programs","ok"],["Length of 8 to under 15 weeks","94% of scored programs","ok"],["Aligned with in-demand occupations","88% map to a high-demand SOC","ok"],["Earnings outcome safeguard","71% have usable data","warn"]].map(c=>`<tr><td>${c[0]}</td><td>${c[1]}</td><td class="${c[2]}">${c[2]=='ok'?'Pass':'Review'}</td></tr>`).join('')+'</tbody>');
+H($('#exp'),[["Workforce director, state system","Reviewed top 25 scores. Rankings match local knowledge."],["Community college dean","Flagged rural suppression as a risk. Added missing-data flag."],["Sage Road advisor","Approved scoring rule for CIP to SOC mapping."]].map(e=>`<p style="margin:0 0 10px"><b>${e[0]}</b><br><span style="color:var(--mut)">${e[1]}</span></p>`).join(''));
+H($('#fair'),bars([["Community colleges",1.8],["HBCUs",-1.2],["HSIs",.6],["Rural institutions",-4.3],["Technical colleges",2.4]],5,v=>(v>0?'+':'')+v));
+// routing, theme, slots
+const V=['overview','institutions','regions','programs','model','validation'];
+function route(){const h=V.includes(location.hash.slice(1))?location.hash.slice(1):'overview';document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id=='v-'+h));document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')=='#'+h));scrollTo(0,0)}
+addEventListener('hashchange',route);route();detail();list();
+$('#slotBtn').onclick=e=>{document.body.classList.toggle('slots');e.target.textContent=document.body.classList.contains('slots')?'Hide data labels':'Show data labels'};
+$('#themeBtn').onclick=()=>{const r=document.documentElement,d=getComputedStyle(r).colorScheme=='dark';r.dataset.theme=d?'light':'dark'};
+</script>
+</body>
+</html>
