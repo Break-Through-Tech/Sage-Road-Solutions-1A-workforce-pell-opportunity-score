@@ -102,9 +102,14 @@ tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
   <div class="top"><div><h1>Institutions</h1><p>Search and compare opportunity scores</p></div><button class="btn" id="csvBtn">Export CSV</button></div>
   <div class="row" style="margin-bottom:14px">
     <input type="search" id="q" placeholder="Search by institution name, state or UNITID" aria-label="Search institutions">
-    <select id="typ" aria-label="Institution type"><option value="">All types</option><option>Community college</option><option>HBCU</option><option>HSI</option><option>Rural</option><option>Technical college</option></select>
+    <select id="typ" aria-label="Type">
+      <option value="">All types</option>
+      <option>Private</option>
+      <option>Public</option>
+
+    </select>
     <select id="tier" aria-label="Tier"><option value="">All tiers</option><option>High</option><option>Medium</option><option>Low</option></select>
-    <select id="srt" aria-label="Sort"><option value="score">Sort: score</option><option value="name">Sort: name</option><option value="programs">Sort: programs</option></select>
+    <select id="srt" aria-label="Sort"><option value="score">Sort: score</option><option value="name">Sort: name</option><option value="programs">Sort: programs</option> <option value="state">Sort: state</option> </select>
   </div>
   <div class="slot" style="margin:-6px 0 12px">data: institution_features.parquet (IPEDS + Scorecard) joined to scores</div>
   <div class="grid g2">
@@ -171,6 +176,30 @@ const I=[
 ["Mesa Verde Community College","CO","Community college","Mountain",70,.62,.27,.11,35,.5,39200,[["Local demand for target occupations",9],["Median earnings (1 yr)",4],["Program completion rate",3],["Share of programs 150–599 hrs",5],["County median income",1]]],
 ["Delta Crossing Community College","AR","Rural","South Central",44,.2,.42,.38,12,.33,28900,[["Rural share of service area",-7],["Program completion rate",-6],["Missing earnings data (suppressed)",-5],["Local demand for target occupations",-2],["Share of programs 150–599 hrs",3]]]
 ].map((r,i)=>({id:100000+i*137,name:r[0],st:r[1],type:r[2],reg:r[3],score:r[4],ph:r[5],pm:r[6],pl:r[7],prog:r[8],comp:r[9],earn:r[10],shap:r[11]}));
+
+// ADD below. These ownership labels are illustrative, not verified facts.
+const demoOwnership = {
+  "Prairie Valley Community College": "Public",
+  "Lakeshore Technical College": "Public",
+  "Riverbend Community College": "Private",
+  "Cedar Hollow Technical Institute": "Public",
+  "Magnolia State HBCU Workforce Center": "Private",
+  "High Plains Community College": "Public",
+  "Sunridge Community College": "Private",
+  "Appalachian Ridge Community College": "Public",
+  "Bayou Delta Technical College": "Public",
+  "Northern Pines Community College": "Public",
+  "Mesa Verde Community College": "Private",
+  "Delta Crossing Community College": "Public"
+};
+
+I.forEach(r => {
+  const ownership = demoOwnership[r.name];
+  if (!ownership) throw new Error(`Missing demo ownership for ${r.name}`);
+  r.ownership = ownership;
+});
+
+
 const stateNames=["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"];
 
 // Illustrative demo values only—not real state metrics or institution counts.
@@ -199,11 +228,12 @@ function detail(){const r=sel;H($('#detail'),`<div class="row" style="justify-co
 <h3>Why this score (SHAP)</h3>${bars(r.shap.map(s=>[s[0],s[1]]),14,v=>(v>0?'+':'')+v)}<div class="slot">data: shap_values for selected UNITID (positive raises score)</div>
 <div class="row" style="margin-top:12px"><button class="btn p" data-go="programs">View programs</button><button class="btn" data-go="regions">View state</button></div>`)}
 function list(){const q=$('#q').value.toLowerCase(),t=$('#typ').value,ti=$('#tier').value,s=$('#srt').value;
-let rows=I.filter(r=>(!q||(r.name+r.st+r.id).toLowerCase().includes(q))&&(!t||r.type.includes(t))&&(!ti||tier(r.score)==ti));
-rows.sort((a,b)=>s=='name'?a.name.localeCompare(b.name):s=='programs'?b.prog-a.prog:b.score-a.score);
-H($('#instBody'),rows.map(r=>`<tr data-id="${r.id}" tabindex="0" class="${r.id==sel.id?'sel':''}"><td>${r.name}</td><td>${r.st}</td><td>${r.type}</td><td><b>${r.score}</b></td><td><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></td></tr>`).join('')||'<tr><td colspan="5">No institutions match. Clear a filter or try a different name.</td></tr>');
+let rows=I.filter(r=>(!q||(r.name+r.st+r.id).toLowerCase().includes(q))&&(!t||r.ownership===t)&&(!ti||tier(r.score)==ti));
+rows.sort((a,b)=>s=='name'?a.name.localeCompare(b.name):s=='state'?(a.st.localeCompare(b.st)||a.name.localeCompare(b.name)):s=='programs'?b.prog-a.prog:b.score-a.score);
+H($('#instBody'),rows.map(r=>`<tr data-id="${r.id}" tabindex="0" class="${r.id==sel.id?'sel':''}"><td>${r.name}</td><td>${r.st}</td><td>${r.ownership}</td><td><b>${r.score}</b></td><td><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></td></tr>`).join('')||'<tr><td colspan="5">No institutions match. Clear a filter or try a different name.</td></tr>');
 $('#cnt').textContent=`Showing ${rows.length} of 1,842 institutions`}
 ['q','typ','tier','srt'].forEach(i=>$('#'+i).addEventListener('input',list));
+$('#srt').addEventListener('change',list);
 document.addEventListener('click',e=>{const tr=e.target.closest('tr[data-id]');if(tr){sel=I.find(r=>r.id==tr.dataset.id);if(location.hash!='#institutions')location.hash='institutions';detail();list()}
 const g=e.target.closest('[data-go]');if(g)location.hash=g.dataset.go;
 if(e.target.closest('[data-doc]'))H($('#docMsg'),'Link this button to the file or repository URL.')});
