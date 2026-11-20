@@ -254,7 +254,14 @@ H($('#shap'),bars([["Local demand for target occupations",.31],["Share of progra
 // validation
 H($('#crit'),`<thead><tr><th>Criterion</th><th>Result</th><th>Status</th></tr></thead><tbody>`+[["Program length 150–599 clock hours","96% of scored programs","ok"],["Length of 8 to under 15 weeks","94% of scored programs","ok"],["Aligned with in-demand occupations","88% map to a high-demand SOC","ok"],["Earnings outcome safeguard","71% have usable data","warn"]].map(c=>`<tr><td>${c[0]}</td><td>${c[1]}</td><td class="${c[2]}">${c[2]=='ok'?'Pass':'Review'}</td></tr>`).join('')+'</tbody>');
 H($('#exp'),[["Workforce director, state system","Reviewed top 25 scores. Rankings match local knowledge."],["Community college dean","Flagged rural suppression as a risk. Added missing-data flag."],["Sage Road advisor","Approved scoring rule for CIP to SOC mapping."]].map(e=>`<p style="margin:0 0 10px"><b>${e[0]}</b><br><span style="color:var(--mut)">${e[1]}</span></p>`).join(''));
-H($('#fair'),bars([["Community colleges",1.8],["HBCUs",-1.2],["HSIs",.6],["Rural institutions",-4.3],["Technical colleges",2.4]],5,v=>(v>0?'+':'')+v));
+const overallScore=I.reduce((sum,r)=>sum+r.score,0)/I.length;
+const ownershipGaps=["Public","Private"].map(ownership=>{
+  const group=I.filter(r=>r.ownership===ownership);
+  if(!group.length)throw new Error(`No institutions found for ${ownership}`);
+  const average=group.reduce((sum,r)=>sum+r.score,0)/group.length;
+  return [ownership,average-overallScore];
+});
+H($('#fair'),bars(ownershipGaps,5,v=>(v>0?'+':'')+v.toFixed(1)));
 // routing, theme, slots
 const V=['overview','institutions','regions','programs','model','validation'];
 function route(){const h=V.includes(location.hash.slice(1))?location.hash.slice(1):'overview';document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id=='v-'+h));document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')=='#'+h));scrollTo(0,0)}
