@@ -119,7 +119,7 @@ tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
 </section>
 
 <section class="view" id="v-regions">
-  < class="top"><div><h1>States</h1><p>Opportunity by metro area and state, linked to local labor demand</p></div>
+  <div class="top"><div><h1>States</h1><p>Opportunity by metro area and state, linked to local labor demand</p></div>
   <select id="rmet" aria-label="Metric"><option value="score">Metric: avg score</option><option value="demand">Metric: demand index</option></select></div>
   <div class="grid g2">
     <div class="card"><h3>Map of opportunity</h3><div class="ph" style="min-height:300px">Choropleth map goes here<br>Color = average score by county or metro<div class="slot" style="margin:8px auto 0">data: geo/counties.geojson + regional_agg (OEWS area, ACS county)</div></div></div>
@@ -134,8 +134,8 @@ tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
 
 <section class="view" id="v-programs">
   <div class="top"><div><h1>Programs</h1><p>Certificate programs mapped to occupations (CIP to SOC crosswalk)</p></div></div>
-  <div class="row" style="margin-bottom:14px"><input type="search" id="pq" placeholder="Search by program, CIP code or occupation" aria-label="Search programs"><select id="phrs" aria-label="Length"><option value="">All lengths</option><option value="in">Within 150–599 clock hours</option><option value="out">Outside range</option></select></div>
-  <div class="card"><div class="wrap"><table><thead><tr><th>Program (CIP)</th><th>Top occupation (SOC)</th><th>Clock hours</th><th>Annual openings</th><th>Median wage</th><th>Score</th></tr></thead><tbody id="progBody"></tbody></table></div><div class="slot">data: program_scores.csv (CIP → SOC weighted by crosswalk share)</div></div>
+  <div class="row" style="margin-bottom:14px"><input type="search" id="pq" placeholder="Search by program, CIP code or occupation" aria-label="Search programs"></div>
+  <div class="card"><div class="wrap"><table><thead><tr><th>Program(CIP)</th><th>Top occupation (SOC)</th><th>Institution</th><th>Clock hours</th><th>Annual openings</th><th>Median wage</th><th>Score</th></tr></thead><tbody id="progBody"></tbody></table></div><div class="slot">data: program_scores.csv (CIP → SOC weighted by crosswalk share)</div></div>
 </section>
 
 <section class="view" id="v-model">
@@ -196,12 +196,13 @@ const R = DATA.states.map(row => ({
   nInstitutions: row.n_institutions
 }));
 
-// Use only program fields provided by the sample JSON.
+// Map the sample program fields for the Programs table.
 const P = DATA.programs.map(row => ({
   unitid: row.unitid,
   institution: row.institution,
   cipcode: row.cipcode,
   cipdesc: row.cipdesc,
+  clockHours: row.clock_hours ?? null,
   probability: row.probability
 }));
 function donut(p,sz=130){let c=2*Math.PI*44,o=0,s=`<svg width="${sz}" height="${sz}" viewBox="0 0 100 100" role="img" aria-label="Probability breakdown"><g transform="rotate(-90 50 50)">`;p.forEach(([v,col])=>{s+=`<circle cx="50" cy="50" r="44" fill="none" stroke="${col}" stroke-width="12" stroke-dasharray="${v*c} ${c}" stroke-dashoffset="${-o*c}"/>`;o+=v});return s+'</g></svg>'}
@@ -218,7 +219,11 @@ let sel=I[0];
 function detail(){const r=sel;H($('#detail'),`<div class="row" style="justify-content:space-between"><h2>${r.name}</h2><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></div><p style="color:var(--mut);margin:4px 0 14px"${r.type} · ${r.st} · UNITID ${r.id}</p>
 <div class="donut">${donut([[r.ph,col.hi],[r.pm,col.md],[r.pl,col.lo]],120)}<div class="leg"><span style="--c:var(--hi)">Ready: ${Math.round(r.ph*100)}%</span><span style="--c:var(--md)">Borderline: ${Math.round(r.pm*100)}%</span><span style="--c:var(--lo)">Not ready: ${Math.round(r.pl*100)}%</span></div><div class="kpi"><b>${r.score}</b><span>Opportunity score</span></div></div>
 <div class="slot">data: scores.predict_proba for selected UNITID</div>
-<div class="grid g3" style="margin:14px 0"><div class="kpi"><b>${r.prog}</b><span>Short-term programs</span></div><div class="kpi"><b>${Math.round(r.comp*100)}%</b><span>Completion rate</span></div><div class="kpi"><b>$${r.earn.toLocaleString()}</b><span>Median earnings</span></div></div>
+<div class="grid g3" style="margin:14px 0">
+  <div class="kpi"><b>${r.prog}</b><span>Programs represented</span></div>
+  <div class="kpi"><b>N/A</b><span>Completion rate</span></div>
+  <div class="kpi"><b>N/A</b><span>Median earnings</span></div>
+</div>
 <h3>Why this score (SHAP)</h3>${bars(r.shap.map(s=>[s[0],s[1]]),14,v=>(v>0?'+':'')+v)}<div class="slot">data: shap_values for selected UNITID (positive raises score)</div>
 <div class="row" style="margin-top:12px"><button class="btn p" data-go="programs">View programs</button><button class="btn" data-go="regions">View state</button></div>`)}
 function list(){const q=$('#q').value.toLowerCase(),t=$('#typ').value,ti=$('#tier').value,s=$('#srt').value;
@@ -238,8 +243,25 @@ function regs(){const m=$('#rmet').value,k=m=='score'?1:2;H($('#regList'),[...R]
 $('#rmet').oninput=regs;regs();
 H($('#regCtx'),[["Median household income","$78,400"],["Adults with some college","58%"],["Unemployment rate","4.1%"],["Annual openings (target SOC)","24,310"]].map(c=>`<div class="kpi"><b>${c[1]}</b><span>${c[0]}</span></div>`).join(''));
 // programs
-function progs(){const q=$('#pq').value.toLowerCase(),f=$('#phrs').value;H($('#progBody'),P.filter(p=>(p[0]+p[1]).toLowerCase().includes(q)&&(!f||(f=='in')==(p[2]>=150&&p[2]<=599))).map(p=>`<tr><td>${p[0]}</td><td>${p[1]}</td><td>${p[2]} ${p[2]>599?'<span class="warn">over limit</span>':''}</td><td>${p[3]}</td><td>${p[4]}</td><td><b>${p[5]}</b></td></tr>`).join('')||'<tr><td colspan="6">No programs match. Try a CIP code or occupation title.</td></tr>')}
-['pq','phrs'].forEach(i=>$('#'+i).addEventListener('input',progs));progs();
+// Search and display sample program data; show N/A when hours are missing.
+function progs(){
+  const q=$('#pq').value.toLowerCase();
+  const rows=P.filter(p=>
+    `${p.cipcode} ${p.cipdesc} ${p.institution}`.toLowerCase().includes(q)
+  );
+
+  H($('#progBody'),rows.map(p=>`<tr>
+  <td>${p.cipdesc} (${p.cipcode})</td>
+  <td>N/A</td>
+  <td>${p.institution}</td>
+  <td>${p.clockHours ?? 'N/A'}</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td><b>${(p.probability*100).toFixed(1)}%</b></td>
+</tr>`).join('') || '<tr><td colspan="7">No programs match.</td></tr>');
+}
+$('#pq').addEventListener('input',progs);
+progs();
 // model
 H($('#mets'),[["Accuracy","0.91"],["Precision","0.84"],["Recall","0.87"],["F1 score","0.86"]].map(m=>`<div class="card kpi"><b>${m[1]}</b><span>${m[0]}</span></div>`).join('')+'');
 $('#mets').insertAdjacentHTML('beforeend','<div class="slot" style="grid-column:1/-1">data: metrics.json (holdout set)</div>');
