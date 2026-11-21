@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "n_institutions": 2,
+    "mean_score": 69.2,
+    "tier_counts": {
+      "High": 1,
+      "Medium": 1,
+      "Low": 0
+    },
+    "cv_roc_auc": 0.95,
+    "model_version": "SAMPLE ONLY",
+    "refreshed": "2026-11-20"
+  },
+  "institutions": [
+    {
+      "unitid": 999001,
+      "name": "Sample Valley College",
+      "state": "CA",
+      "control": "Public",
+      "score": 53.3,
+      "tier": "Medium",
+      "p_ready": 0.3333,
+      "p_borderline": 0.3333,
+      "p_not_ready": 0.3334,
+      "n_programs": 3,
+      "top_drivers": [
+        {"label": "Local demand", "value": 4.1},
+        {"label": "Program completion", "value": -2.0}
+      ]
+    },
+    {
+      "unitid": 999002,
+      "name": "Demo Technical Institute",
+      "state": "TX",
+      "control": "Private non-profit",
+      "score": 85.0,
+      "tier": "High",
+      "p_ready": 1.0,
+      "p_borderline": 0.0,
+      "p_not_ready": 0.0,
+      "n_programs": 2,
+      "top_drivers": [
+        {"label": "Program completion", "value": 3.5},
+        {"label": "Local demand", "value": 1.2}
+      ]
+    }
+  ],
+  "states": [
+    {"state": "CA", "avg_score": 53.3, "n_institutions": 1},
+    {"state": "TX", "avg_score": 85.0, "n_institutions": 1}
+  ],
+  "programs": [
+    {
+      "unitid": 999001,
+      "institution": "Sample Valley College",
+      "cipcode": "49.0202",
+      "cipdesc": "Ground transportation",
+      "probability": 0.8
+    },
+    {
+      "unitid": 999001,
+      "institution": "Sample Valley College",
+      "cipcode": "51.0801",
+      "cipdesc": "Medical assisting",
+      "probability": 0.6
+    },
+    {
+      "unitid": 999001,
+      "institution": "Sample Valley College",
+      "cipcode": "47.0604",
+      "cipdesc": "Automotive mechanics",
+      "probability": 0.2
+    },
+    {
+      "unitid": 999002,
+      "institution": "Demo Technical Institute",
+      "cipcode": "46.0302",
+      "cipdesc": "Electrician",
+      "probability": 0.8
+    },
+    {
+      "unitid": 999002,
+      "institution": "Demo Technical Institute",
+      "cipcode": "48.0508",
+      "cipdesc": "Welding technology",
+      "probability": 0.9
+    }
+  ],
+  "model": {
+    "test_metrics": {
+      "accuracy": 0.93,
+      "precision": 0.95,
+      "recall": 0.94,
+      "f1": 0.94,
+      "roc_auc": 0.95
+    },
+    "confusion_matrix": {
+      "tn": 50,
+      "fp": 5,
+      "fn": 8,
+      "tp": 37
+    },
+    "cv_comparison": [
+      {"model": "LightGBM", "accuracy": 0.92, "roc_auc": 0.95}
+    ],
+    "global_importance": [
+      {"label": "Local demand", "value": 0.31},
+      {"label": "Program completion", "value": 0.24}
+    ]
+  },
+  "fairness": [
+    {"group": "Public", "score_gap": -15.9},
+    {"group": "Private", "score_gap": 15.9}
+  ]
+}
