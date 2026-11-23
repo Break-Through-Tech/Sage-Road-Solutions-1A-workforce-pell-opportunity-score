@@ -79,13 +79,13 @@ tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
 <div class="note">Template mode: figures below are illustrative. Blue labels mark where each pipeline output plugs in. Hide them with the button in the menu.</div>
 
 <section class="view" id="v-overview">
-  <div class="top"><div><h1>Workforce Pell opportunity overview</h1><p>Scores for 1,842 institutions · model v1.3 · data refreshed Nov 2026</p></div>
+  <div class="top"><div><h1>Workforce Pell opportunity overview</h1><p id="ovSummaryLine"></p></div>
   <div class="row"><select id="ovState" aria-label="State"><option>All states</option></select><button class="btn p" data-go="institutions">Explore institutions</button></div></div>
   <div class="grid g4">
-    <div class="card kpi"><b>1,842</b><span>Institutions scored</span><div class="slot">data: scores.n_institutions</div></div>
-    <div class="card kpi"><b>61.4</b><span>Average opportunity score</span><div class="slot">data: scores.mean(score)</div></div>
-    <div class="card kpi"><b>412</b><span>High-opportunity institutions</span><div class="slot">data: scores.tier == "High"</div></div>
-    <div class="card kpi"><b>0.87</b><span>Model ROC-AUC (5-fold CV)</span><div class="slot">data: metrics.cv_roc_auc</div></div>
+    <div class="card kpi"><b id="ovNInstitutions"></b><span>Institutions scored</span><div class="slot">data: summary.n_institutions</div></div>
+    <div class="card kpi"><b id="ovMeanScore"></b><span>Average opportunity score</span><div class="slot">data: summary.mean_score</div></div>
+    <div class="card kpi"><b id="ovHighCount"></b><span>High-opportunity institutions</span><div class="slot">data: summary.tier_counts.High</div></div>
+    <div class="card kpi"><b id="ovRocAuc"></b><span>Model ROC-AUC</span><div class="slot">data: summary.cv_roc_auc</div></div>
   </div>
   <div class="grid g2" style="margin-top:14px">
   <div class="card"><h3>Likelihood of Workforce Pell readiness</h3><div class="donut" id="ovDonut"></div><div class="slot">data: scores.tier counts (predict_proba bins)</div></div>
