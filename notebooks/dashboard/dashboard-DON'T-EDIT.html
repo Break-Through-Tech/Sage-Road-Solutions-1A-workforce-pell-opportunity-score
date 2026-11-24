@@ -143,7 +143,16 @@ tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
   <div class="grid g4" id="mets"></div>
   <div class="grid g2" style="margin-top:14px">
     <div class="card"><h3>Model Information</h3><div id="cmp"></div><div class="slot">data: cv_results.csv</div></div>
-    <div class="card"><h3>Confusion matrix (holdout)</h3><div class="cm"><span></span><b>Pred. ready</b><b>Pred. not ready</b><b>Actual ready</b><div>312</div><div>48</div><b>Actual not</b><div>61</div><div>1,421</div></div><div class="slot">data: metrics.confusion_matrix</div></div>
+  <div class="card">
+  <h3>Confusion matrix (holdout)</h3>
+  <div class="cm">
+    <span></span>
+    <b>Pred. ready</b><b>Pred. not ready</b>
+    <b>Actual ready</b><div id="cmTp"></div><div id="cmFn"></div>
+    <b>Actual not</b><div id="cmFp"></div><div id="cmTn"></div>
+  </div>
+  <div class="slot">data: metrics.confusion_matrix</div>
+</div>
   </div>
   <div class="card" style="margin-top:14px"><h3>Global feature importance (mean |SHAP|)</h3><div id="shap"></div><div class="slot">data: shap_values.parquet</div></div>
 </section>
@@ -294,9 +303,19 @@ H($('#mets'),[
 ].map(([label,value])=>
   `<div class="card kpi"><b>${value.toFixed(2)}</b><span>${label}</span></div>`
 ).join(''));
-$('#mets').insertAdjacentHTML('beforeend','<div class="slot" style="grid-column:1/-1">data: metrics.json (holdout set)</div>');
-H($('#cmp'),bars([["LightGBM",.93]].map(r=>[r[0],r[1]*100]),100,v=>(v/100).toFixed(2)));
-H($('#shap'),bars([["Local demand for target occupations",.31],["Share of programs 150–599 hrs",.24],["Program completion rate",.19],["Median earnings (1 yr)",.12],["State unemployment rate",.08],["Employer partnerships",.06]],.31,v=>v.toFixed(2)));
+// Fill the confusion matrix from the sample JSON.
+const confusion = DATA.model.confusion_matrix;
+$('#cmTp').textContent = confusion.tp;
+$('#cmFn').textContent = confusion.fn;
+$('#cmFp').textContent = confusion.fp;
+$('#cmTn').textContent = confusion.tn;
+// Build the ROC-AUC bars from the sample's cross-validation results.
+const cvResults = DATA.model.cv_comparison;
+H($('#cmp'),bars(
+  cvResults.map(row=>[row.model,row.roc_auc*100]),
+  100,
+  value=>(value/100).toFixed(2)
+));
 // validation
 H($('#crit'),`<thead><tr><th>Criterion</th><th>Result</th><th>Status</th></tr></thead><tbody>`+[["Program length 150–599 clock hours","96% of scored programs","ok"],["Length of 8 to under 15 weeks","94% of scored programs","ok"],["Aligned with in-demand occupations","88% map to a high-demand SOC","ok"],["Earnings outcome safeguard","71% have usable data","warn"]].map(c=>`<tr><td>${c[0]}</td><td>${c[1]}</td><td class="${c[2]}">${c[2]=='ok'?'Pass':'Review'}</td></tr>`).join('')+'</tbody>');
 H($('#exp'),[["Workforce director, state system","Reviewed top 25 scores. Rankings match local knowledge."],["Community college dean","Flagged rural suppression as a risk. Added missing-data flag."],["Sage Road advisor","Approved scoring rule for CIP to SOC mapping."]].map(e=>`<p style="margin:0 0 10px"><b>${e[0]}</b><br><span style="color:var(--mut)">${e[1]}</span></p>`).join(''));
