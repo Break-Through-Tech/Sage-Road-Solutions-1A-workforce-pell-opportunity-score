@@ -129,7 +129,7 @@ tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
   <div class="slot">Illustrative placeholder values—not real state data</div>
 </div>
   </div>
-  <div class="card" style="margin-top:14px"><h3>State context: Chicago-Naperville-Elgin, IL</h3><div class="grid g4" id="regCtx"></div><div class="slot">data: acs.county_profile + oews.area_summary</div></div>
+  <div class="card" style="margin-top:14px"><h3>State context: N/A</h3><div class="grid g4" id="regCtx"></div><div class="slot">data: acs.county_profile + oews.area_summary</div></div>
 </section>
 
 <section class="view" id="v-programs">
@@ -167,11 +167,21 @@ tbody tr{cursor:pointer}tbody tr:hover,tbody tr.sel{background:var(--bg)}
   <div class="card" style="margin-top:14px"><h3>Documentation</h3><div class="row"><button class="btn" data-doc>Technical documentation</button><button class="btn" data-doc>Reproducible notebooks</button><button class="btn" data-doc>Feature dictionary</button><button class="btn" data-doc>GitHub repository</button><button class="btn" data-doc>Executive presentation</button></div><div class="slot">data: link each button to its file or repo URL</div><p id="docMsg" style="color:var(--mut);margin:10px 0 0"></p></div>
 </section>
 </main>
+<footer style="margin-top:24px;color:var(--mut);font-size:12px">
+  Sources: OEWS · Projections · ACS · Scorecard
+</footer>
 </div>
 <script>
 // The JSON loaded by Python is inserted here for the dashboard's JavaScript.
 const DATA = {"summary": {"n_institutions": 2, "mean_score": 69.2, "tier_counts": {"High": 1, "Medium": 1, "Low": 0}, "cv_roc_auc": 0.95, "model_version": "SAMPLE ONLY", "refreshed": "2026-11-20"}, "institutions": [{"unitid": 999001, "name": "Sample Valley College", "state": "CA", "control": "Public", "score": 53.3, "tier": "Medium", "p_ready": 0.3333, "p_borderline": 0.3333, "p_not_ready": 0.3334, "n_programs": 3, "top_drivers": [{"label": "Local demand", "value": 4.1}, {"label": "Program completion", "value": -2.0}]}, {"unitid": 999002, "name": "Demo Technical Institute", "state": "TX", "control": "Private non-profit", "score": 85.0, "tier": "High", "p_ready": 1.0, "p_borderline": 0.0, "p_not_ready": 0.0, "n_programs": 2, "top_drivers": [{"label": "Program completion", "value": 3.5}, {"label": "Local demand", "value": 1.2}]}], "states": [{"state": "CA", "avg_score": 53.3, "n_institutions": 1}, {"state": "TX", "avg_score": 85.0, "n_institutions": 1}], "programs": [{"unitid": 999001, "institution": "Sample Valley College", "cipcode": "49.0202", "cipdesc": "Ground transportation", "probability": 0.8}, {"unitid": 999001, "institution": "Sample Valley College", "cipcode": "51.0801", "cipdesc": "Medical assisting", "probability": 0.6}, {"unitid": 999001, "institution": "Sample Valley College", "cipcode": "47.0604", "cipdesc": "Automotive mechanics", "probability": 0.2}, {"unitid": 999002, "institution": "Demo Technical Institute", "cipcode": "46.0302", "cipdesc": "Electrician", "probability": 0.8}, {"unitid": 999002, "institution": "Demo Technical Institute", "cipcode": "48.0508", "cipdesc": "Welding technology", "probability": 0.9}], "model": {"test_metrics": {"accuracy": 0.93, "precision": 0.95, "recall": 0.94, "f1": 0.94, "roc_auc": 0.95}, "confusion_matrix": {"tn": 50, "fp": 5, "fn": 8, "tp": 37}, "cv_comparison": [{"model": "LightGBM", "accuracy": 0.92, "roc_auc": 0.95}], "global_importance": [{"label": "Local demand", "value": 0.31}, {"label": "Program completion", "value": 0.24}]}, "fairness": [{"group": "Public", "score_gap": -15.9}, {"group": "Private", "score_gap": 15.9}]};
 const $=s=>document.querySelector(s),H=(el,h)=>el.innerHTML=h;
+function escapeHtml(value){
+  return String(value ?? "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;");
+}
 // Fill the Overview summary from the sample JSON.
 const summary = DATA.summary;
 $('#ovSummaryLine').textContent =
@@ -183,9 +193,14 @@ $('#ovRocAuc').textContent = summary.cv_roc_auc.toFixed(2);
 const tier=s=>s>=70?'High':s>=50?'Medium':'Low',cls=t=>({High:'hi',Medium:'md',Low:'lo'})[t];
 // Convert sample ownership values to the Public/Private labels used by the filter.
 function ownershipLabel(control) {
-  if (control === "Public") return "Public";
-  if (control.startsWith("Private")) return "Private";
-  throw new Error(`Unrecognized control value: ${control}`);
+  if (typeof control !== "string") return "Unknown";
+
+  const normalized = control.toLowerCase();
+
+  if (normalized === "public") return "Public";
+  if (normalized.includes("private")) return "Private";
+
+  return "Unknown";
 }
 
 // Map the sample JSON fields to the fields used by the institution interface.
@@ -219,7 +234,10 @@ const P = DATA.programs.map(row => ({
   institution: row.institution,
   cipcode: row.cipcode,
   cipdesc: row.cipdesc,
+  socTitle: row.soc_title ?? null,
   clockHours: row.clock_hours ?? null,
+  annualOpenings: row.annual_openings ?? null,
+  medianWage: row.median_wage ?? null,
   probability: row.probability
 }));
 function donut(p,sz=130){let c=2*Math.PI*44,o=0,s=`<svg width="${sz}" height="${sz}" viewBox="0 0 100 100" role="img" aria-label="Probability breakdown"><g transform="rotate(-90 50 50)">`;p.forEach(([v,col])=>{s+=`<circle cx="50" cy="50" r="44" fill="none" stroke="${col}" stroke-width="12" stroke-dasharray="${v*c} ${c}" stroke-dashoffset="${-o*c}"/>`;o+=v});return s+'</g></svg>'}
@@ -246,7 +264,7 @@ H($('#ovTop'),tbl([...I].sort((a,b)=>b.score-a.score).slice(0,5)));
 $('#ovState').innerHTML+=[...new Set(I.map(i=>i.st))].sort().map(s=>`<option>${s}</option>`).join('');
 // institutions
 let sel=I[0];
-function detail(){const r=sel;H($('#detail'),`<div class="row" style="justify-content:space-between"><h2>${r.name}</h2><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></div><p style="color:var(--mut);margin:4px 0 14px"${r.type} · ${r.st} · UNITID ${r.id}</p>
+function detail(){const r=sel;H($('#detail'),`<div class="row" style="justify-content:space-between"><h2>${r.name}</h2><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></div><p style="color:var(--mut);margin:4px 0 14px">${r.type} · ${r.st} · UNITID ${r.id}</p>
 <div class="donut">${donut([[r.ph,col.hi],[r.pm,col.md],[r.pl,col.lo]],120)}<div class="leg"><span style="--c:var(--hi)">Ready: ${Math.round(r.ph*100)}%</span><span style="--c:var(--md)">Borderline: ${Math.round(r.pm*100)}%</span><span style="--c:var(--lo)">Not ready: ${Math.round(r.pl*100)}%</span></div><div class="kpi"><b>${r.score}</b><span>Opportunity score</span></div></div>
 <div class="slot">data: scores.predict_proba for selected UNITID</div>
 <div class="grid g3" style="margin:14px 0">
@@ -254,45 +272,70 @@ function detail(){const r=sel;H($('#detail'),`<div class="row" style="justify-co
   <div class="kpi"><b>N/A</b><span>Completion rate</span></div>
   <div class="kpi"><b>N/A</b><span>Median earnings</span></div>
 </div>
-<h3>Why this score (SHAP)</h3>${bars(r.shap.map(s=>[s[0],s[1]]),14,v=>(v>0?'+':'')+v)}<div class="slot">data: shap_values for selected UNITID (positive raises score)</div>
+<h3>Why this score (SHAP)</h3>${bars(
+  r.shap.map(s=>[s[0],s[1]]),
+  Math.max(...r.shap.map(s=>Math.abs(s[1])),0.01),
+  v=>(v>0?'+':'')+v
+)}<div class="slot">data: shap_values for selected UNITID (positive raises score)</div>
 <div class="row" style="margin-top:12px"><button class="btn p" data-go="programs">View programs</button><button class="btn" data-go="regions">View state</button></div>`)}
 function list(){const q=$('#q').value.toLowerCase(),t=$('#typ').value,ti=$('#tier').value,s=$('#srt').value;
 let rows=I.filter(r=>(!q||(r.name+r.st+r.id).toLowerCase().includes(q))&&(!t||r.ownership===t)&&(!ti||tier(r.score)==ti));
 rows.sort((a,b)=>s=='name'?a.name.localeCompare(b.name):s=='state'?(a.st.localeCompare(b.st)||a.name.localeCompare(b.name)):s=='programs'?b.prog-a.prog:b.score-a.score);
 H($('#instBody'),rows.map(r=>`<tr data-id="${r.id}" tabindex="0" class="${r.id==sel.id?'sel':''}"><td>${r.name}</td><td>${r.st}</td><td>${r.ownership}</td><td><b>${r.score}</b></td><td><span class="pill ${cls(tier(r.score))}">${tier(r.score)}</span></td></tr>`).join('')||'<tr><td colspan="5">No institutions match. Clear a filter or try a different name.</td></tr>');
-$('#cnt').textContent=`Showing ${rows.length} of 1,842 institutions`}
+// Display the actual number of institutions in the loaded JSON.
+$('#cnt').textContent=`Showing ${rows.length} of ${I.length} institutions`}
 ['q','typ','tier','srt'].forEach(i=>$('#'+i).addEventListener('input',list));
 $('#srt').addEventListener('change',list);
 document.addEventListener('click',e=>{const tr=e.target.closest('tr[data-id]');if(tr){sel=I.find(r=>r.id==tr.dataset.id);if(location.hash!='#institutions')location.hash='institutions';detail();list()}
 const g=e.target.closest('[data-go]');if(g)location.hash=g.dataset.go;
 if(e.target.closest('[data-doc]'))H($('#docMsg'),'Link this button to the file or repository URL.')});
 document.addEventListener('keydown',e=>{if(e.key=='Enter'&&e.target.matches('tr[data-id]'))e.target.click()});
-$('#csvBtn').onclick=()=>{const b=new Blob(['name,state,type,score\n'+I.map(r=>[`"${r.name}"`,r.st,`"${r.type}"`,r.score].join(',')).join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='opportunity_scores.csv';a.click()};
+$('#csvBtn').onclick=()=>{const b=new Blob(['name,state,type,score\n'+I.map(r =>
+  [`"${r.name.replace(/"/g,'""')}"`,r.st,`"${r.type}"`,r.score].join(',')
+).join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='opportunity_scores.csv';a.click()};
 // regions
-function regs(){const m=$('#rmet').value,k=m=='score'?1:2;H($('#regList'),[...R].sort((a,b)=>b[k]-a[k]).map(r=>`<div class="br"><span>${r[0]}</span><div class="bar"><i style="width:${r[k]}%"></i></div><em>${r[k]}</em></div><div style="color:var(--mut);font-size:12.5px;margin:-4px 0 4px">${r[3]} institutions</div>`).join(''))}
+// Render the States ranked list using named state fields.
+function regs(){
+  const rows=[...R].sort((a,b)=>b.avgScore-a.avgScore);
+
+  H($('#regList'),rows.map(r=>`
+    <div class="br">
+      <span>${r.state}</span>
+      <div class="bar"><i style="width:${r.avgScore}%"></i></div>
+      <em>${r.avgScore.toFixed(1)}</em>
+    </div>
+    <div style="color:var(--mut);font-size:12.5px;margin:-4px 0 4px">
+      ${r.nInstitutions} institutions
+    </div>
+  `).join(''));
+}
 $('#rmet').oninput=regs;regs();
 H($('#regCtx'),[["Median household income","$78,400"],["Adults with some college","58%"],["Unemployment rate","4.1%"],["Annual openings (target SOC)","24,310"]].map(c=>`<div class="kpi"><b>${c[1]}</b><span>${c[0]}</span></div>`).join(''));
 // programs
-// Search and display sample program data; show N/A when hours are missing.
+// This safely displays only the first 200 matching programs.; show N/A when hours are missing.
 function progs(){
   const q=$('#pq').value.toLowerCase();
-  const rows=P.filter(p=>
-    `${p.cipcode} ${p.cipdesc} ${p.institution}`.toLowerCase().includes(q)
-  );
+  const rows=P
+    .filter(p=>`${p.cipcode} ${p.cipdesc} ${p.institution}`.toLowerCase().includes(q))
+    .sort((a,b)=>b.probability-a.probability)
+    .slice(0,200);
 
-  H($('#progBody'),rows.map(p=>`<tr>
-  <td>${p.cipdesc} (${p.cipcode})</td>
-  <td>N/A</td>
-  <td>${p.institution}</td>
-  <td>${p.clockHours ?? 'N/A'}</td>
-  <td>N/A</td>
-  <td>N/A</td>
-  <td><b>${(p.probability*100).toFixed(1)}%</b></td>
-</tr>`).join('') || '<tr><td colspan="7">No programs match.</td></tr>');
+  H($('#progBody'),rows.map(p=>`
+    <tr>
+      <td>${p.cipdesc} (${p.cipcode})</td>
+      <td>N/A</td>
+      <td>${p.institution}</td>
+      <td>${p.clockHours ?? 'N/A'}</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td><b>${(p.probability*100).toFixed(1)}%</b></td>
+    </tr>
+  `).join('') ||
+  '<tr><td colspan="7">No programs match.</td></tr>');
 }
 $('#pq').addEventListener('input',progs);
 progs();
-// model
+
 // Display test metrics from the sample JSON.
 const testMetrics = DATA.model.test_metrics;
 H($('#mets'),[
@@ -316,17 +359,42 @@ H($('#cmp'),bars(
   100,
   value=>(value/100).toFixed(2)
 ));
+// Display global feature importance from the sample JSON.
+const globalImportance = DATA.model.global_importance;
+const maxGlobalImportance = Math.max(
+  ...globalImportance.map(item => Math.abs(item.value)),
+  0.01
+);
+
+H($('#shap'),bars(
+  globalImportance.map(item => [item.label,item.value]),
+  maxGlobalImportance,
+  value => value.toFixed(2)
+));
 // validation
-H($('#crit'),`<thead><tr><th>Criterion</th><th>Result</th><th>Status</th></tr></thead><tbody>`+[["Program length 150–599 clock hours","96% of scored programs","ok"],["Length of 8 to under 15 weeks","94% of scored programs","ok"],["Aligned with in-demand occupations","88% map to a high-demand SOC","ok"],["Earnings outcome safeguard","71% have usable data","warn"]].map(c=>`<tr><td>${c[0]}</td><td>${c[1]}</td><td class="${c[2]}">${c[2]=='ok'?'Pass':'Review'}</td></tr>`).join('')+'</tbody>');
-H($('#exp'),[["Workforce director, state system","Reviewed top 25 scores. Rankings match local knowledge."],["Community college dean","Flagged rural suppression as a risk. Added missing-data flag."],["Sage Road advisor","Approved scoring rule for CIP to SOC mapping."]].map(e=>`<p style="margin:0 0 10px"><b>${e[0]}</b><br><span style="color:var(--mut)">${e[1]}</span></p>`).join(''));
-const overallScore=I.reduce((sum,r)=>sum+r.score,0)/I.length;
-const ownershipGaps=["Public","Private"].map(ownership=>{
-  const group=I.filter(r=>r.ownership===ownership);
-  if(!group.length)throw new Error(`No institutions found for ${ownership}`);
-  const average=group.reduce((sum,r)=>sum+r.score,0)/group.length;
-  return [ownership,average-overallScore];
-});
-H($('#fair'),bars(ownershipGaps,5,v=>(v>0?'+':'')+v.toFixed(1)));
+H($('#crit'),`
+  <thead>
+    <tr><th>Criterion</th><th>Result</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Real validation data</td><td>N/A</td><td class="warn">Pending</td></tr>
+  </tbody>
+`);
+
+H($('#exp'),`
+  <p style="margin:0">
+    <b>Expert review</b><br>N/A - awaiting real signed feedback.
+  </p>
+`);
+// Render fairness gaps directly from the sample JSON.
+const ownershipGaps = DATA.fairness.map(row => [
+  row.group,
+  row.score_gap]);
+H($('#fair'),bars(
+  ownershipGaps,
+  Math.max(...ownershipGaps.map(([,value])=>Math.abs(value)),0.1),
+  v=>(v>0?'+':'')+v.toFixed(1)
+));
 // routing, theme, slots
 const V=['overview','institutions','regions','programs','model','validation'];
 function route(){const h=V.includes(location.hash.slice(1))?location.hash.slice(1):'overview';document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id=='v-'+h));document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')=='#'+h));scrollTo(0,0)}
