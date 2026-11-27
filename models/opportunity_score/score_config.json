@@ -1,0 +1,15 @@
+{
+  "weights": {
+    "earnings": 0.4,
+    "completion": 0.2,
+    "placement": 0.2,
+    "demand": 0.2
+  },
+  "tier_cuts": [
+    0,
+    50,
+    75,
+    100
+  ],
+  "min_parts": 3
+}

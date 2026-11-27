@@ -913,7 +913,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 104577,Eastern Arizona College,AZ,5100,"Health Services/Allied Health/Health Sciences, General.",Public,score_only,,,0.968108051264698,
 104577,Eastern Arizona College,AZ,5106,Dental Support Services and Allied Professions.,Public,score_only,,,0.9749810001236818,
 104577,Eastern Arizona College,AZ,5107,Health and Medical Administrative Services.,Public,score_only,,,0.9988505072890641,
-104577,Eastern Arizona College,AZ,5108,Allied Health and Medical Assisting Services.,Public,test,1.0,25597.33944678184,0.9920623644314407,
+104577,Eastern Arizona College,AZ,5108,Allied Health and Medical Assisting Services.,Public,test,1.0,25597.339446781836,0.9920623644314407,
 104577,Eastern Arizona College,AZ,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,score_only,,,0.9991144306182437,
 104577,Eastern Arizona College,AZ,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,score_only,,,0.9644880521082791,
 104577,Eastern Arizona College,AZ,5126,Health Aides/Attendants/Orderlies.,Public,score_only,,,0.9807855128408672,
@@ -4324,7 +4324,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 117894,Los Medanos College,CA,1609,"Romance Languages, Literatures, and Linguistics.",Public,score_only,,,0.9826927881854174,
 117894,Los Medanos College,CA,1616,American Sign Language.,Public,score_only,,,0.9563157377771248,
 117894,Los Medanos College,CA,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.09827210927990275,
-117894,Los Medanos College,CA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,1.0,24895.18955995476,0.42022010474707716,0.14559143713151218
+117894,Los Medanos College,CA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,1.0,24895.189559954757,0.42022010474707716,0.14559143713151218
 117894,Los Medanos College,CA,4301,Criminal Justice and Corrections.,Public,score_only,,,0.9956137303344366,
 117894,Los Medanos College,CA,4302,Fire Protection.,Public,score_only,,,0.9976444060917093,
 117894,Los Medanos College,CA,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Public,score_only,,,0.9976876686094679,
@@ -5522,7 +5522,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 122384,San Diego Miramar College,CA,1616,American Sign Language.,Public,score_only,,,0.9848637397635772,
 122384,San Diego Miramar College,CA,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.2555995784875903,
 122384,San Diego Miramar College,CA,2203,Legal Support Services.,Public,score_only,,,0.9899589657772122,
-122384,San Diego Miramar College,CA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,1.0,26499.09999547512,0.5885482440129751,0.1700605469660721
+122384,San Diego Miramar College,CA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,1.0,26499.099995475117,0.5885482440129751,0.1700605469660721
 122384,San Diego Miramar College,CA,2601,"Biology, General.",Public,score_only,,,0.968943569770514,
 122384,San Diego Miramar College,CA,3001,Biological and Physical Sciences.,Public,score_only,,,0.9832582471205706,
 122384,San Diego Miramar College,CA,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Public,score_only,,,0.9552519820729738,
@@ -6189,7 +6189,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 124681,UEI College-Huntington Park,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,test,1.0,27865.54836651584,0.7972896339584147,
 124681,UEI College-Huntington Park,CA,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,test,1.0,25525.92213122172,0.2903876379865988,
 124681,UEI College-Huntington Park,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,test,0.0,16584.01730316742,0.000737772488576412,
-124681,UEI College-Huntington Park,CA,5107,Health and Medical Administrative Services.,Private for-profit,test,0.0,21412.4126142534,0.005380335156659321,
+124681,UEI College-Huntington Park,CA,5107,Health and Medical Administrative Services.,Private for-profit,test,0.0,21412.412614253397,0.005380335156659321,
 124681,UEI College-Huntington Park,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,0.0,20575.87958710407,0.007539126454237991,
 124681,UEI College-Huntington Park,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,test,0.0,20908.326477375565,0.0010074492951972483,
 124706,Concorde Career College-San Bernardino,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,19483.55409049774,0.01990029528165205,0.21639478100687135
@@ -6809,7 +6809,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 127820,Pikes Peak State College,CO,1503,Electrical/Electronic Engineering Technologies/Technicians.,Public,train,1.0,36837.341007361865,0.9991671667003424,0.998523353847355
 127820,Pikes Peak State College,CO,1505,Environmental Control Technologies/Technicians.,Public,score_only,,,0.9995181778925311,
 127820,Pikes Peak State College,CO,1513,Drafting/Design Engineering Technologies/Technicians.,Public,train,1.0,40463.92168323797,0.9983008921766449,0.9982752385622102
-127820,Pikes Peak State College,CO,1616,American Sign Language.,Public,train,1.0,28953.38262903436,0.9919425927088993,0.989019751880587
+127820,Pikes Peak State College,CO,1616,American Sign Language.,Public,train,1.0,28953.382629034357,0.9919425927088993,0.989019751880587
 127820,Pikes Peak State College,CO,1905,"Foods, Nutrition, and Related Services.",Public,score_only,,,0.9966227494446263,
 127820,Pikes Peak State College,CO,1907,"Human Development, Family Studies, and Related Services.",Public,train,1.0,29040.267888268056,0.9946350137995881,0.962077473665647
 127820,Pikes Peak State College,CO,2203,Legal Support Services.,Public,train,1.0,43238.725482464586,0.9989299265947783,0.9988001027083219
@@ -6860,7 +6860,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 127884,Pueblo Community College,CO,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,25620.604708370483,0.9913437920900611,0.9746551721441189
 127884,Pueblo Community College,CO,5202,"Business Administration, Management and Operations.",Public,train,1.0,29216.54954139539,0.9992835358418058,0.9996702400971629
 127884,Pueblo Community College,CO,5203,Accounting and Related Services.,Public,score_only,,,0.9985109167022392,
-127884,Pueblo Community College,CO,5204,Business Operations Support and Assistant Services.,Public,train,1.0,30210.95886672909,0.9865473402187633,0.9645146868104685
+127884,Pueblo Community College,CO,5204,Business Operations Support and Assistant Services.,Public,train,1.0,30210.958866729092,0.9865473402187633,0.9645146868104685
 127884,Pueblo Community College,CO,5209,Hospitality Administration/Management.,Public,score_only,,,0.9789158743412312,
 127909,Red Rocks Community College,CO,0302,Environmental/Natural Resources Management and Policy.,Public,test,1.0,52397.3358141744,0.9960019442351439,
 127909,Red Rocks Community College,CO,0907,"Radio, Television, and Digital Communication.",Public,test,1.0,29688.64285746291,0.9937678295673181,
@@ -7016,7 +7016,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 129154,Goodwin University,CT,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Private non-profit,train,1.0,36531.91753921009,0.8980590323597242,0.6968676297043962
 129154,Goodwin University,CT,4400,"Human Services, General.",Private non-profit,score_only,,,0.8231033690401909,
 129154,Goodwin University,CT,5107,Health and Medical Administrative Services.,Private non-profit,train,1.0,29006.59570772172,0.9987149418786114,0.9973500150917586
-129154,Goodwin University,CT,5108,Allied Health and Medical Assisting Services.,Private non-profit,train,1.0,29334.45675810728,0.9918674841286462,0.9873205973792991
+129154,Goodwin University,CT,5108,Allied Health and Medical Assisting Services.,Private non-profit,train,1.0,29334.456758107277,0.9918674841286462,0.9873205973792991
 129154,Goodwin University,CT,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Private non-profit,train,1.0,36899.85049575388,0.9907359489780619,0.981932891621192
 129154,Goodwin University,CT,5199,"Health Professions and Related Clinical Sciences, Other.",Private non-profit,train,1.0,50924.106925995846,0.9127759275326639,0.47812415189117996
 129154,Goodwin University,CT,5201,"Business/Commerce, General.",Private non-profit,score_only,,,0.9980861163545242,
@@ -7261,7 +7261,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 132374,Atlantic Technical College,FL,1102,Computer Programming.,Public,score_only,,,0.9693306766820065,
 132374,Atlantic Technical College,FL,1108,Computer Software and Media Applications.,Public,score_only,,,0.9780323866110053,
 132374,Atlantic Technical College,FL,1109,Computer Systems Networking and Telecommunications.,Public,score_only,,,0.9948124988594895,
-132374,Atlantic Technical College,FL,1205,Culinary Arts and Related Services.,Public,test,1.0,26178.47197524628,0.21696052053333081,
+132374,Atlantic Technical College,FL,1205,Culinary Arts and Related Services.,Public,test,1.0,26178.471975246277,0.21696052053333081,
 132374,Atlantic Technical College,FL,1503,Electrical/Electronic Engineering Technologies/Technicians.,Public,score_only,,,0.9941372532946097,
 132374,Atlantic Technical College,FL,1505,Environmental Control Technologies/Technicians.,Public,score_only,,,0.9943513794543727,
 132374,Atlantic Technical College,FL,1513,Drafting/Design Engineering Technologies/Technicians.,Public,score_only,,,0.9943584602949643,
@@ -7432,7 +7432,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 132976,Charlotte Technical College,FL,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Public,train,1.0,41925.86751073504,0.9997628454210569,0.9995872745018065
 132976,Charlotte Technical College,FL,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,score_only,,,0.9982391449971783,
 132976,Charlotte Technical College,FL,5004,Design and Applied Arts.,Public,score_only,,,0.8883932520514752,
-132976,Charlotte Technical College,FL,5106,Dental Support Services and Allied Professions.,Public,train,1.0,28496.94369790352,0.9834761135299848,0.981497853536237
+132976,Charlotte Technical College,FL,5106,Dental Support Services and Allied Professions.,Public,train,1.0,28496.943697903516,0.9834761135299848,0.981497853536237
 132976,Charlotte Technical College,FL,5108,Allied Health and Medical Assisting Services.,Public,score_only,,,0.9957770797588636,
 132976,Charlotte Technical College,FL,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,score_only,,,0.9992114529146539,
 132976,Charlotte Technical College,FL,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,41621.99014902753,0.9989082201620688,0.998663351387246
@@ -7617,7 +7617,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 133702,Florida State College at Jacksonville,FL,5209,Hospitality Administration/Management.,Public,score_only,,,0.9950632242794931,
 133702,Florida State College at Jacksonville,FL,5215,Real Estate.,Public,train,1.0,55545.09835817126,0.9963907073494841,0.9979814500628011
 133702,Florida State College at Jacksonville,FL,5219,"Specialized Sales, Merchandising and  Marketing Operations.",Public,train,1.0,46155.59482823945,0.9955349704140084,0.9891384582700621
-133845,Concorde Career Institute-Jacksonville,FL,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,25995.32703334176,0.943757422418247,0.8697789642315983
+133845,Concorde Career Institute-Jacksonville,FL,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,25995.327033341757,0.943757422418247,0.8697789642315983
 133845,Concorde Career Institute-Jacksonville,FL,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,29875.13496463753,0.9944249218402369,0.9907762531792915
 133845,Concorde Career Institute-Jacksonville,FL,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,28732.26960090932,0.9952889698951812,0.9902933964238674
 133845,Concorde Career Institute-Jacksonville,FL,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,train,1.0,42884.56477645871,0.9903175747988342,0.986502192742798
@@ -7861,7 +7861,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 134608,Indian River State College,FL,5004,Design and Applied Arts.,Public,score_only,,,0.9397539365246316,
 134608,Indian River State College,FL,5106,Dental Support Services and Allied Professions.,Public,score_only,,,0.9849398427627358,
 134608,Indian River State College,FL,5107,Health and Medical Administrative Services.,Public,score_only,,,0.998504806235566,
-134608,Indian River State College,FL,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,31781.2747789846,0.9927537838847926,0.9898868830097609
+134608,Indian River State College,FL,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,31781.274778984596,0.9927537838847926,0.9898868830097609
 134608,Indian River State College,FL,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,train,1.0,42183.7028479414,0.9995686061333431,0.9993763159940924
 134608,Indian River State College,FL,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,score_only,,,0.908135944872258,
 134608,Indian River State College,FL,5126,Health Aides/Attendants/Orderlies.,Public,score_only,,,0.9255627862303343,
@@ -8419,7 +8419,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 136491,Pinellas Technical College-Clearwater,FL,1505,Environmental Control Technologies/Technicians.,Public,score_only,,,0.9268504591607359,
 136491,Pinellas Technical College-Clearwater,FL,1506,Industrial Production Technologies/Technicians.,Public,score_only,,,0.9377108595162892,
 136491,Pinellas Technical College-Clearwater,FL,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.07052282727820773,
-136491,Pinellas Technical College-Clearwater,FL,4603,Electrical and Power Transmission Installers.,Public,train,1.0,32139.37941399344,0.9683372557016182,0.9886025487383219
+136491,Pinellas Technical College-Clearwater,FL,4603,Electrical and Power Transmission Installers.,Public,train,1.0,32139.379413993436,0.9683372557016182,0.9886025487383219
 136491,Pinellas Technical College-Clearwater,FL,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Public,score_only,,,0.8763503406391068,
 136491,Pinellas Technical College-Clearwater,FL,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Public,score_only,,,0.9867932687482738,
 136491,Pinellas Technical College-Clearwater,FL,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,train,1.0,40951.82290351099,0.9722298936005063,0.9755020784388047
@@ -8477,7 +8477,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 136765,Ridge Technical College,FL,4604,"Building/Construction Finishing, Management, and Inspection.",Public,score_only,,,0.9963901739433755,
 136765,Ridge Technical College,FL,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Public,train,1.0,27427.74557337712,0.9995467146060444,0.9991935466190222
 136765,Ridge Technical College,FL,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,train,1.0,33884.88372063653,0.9883256829614995,0.9884391239389592
-136765,Ridge Technical College,FL,4805,Precision Metal Working.,Public,train,1.0,25812.18209143724,0.9941286197660654,0.9982589987280446
+136765,Ridge Technical College,FL,4805,Precision Metal Working.,Public,train,1.0,25812.182091437237,0.9941286197660654,0.9982589987280446
 136765,Ridge Technical College,FL,4902,Ground Transportation.,Public,score_only,,,0.9932410347676486,
 136765,Ridge Technical College,FL,5107,Health and Medical Administrative Services.,Public,score_only,,,0.9628581869118613,
 136765,Ridge Technical College,FL,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,25191.1263387219,0.9454954785406745,0.9217582296824406
@@ -9063,7 +9063,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 138761,Andrew College,GA,5009,Music.,Private non-profit,score_only,,,0.7502704773108811,
 138761,Andrew College,GA,5107,Health and Medical Administrative Services.,Private non-profit,score_only,,,0.9742604686255114,
 138822,Georgia Career Institute,GA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,19761.288194892604,0.014509643425170813,0.05778406214487909
-138822,Georgia Career Institute,GA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,20058.1539761198,0.07932521668682349,0.205146275506052
+138822,Georgia Career Institute,GA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,20058.153976119796,0.07932521668682349,0.205146275506052
 138840,Atlanta Technical College,GA,0103,Agricultural Production Operations.,Public,score_only,,,0.986441614330166,
 138840,Atlanta Technical College,GA,0106,Applied Horticulture and Horticultural Business Services.,Public,score_only,,,0.9297836805846905,
 138840,Atlanta Technical College,GA,1002,Audiovisual Communications Technologies/Technicians.,Public,score_only,,,0.791066479269394,
@@ -9467,7 +9467,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 140003,Gwinnett College-Lilburn,GA,2203,Legal Support Services.,Private for-profit,score_only,,,0.9814304126795794,
 140003,Gwinnett College-Lilburn,GA,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,35006.96954564979,0.9833711015515195,0.9734002309401187
 140003,Gwinnett College-Lilburn,GA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,33515.68284776633,0.9921311823008068,0.9807889114315806
-140003,Gwinnett College-Lilburn,GA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,1.0,24348.792220419,0.8598173909688418,0.3887249507212791
+140003,Gwinnett College-Lilburn,GA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,1.0,24348.792220418996,0.8598173909688418,0.3887249507212791
 140012,Gwinnett Technical College,GA,0103,Agricultural Production Operations.,Public,score_only,,,0.9970301256447088,
 140012,Gwinnett Technical College,GA,0106,Applied Horticulture and Horticultural Business Services.,Public,score_only,,,0.9696041826808611,
 140012,Gwinnett Technical College,GA,0183,Veterinary/Animal Health Technologies/Technicians.,Public,score_only,,,0.9754528786493135,
@@ -10448,7 +10448,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 144865,College of DuPage,IL,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Public,test,1.0,49288.509038947486,0.9994028817754841,
 144865,College of DuPage,IL,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,test,1.0,34920.1978542477,0.9977372048300112,
 144865,College of DuPage,IL,4805,Precision Metal Working.,Public,test,1.0,42927.71256808899,0.9989457089925243,
-144865,College of DuPage,IL,5004,Design and Applied Arts.,Public,test,1.0,30781.84834308676,0.9796325213989348,
+144865,College of DuPage,IL,5004,Design and Applied Arts.,Public,test,1.0,30781.848343086756,0.9796325213989348,
 144865,College of DuPage,IL,5009,Music.,Public,score_only,,,0.9891068244454171,
 144865,College of DuPage,IL,5102,Communication Disorders Sciences and Services.,Public,score_only,,,0.9888119388155044,
 144865,College of DuPage,IL,5107,Health and Medical Administrative Services.,Public,test,1.0,50679.45429130992,0.9995323994356627,
@@ -10513,7 +10513,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 144962,Elmhurst University,IL,2902,"Intelligence, Command Control and Information Operations.",Private non-profit,score_only,,,0.9931601865694591,
 144962,Elmhurst University,IL,4507,Geography and Cartography.,Private non-profit,train,1.0,61996.69066280424,0.9982306010018424,0.99798430160233
 144962,Elmhurst University,IL,5102,Communication Disorders Sciences and Services.,Private non-profit,score_only,,,0.8601592055932576,
-145099,"First Institute of Travel, Inc.",IL,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,25647.22950516484,0.8235325906759449,0.1592416449744465
+145099,"First Institute of Travel, Inc.",IL,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,25647.229505164836,0.8235325906759449,0.1592416449744465
 145099,"First Institute of Travel, Inc.",IL,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,32184.28901075796,0.9769176055976574,0.8711235809439505
 145099,"First Institute of Travel, Inc.",IL,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.13258290284777946,
 145239,Fox College,IL,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.9823994050589931,
@@ -10606,7 +10606,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 145707,Illinois Eastern Community Colleges,IL,5107,Health and Medical Administrative Services.,Public,train,1.0,25344.51690203361,0.9968651472819732,0.9817848905483622
 145707,Illinois Eastern Community Colleges,IL,5108,Allied Health and Medical Assisting Services.,Public,score_only,,,0.9770591806124845,
 145707,Illinois Eastern Community Colleges,IL,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,train,1.0,25668.304433230933,0.9747440080132314,0.9262529678933931
-145707,Illinois Eastern Community Colleges,IL,5135,Somatic Bodywork and Related Therapeutic Services.,Public,train,1.0,26970.16021695032,0.7840147206098989,0.5278931175632819
+145707,Illinois Eastern Community Colleges,IL,5135,Somatic Bodywork and Related Therapeutic Services.,Public,train,1.0,26970.160216950317,0.7840147206098989,0.5278931175632819
 145707,Illinois Eastern Community Colleges,IL,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,53652.93505118111,0.9621935755157639,0.8958787341904368
 145707,Illinois Eastern Community Colleges,IL,5202,"Business Administration, Management and Operations.",Public,score_only,,,0.9995602525935415,
 145707,Illinois Eastern Community Colleges,IL,5203,Accounting and Related Services.,Public,score_only,,,0.9986749638325821,
@@ -10658,7 +10658,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 146205,John A Logan College,IL,4805,Precision Metal Working.,Public,train,1.0,35022.69864075099,0.9906950950540496,0.9727219636783071
 146205,John A Logan College,IL,5004,Design and Applied Arts.,Public,score_only,,,0.7289620595773151,
 146205,John A Logan College,IL,5106,Dental Support Services and Allied Professions.,Public,train,1.0,25159.6323058174,0.9406005151470003,0.989848021455108
-146205,John A Logan College,IL,5107,Health and Medical Administrative Services.,Public,train,1.0,25021.68732211204,0.9893177350159162,0.9923381620826642
+146205,John A Logan College,IL,5107,Health and Medical Administrative Services.,Public,train,1.0,25021.687322112037,0.9893177350159162,0.9923381620826642
 146205,John A Logan College,IL,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,30498.294765470167,0.9160362113226707,0.9109114112030127
 146205,John A Logan College,IL,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,train,1.0,44304.28855131545,0.9979213958198109,0.9985854020696645
 146205,John A Logan College,IL,5135,Somatic Bodywork and Related Therapeutic Services.,Public,train,0.0,21111.330214575228,0.18374607514613261,0.9386085461963516
@@ -10673,7 +10673,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 146278,John Wood Community College,IL,1504,Electromechanical Technologies/Technicians.,Public,score_only,,,0.9978124345817764,
 146278,John Wood Community College,IL,1506,Industrial Production Technologies/Technicians.,Public,score_only,,,0.993895043133973,
 146278,John Wood Community College,IL,1513,Drafting/Design Engineering Technologies/Technicians.,Public,score_only,,,0.9990899671100303,
-146278,John Wood Community College,IL,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.29711151945355596,
+146278,John Wood Community College,IL,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.2971115194535559,
 146278,John Wood Community College,IL,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,score_only,,,0.6702186320661389,
 146278,John Wood Community College,IL,4603,Electrical and Power Transmission Installers.,Public,score_only,,,0.9984615777579754,
 146278,John Wood Community College,IL,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Public,score_only,,,0.9975576309255865,
@@ -10780,7 +10780,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 146348,Kankakee Community College,IL,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,48779.83691153395,0.9845797257340115,0.9871415167819357
 146348,Kankakee Community College,IL,5202,"Business Administration, Management and Operations.",Public,train,1.0,34573.419492432826,0.9994738499173026,0.9993026473944019
 146348,Kankakee Community College,IL,5203,Accounting and Related Services.,Public,score_only,,,0.9988535488035376,
-146348,Kankakee Community College,IL,5204,Business Operations Support and Assistant Services.,Public,train,1.0,30446.0864209428,0.9955701222034572,0.9947260654545945
+146348,Kankakee Community College,IL,5204,Business Operations Support and Assistant Services.,Public,train,1.0,30446.086420942796,0.9955701222034572,0.9947260654545945
 146366,Kaskaskia College,IL,0100,"Agriculture, General.",Public,test,1.0,31617.1818555248,0.931757334899767,
 146366,Kaskaskia College,IL,0101,Agricultural Business and Management.,Public,test,1.0,29358.332747349443,0.9962367492293359,
 146366,Kaskaskia College,IL,0106,Applied Horticulture and Horticultural Business Services.,Public,score_only,,,0.916137317421314,
@@ -10869,7 +10869,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 146472,College of Lake County,IL,2313,Rhetoric and Composition/Writing Studies.,Public,score_only,,,0.999269367992244,
 146472,College of Lake County,IL,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,1.0,32702.54065092881,0.9858161038741057,0.9245562276469494
 146472,College of Lake County,IL,2503,Library and Archives Assisting.,Public,train,1.0,37065.05076061098,0.9946197927707247,0.9589247727780448
-146472,College of Lake County,IL,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Public,train,1.0,31767.58020581468,0.9979398950405084,0.9881855508562958
+146472,College of Lake County,IL,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Public,train,1.0,31767.580205814676,0.9979398950405084,0.9881855508562958
 146472,College of Lake County,IL,3201,Basic Skills and Developmental/Remedial Education.,Public,score_only,,,0.990724599682222,
 146472,College of Lake County,IL,4301,Criminal Justice and Corrections.,Public,train,1.0,33005.25325406003,0.9998787366274868,0.9997575979836648
 146472,College of Lake County,IL,4303,Homeland Security.,Public,score_only,,,0.9994385157851873,
@@ -10900,7 +10900,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 146506,Lake Land College,IL,0106,Applied Horticulture and Horticultural Business Services.,Public,train,0.0,9830.725899864892,0.09202825116591605,0.9264364000891063
 146506,Lake Land College,IL,0199,"Agricultural/Animal/Plant/Veterinary Science and Related Fields, Other.",Public,score_only,,,0.42339690882452563,
 146506,Lake Land College,IL,0907,"Radio, Television, and Digital Communication.",Public,score_only,,,0.7913906817277685,
-146506,Lake Land College,IL,1003,Graphic Communications.,Public,train,1.0,27032.42704987288,0.812726769095164,0.9901162352961395
+146506,Lake Land College,IL,1003,Graphic Communications.,Public,train,1.0,27032.427049872877,0.812726769095164,0.9901162352961395
 146506,Lake Land College,IL,1102,Computer Programming.,Public,score_only,,,0.9833252593438006,
 146506,Lake Land College,IL,1104,Information Science/Studies.,Public,train,1.0,32906.58427265967,0.9126084201378173,0.9975304750389449
 146506,Lake Land College,IL,1106,Data Entry/Microcomputer Applications.,Public,score_only,,,0.9862517508030174,
@@ -11202,7 +11202,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 156231,Ashland Community and Technical College,KY,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,score_only,,,0.9402469331926545,
 156231,Ashland Community and Technical College,KY,4805,Precision Metal Working.,Public,train,1.0,40172.02391084087,0.9964992020484014,0.9964101338550074
 156231,Ashland Community and Technical College,KY,4902,Ground Transportation.,Public,score_only,,,0.9895189667529406,
-156231,Ashland Community and Technical College,KY,5107,Health and Medical Administrative Services.,Public,train,1.0,26362.48128533196,0.9365823934145656,0.7527969877727121
+156231,Ashland Community and Technical College,KY,5107,Health and Medical Administrative Services.,Public,train,1.0,26362.481285331956,0.9365823934145656,0.7527969877727121
 156231,Ashland Community and Technical College,KY,5108,Allied Health and Medical Assisting Services.,Public,score_only,,,0.9681245881538857,
 156231,Ashland Community and Technical College,KY,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,score_only,,,0.9945445975819874,
 156231,Ashland Community and Technical College,KY,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,score_only,,,0.7244550891493461,
@@ -12079,7 +12079,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 160579,SOWELA Technical Community College,LA,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,score_only,,,0.9880770414799512,
 160579,SOWELA Technical Community College,LA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,50965.59973343488,0.9947783956254302,0.9989215304769369
 160579,SOWELA Technical Community College,LA,5201,"Business/Commerce, General.",Public,train,1.0,39221.122894135566,0.9992032885491342,0.9982180141522907
-160579,SOWELA Technical Community College,LA,5203,Accounting and Related Services.,Public,train,1.0,32326.9868849962,0.9994185474442312,0.9995801227483602
+160579,SOWELA Technical Community College,LA,5203,Accounting and Related Services.,Public,train,1.0,32326.986884996197,0.9994185474442312,0.9995801227483602
 160579,SOWELA Technical Community College,LA,5204,Business Operations Support and Assistant Services.,Public,train,1.0,32649.01096725057,0.9985501331917023,0.9979637005703407
 160612,Southeastern Louisiana University,LA,1314,Teaching English or French as a Second or Foreign Language.,Public,score_only,,,0.9961329086804476,
 160612,Southeastern Louisiana University,LA,5107,Health and Medical Administrative Services.,Public,score_only,,,0.9986789585226419,
@@ -12517,7 +12517,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 162168,Chesapeake College,MD,1599,"Engineering/Engineering-Related Technologies/Technicians, Other.",Public,score_only,,,0.9782934866629398,
 162168,Chesapeake College,MD,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.9278905885670965,
 162168,Chesapeake College,MD,2203,Legal Support Services.,Public,score_only,,,0.9984942832082946,
-162168,Chesapeake College,MD,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,1.0,28490.05195971385,0.9424924991629821,0.8979328147983523
+162168,Chesapeake College,MD,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,1.0,28490.051959713852,0.9424924991629821,0.8979328147983523
 162168,Chesapeake College,MD,2601,"Biology, General.",Public,score_only,,,0.9582469134765667,
 162168,Chesapeake College,MD,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Public,score_only,,,0.9726076407463786,
 162168,Chesapeake College,MD,4301,Criminal Justice and Corrections.,Public,score_only,,,0.9993857583722696,
@@ -13237,7 +13237,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 220853,Tennessee College of Applied Technology-Memphis,TN,1513,Drafting/Design Engineering Technologies/Technicians.,Public,score_only,,,0.8850297801827065,
 220853,Tennessee College of Applied Technology-Memphis,TN,4603,Electrical and Power Transmission Installers.,Public,score_only,,,0.8642473935769734,
 220853,Tennessee College of Applied Technology-Memphis,TN,4604,"Building/Construction Finishing, Management, and Inspection.",Public,score_only,,,0.5315283316734339,
-220853,Tennessee College of Applied Technology-Memphis,TN,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Public,train,0.0,23324.74960004324,0.11558121277063134,0.9901460609799604
+220853,Tennessee College of Applied Technology-Memphis,TN,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Public,train,0.0,23324.749600043237,0.11558121277063134,0.9901460609799604
 220853,Tennessee College of Applied Technology-Memphis,TN,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Public,score_only,,,0.8714269024993598,
 220853,Tennessee College of Applied Technology-Memphis,TN,4703,Heavy/Industrial Equipment Maintenance Technologies/Technicians.,Public,score_only,,,0.8501778324186002,
 220853,Tennessee College of Applied Technology-Memphis,TN,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,train,1.0,44077.56051353531,0.8968280840888706,0.9623770201098111
@@ -13245,7 +13245,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 220853,Tennessee College of Applied Technology-Memphis,TN,4902,Ground Transportation.,Public,score_only,,,0.8970488163641319,
 220853,Tennessee College of Applied Technology-Memphis,TN,5004,Design and Applied Arts.,Public,score_only,,,0.10487414562116243,
 220853,Tennessee College of Applied Technology-Memphis,TN,5106,Dental Support Services and Allied Professions.,Public,train,0.0,20307.421199085173,0.039435237562886964,0.6599311348452035
-220853,Tennessee College of Applied Technology-Memphis,TN,5108,Allied Health and Medical Assisting Services.,Public,train,0.0,23337.566570242,0.0659356703889683,0.962172293711592
+220853,Tennessee College of Applied Technology-Memphis,TN,5108,Allied Health and Medical Assisting Services.,Public,train,0.0,23337.566570241997,0.0659356703889683,0.962172293711592
 220853,Tennessee College of Applied Technology-Memphis,TN,5116,Nursing.,Public,score_only,,,0.25675599133581667,
 220853,Tennessee College of Applied Technology-Memphis,TN,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,47710.10348403385,0.9067447337693656,0.9876881125500959
 220853,Tennessee College of Applied Technology-Memphis,TN,5204,Business Operations Support and Assistant Services.,Public,score_only,,,0.07751868416430943,
@@ -13445,7 +13445,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 221582,Tennessee College of Applied Technology-Oneida-Huntsville,TN,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,score_only,,,0.9768314211628284,
 221582,Tennessee College of Applied Technology-Oneida-Huntsville,TN,5204,Business Operations Support and Assistant Services.,Public,score_only,,,0.21740960344931626,
 221591,Tennessee College of Applied Technology-Upper Cumberland,TN,1110,Computer/Information Technology Administration and Management.,Public,score_only,,,0.9341072715056802,
-221591,Tennessee College of Applied Technology-Upper Cumberland,TN,1204,Cosmetology and Related Personal Grooming Services.,Public,score_only,,,0.01129615204760133,
+221591,Tennessee College of Applied Technology-Upper Cumberland,TN,1204,Cosmetology and Related Personal Grooming Services.,Public,score_only,,,0.011296152047601328,
 221591,Tennessee College of Applied Technology-Upper Cumberland,TN,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.10161395128193407,
 221591,Tennessee College of Applied Technology-Upper Cumberland,TN,4601,Mason/Masonry.,Public,score_only,,,0.7130369375075407,
 221591,Tennessee College of Applied Technology-Upper Cumberland,TN,4604,"Building/Construction Finishing, Management, and Inspection.",Public,score_only,,,0.6884121217029924,
@@ -13821,7 +13821,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 223232,Baylor University,TX,1609,"Romance Languages, Literatures, and Linguistics.",Private non-profit,score_only,,,0.9951392295482634,
 223232,Baylor University,TX,3071,Data Analytics.,Private non-profit,score_only,,,0.9961848428481979,
 223232,Baylor University,TX,5132,"Health Professions Education, Ethics, and Humanities.",Private non-profit,score_only,,,0.9903699843301333,
-223320,Coastal Bend College,TX,1101,"Computer and Information Sciences, General.",Public,train,1.0,30030.03730282692,0.999540724751671,0.9987314116087564
+223320,Coastal Bend College,TX,1101,"Computer and Information Sciences, General.",Public,train,1.0,30030.037302826917,0.999540724751671,0.9987314116087564
 223320,Coastal Bend College,TX,1204,Cosmetology and Related Personal Grooming Services.,Public,train,1.0,24500.66957685257,0.66896969701915,0.15729425479789205
 223320,Coastal Bend College,TX,1509,Mining and Petroleum Technologies/Technicians.,Public,train,1.0,58578.56820004682,0.9990641042368126,0.9979768132971032
 223320,Coastal Bend College,TX,1513,Drafting/Design Engineering Technologies/Technicians.,Public,train,1.0,43224.87306600558,0.999641504960761,0.9983926632814493
@@ -13912,7 +13912,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 223816,Central Texas College,TX,5204,Business Operations Support and Assistant Services.,Public,train,1.0,29952.00624122947,0.9923268065064356,0.984975852249274
 223816,Central Texas College,TX,5209,Hospitality Administration/Management.,Public,train,1.0,32225.74467499939,0.994941888001801,0.9774847571887987
 223852,Charles and Sues School of Hair Design,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,1.0,25170.43618889729,0.01411801661966301,
-223898,Cisco College,TX,1204,Cosmetology and Related Personal Grooming Services.,Public,test,1.0,27013.92001913688,0.3172417529355582,
+223898,Cisco College,TX,1204,Cosmetology and Related Personal Grooming Services.,Public,test,1.0,27013.920019136876,0.3172417529355582,
 223898,Cisco College,TX,1907,"Human Development, Family Studies, and Related Services.",Public,test,1.0,23931.15120366569,0.991490511158104,
 223898,Cisco College,TX,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,score_only,,,0.9513811301630785,
 223898,Cisco College,TX,4101,Biology/Biotechnology Technologies/Technicians.,Public,score_only,,,0.9985257255454228,
@@ -14068,7 +14068,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 224642,El Paso Community College,TX,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,train,1.0,33574.4898994163,0.9829242348902979,0.9680040013708758
 224642,El Paso Community College,TX,4707,Energy Systems Maintenance and Repair Technologies/Technicians.,Public,score_only,,,0.9934296590466241,
 224642,El Paso Community College,TX,4805,Precision Metal Working.,Public,train,1.0,37263.08320701208,0.9923269250666854,0.9751914552259688
-224642,El Paso Community College,TX,5004,Design and Applied Arts.,Public,train,1.0,27640.33604140524,0.9810519610119735,0.960782746210797
+224642,El Paso Community College,TX,5004,Design and Applied Arts.,Public,train,1.0,27640.336041405237,0.9810519610119735,0.960782746210797
 224642,El Paso Community College,TX,5106,Dental Support Services and Allied Professions.,Public,train,1.0,28982.03679498348,0.9985626025767028,0.9956300188378204
 224642,El Paso Community College,TX,5107,Health and Medical Administrative Services.,Public,score_only,,,0.999096873202359,
 224642,El Paso Community College,TX,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,29379.23657380935,0.9970277688123538,0.9934037222093165
@@ -14159,7 +14159,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 225308,Trinity Valley Community College,TX,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,score_only,,,0.7869145936794584,
 225308,Trinity Valley Community College,TX,5138,"Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",Public,score_only,,,0.9978305198571099,
 225308,Trinity Valley Community College,TX,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,test,1.0,39731.89929477561,0.9969002784475228,
-225308,Trinity Valley Community College,TX,5202,"Business Administration, Management and Operations.",Public,test,1.0,30030.03730282692,0.9993369618757659,
+225308,Trinity Valley Community College,TX,5202,"Business Administration, Management and Operations.",Public,test,1.0,30030.037302826917,0.9993369618757659,
 225308,Trinity Valley Community College,TX,5203,Accounting and Related Services.,Public,test,1.0,34577.51417036676,0.9992078180413784,
 225308,Trinity Valley Community College,TX,5204,Business Operations Support and Assistant Services.,Public,test,1.0,27928.61746341801,0.9935492566465522,
 225371,Hill College,TX,1102,Computer Programming.,Public,train,1.0,32032.834550494605,0.9986107775237723,0.998806341574505
@@ -14732,7 +14732,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 228149,St. Mary's University,TX,1609,"Romance Languages, Literatures, and Linguistics.",Private non-profit,score_only,,,0.9926280654017408,
 228149,St. Mary's University,TX,4228,"Clinical, Counseling and Applied Psychology.",Private non-profit,score_only,,,0.995514407611548,
 228149,St. Mary's University,TX,5122,Public Health.,Private non-profit,score_only,,,0.9987016587064371,
-228158,South Plains College,TX,1002,Audiovisual Communications Technologies/Technicians.,Public,train,1.0,30613.10273531892,0.993036202655258,0.9879984530401056
+228158,South Plains College,TX,1002,Audiovisual Communications Technologies/Technicians.,Public,train,1.0,30613.102735318917,0.993036202655258,0.9879984530401056
 228158,South Plains College,TX,1101,"Computer and Information Sciences, General.",Public,train,1.0,42894.86670133306,0.9993208780572876,0.9987195486096735
 228158,South Plains College,TX,1204,Cosmetology and Related Personal Grooming Services.,Public,train,0.0,12525.06915113395,0.07109112365531128,0.46062661332997923
 228158,South Plains College,TX,1205,Culinary Arts and Related Services.,Public,score_only,,,0.9421910723856878,
@@ -14758,12 +14758,12 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 228200,South Texas Vocational Technical Institute-Weslaco,TX,4902,Ground Transportation.,Private for-profit,test,1.0,50838.32039547828,0.988509121741433,
 228200,South Texas Vocational Technical Institute-Weslaco,TX,5106,Dental Support Services and Allied Professions.,Private for-profit,test,0.0,20736.754619520376,0.03123118070318861,
 228200,South Texas Vocational Technical Institute-Weslaco,TX,5107,Health and Medical Administrative Services.,Private for-profit,test,1.0,24391.209337667275,0.857557209666941,
-228200,South Texas Vocational Technical Institute-Weslaco,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,1.0,24784.61593988772,0.8512673370701989,
+228200,South Texas Vocational Technical Institute-Weslaco,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,1.0,24784.615939887717,0.8512673370701989,
 228219,Miller-Motte College-STVT-McAllen,TX,1505,Environmental Control Technologies/Technicians.,Private for-profit,train,1.0,35074.96218805046,0.9943921114204238,0.9920425331275715
 228219,Miller-Motte College-STVT-McAllen,TX,4902,Ground Transportation.,Private for-profit,train,1.0,50838.32039547828,0.9918950394297329,0.986168281917003
 228219,Miller-Motte College-STVT-McAllen,TX,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,20736.754619520376,0.02556897915450123,0.042385920633924073
 228219,Miller-Motte College-STVT-McAllen,TX,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,24391.209337667275,0.9269397314812292,0.9182113457526061
-228219,Miller-Motte College-STVT-McAllen,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.61593988772,0.8879535684638722,0.8049796144558137
+228219,Miller-Motte College-STVT-McAllen,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.615939887717,0.8879535684638722,0.8049796144558137
 228219,Miller-Motte College-STVT-McAllen,TX,5202,"Business Administration, Management and Operations.",Private for-profit,score_only,,,0.9732294271940342,
 228282,Southwest School of Business and Technical Careers-San Antonio,TX,5107,Health and Medical Administrative Services.,Private for-profit,score_only,,,0.41767133222338015,
 228282,Southwest School of Business and Technical Careers-San Antonio,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,0.0,20680.39885281111,0.12780163358356197,0.96560132404475
@@ -14825,7 +14825,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 228547,Tarrant County College District,TX,4901,Air Transportation.,Public,train,1.0,33516.50848559043,0.9993984724074274,0.9992492508488999
 228547,Tarrant County College District,TX,5009,Music.,Public,score_only,,,0.9900793473804655,
 228547,Tarrant County College District,TX,5100,"Health Services/Allied Health/Health Sciences, General.",Public,score_only,,,0.9900229809314599,
-228547,Tarrant County College District,TX,5106,Dental Support Services and Allied Professions.,Public,train,1.0,32721.02516319428,0.9987339997356789,0.9987587355368506
+228547,Tarrant County College District,TX,5106,Dental Support Services and Allied Professions.,Public,train,1.0,32721.025163194277,0.9987339997356789,0.9987587355368506
 228547,Tarrant County College District,TX,5107,Health and Medical Administrative Services.,Public,train,1.0,51278.3288817083,0.9996613604574689,0.999614229788137
 228547,Tarrant County College District,TX,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,38109.50347239545,0.9989601856714908,0.9994060078685874
 228547,Tarrant County College District,TX,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,train,1.0,68266.8831326904,0.9994747389327867,0.9996491626634182
@@ -15695,7 +15695,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 231697,Central Virginia Community College,VA,1907,"Human Development, Family Studies, and Related Services.",Public,score_only,,,0.5013995646560984,
 231697,Central Virginia Community College,VA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,0.0,18357.99500058837,0.1168955610779907,0.5177060837813506
 231697,Central Virginia Community College,VA,4101,Biology/Biotechnology Technologies/Technicians.,Public,score_only,,,0.9884965736865781,
-231697,Central Virginia Community College,VA,4301,Criminal Justice and Corrections.,Public,train,1.0,27528.61435551316,0.999328578108459,0.9993302099378052
+231697,Central Virginia Community College,VA,4301,Criminal Justice and Corrections.,Public,train,1.0,27528.614355513157,0.999328578108459,0.9993302099378052
 231697,Central Virginia Community College,VA,4303,Homeland Security.,Public,score_only,,,0.9939567609768244,
 231697,Central Virginia Community College,VA,4603,Electrical and Power Transmission Installers.,Public,score_only,,,0.9911483968196733,
 231697,Central Virginia Community College,VA,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Public,train,1.0,48718.42249095738,0.9957919334656214,0.9965403421256419
@@ -15934,7 +15934,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 232575,Laurel Ridge Community College,VA,1513,Drafting/Design Engineering Technologies/Technicians.,Public,score_only,,,0.9992825766341803,
 232575,Laurel Ridge Community College,VA,1616,American Sign Language.,Public,train,1.0,27035.78227496045,0.9872125338648148,0.9894667859750903
 232575,Laurel Ridge Community College,VA,1907,"Human Development, Family Studies, and Related Services.",Public,train,1.0,25708.09264995145,0.889494005390678,0.7791455049146492
-232575,Laurel Ridge Community College,VA,2203,Legal Support Services.,Public,train,1.0,30724.13756581692,0.9992299356169332,0.9995502963739316
+232575,Laurel Ridge Community College,VA,2203,Legal Support Services.,Public,train,1.0,30724.137565816916,0.9992299356169332,0.9995502963739316
 232575,Laurel Ridge Community College,VA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,train,0.0,15412.830487205383,0.137771618277753,0.5226026428414737
 232575,Laurel Ridge Community College,VA,3103,"Parks, Recreation, and Leisure Facilities Management.",Public,score_only,,,0.951321178302473,
 232575,Laurel Ridge Community College,VA,4301,Criminal Justice and Corrections.,Public,train,1.0,32773.33335675507,0.9996064300273385,0.9997478683173419
@@ -16010,7 +16010,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 232867,New River Community College,VA,4805,Precision Metal Working.,Public,train,1.0,42823.65797546644,0.9561549507770836,0.9102728949175988
 232867,New River Community College,VA,4901,Air Transportation.,Public,score_only,,,0.9975138148042004,
 232867,New River Community College,VA,5004,Design and Applied Arts.,Public,score_only,,,0.9735149462944759,
-232867,New River Community College,VA,5107,Health and Medical Administrative Services.,Public,train,1.0,26447.34077078052,0.9978869603921535,0.9959382012449945
+232867,New River Community College,VA,5107,Health and Medical Administrative Services.,Public,train,1.0,26447.340770780516,0.9978869603921535,0.9959382012449945
 232867,New River Community College,VA,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,train,1.0,24683.00192240181,0.9995905252146012,0.9992613569853367
 232867,New River Community College,VA,5115,Mental and Social Health Services and Allied Professions.,Public,train,1.0,35160.11912287184,0.9984179372456866,0.9969225510475467
 232867,New River Community College,VA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,43740.81847737503,0.9910292404550455,0.9675443035519748
@@ -16309,7 +16309,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 233772,Tidewater Community College,VA,1907,"Human Development, Family Studies, and Related Services.",Public,test,0.0,21575.202822436444,0.8690000360253758,
 233772,Tidewater Community College,VA,2203,Legal Support Services.,Public,test,1.0,35631.75942396078,0.9966722142413655,
 233772,Tidewater Community College,VA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Public,test,1.0,31233.72593710841,0.8512431619251194,
-233772,Tidewater Community College,VA,3103,"Parks, Recreation, and Leisure Facilities Management.",Public,test,1.0,30724.13756581692,0.9791116392728725,
+233772,Tidewater Community College,VA,3103,"Parks, Recreation, and Leisure Facilities Management.",Public,test,1.0,30724.137565816916,0.9791116392728725,
 233772,Tidewater Community College,VA,4301,Criminal Justice and Corrections.,Public,test,1.0,27515.800721418786,0.9984113930717361,
 233772,Tidewater Community College,VA,4302,Fire Protection.,Public,test,1.0,69129.55593912833,0.9982996964088588,
 233772,Tidewater Community College,VA,4304,Security Science and Technology.,Public,score_only,,,0.9985612547303028,
@@ -16359,7 +16359,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 233903,Virginia Highlands Community College,VA,5108,Allied Health and Medical Assisting Services.,Public,train,0.0,21994.110090906244,0.12244424641692155,0.9703752299457683
 233903,Virginia Highlands Community College,VA,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,train,1.0,61527.12826452226,0.9821071782035765,0.9969145550169705
 233903,Virginia Highlands Community College,VA,5115,Mental and Social Health Services and Allied Professions.,Public,train,1.0,37504.52133006106,0.9856111451630089,0.9976505447399355
-233903,Virginia Highlands Community College,VA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,27950.47861646628,0.7331588156139835,0.9354114039527764
+233903,Virginia Highlands Community College,VA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,27950.478616466276,0.7331588156139835,0.9354114039527764
 233903,Virginia Highlands Community College,VA,5202,"Business Administration, Management and Operations.",Public,score_only,,,0.9971065790945385,
 233903,Virginia Highlands Community College,VA,5203,Accounting and Related Services.,Public,score_only,,,0.9974344151120799,
 233903,Virginia Highlands Community College,VA,5204,Business Operations Support and Assistant Services.,Public,train,1.0,24613.01976696333,0.987277133452328,0.9958798780094583
@@ -18059,7 +18059,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 239488,Northeast Wisconsin Technical College,WI,5006,Film/Video and Photographic Arts.,Public,score_only,,,0.9570144487922441,
 239488,Northeast Wisconsin Technical College,WI,5106,Dental Support Services and Allied Professions.,Public,score_only,,,0.9163918617417762,
 239488,Northeast Wisconsin Technical College,WI,5107,Health and Medical Administrative Services.,Public,test,1.0,38642.176852154254,0.9934039310296816,
-239488,Northeast Wisconsin Technical College,WI,5108,Allied Health and Medical Assisting Services.,Public,test,1.0,31912.73687225224,0.9958944206243577,
+239488,Northeast Wisconsin Technical College,WI,5108,Allied Health and Medical Assisting Services.,Public,test,1.0,31912.736872252237,0.9958944206243577,
 239488,Northeast Wisconsin Technical College,WI,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,test,1.0,45435.81962065068,0.9977975574216622,
 239488,Northeast Wisconsin Technical College,WI,5115,Mental and Social Health Services and Allied Professions.,Public,score_only,,,0.9974125684420092,
 239488,Northeast Wisconsin Technical College,WI,5135,Somatic Bodywork and Related Therapeutic Services.,Public,score_only,,,0.38571801471824363,
@@ -18105,7 +18105,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 239910,Southwest Wisconsin Technical College,WI,5203,Accounting and Related Services.,Public,score_only,,,0.9944411338505038,
 240107,Viterbo University,WI,1310,Special Education and Teaching.,Private non-profit,score_only,,,0.919254775226785,
 240107,Viterbo University,WI,1312,"Teacher Education and Professional Development, Specific Levels and Methods.",Private non-profit,score_only,,,0.7835648119768458,
-240107,Viterbo University,WI,1313,"Teacher Education and Professional Development, Specific Subject Areas.",Private non-profit,score_only,,,0.6441764364102173,
+240107,Viterbo University,WI,1313,"Teacher Education and Professional Development, Specific Subject Areas.",Private non-profit,score_only,,,0.6441764364102174,
 240107,Viterbo University,WI,1601,"Linguistic, Comparative, and Related Language Studies and Services.",Private non-profit,score_only,,,0.9951743428960774,
 240116,Chippewa Valley Technical College,WI,0101,Agricultural Business and Management.,Public,score_only,,,0.9973258926963906,
 240116,Chippewa Valley Technical College,WI,0102,Agricultural Mechanization.,Public,score_only,,,0.9982895254787512,
@@ -18672,7 +18672,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 240657,Northwest College,WY,4301,Criminal Justice and Corrections.,Public,score_only,,,0.9993186141973923,
 240657,Northwest College,WY,4503,Archeology.,Public,score_only,,,0.9923825127138403,
 240657,Northwest College,WY,4805,Precision Metal Working.,Public,train,1.0,38680.51384775313,0.9960956455100773,0.9940738121569659
-240657,Northwest College,WY,5004,Design and Applied Arts.,Public,train,1.0,25368.48678851316,0.9603588606311618,0.9668160806534215
+240657,Northwest College,WY,5004,Design and Applied Arts.,Public,train,1.0,25368.486788513157,0.9603588606311618,0.9668160806534215
 240657,Northwest College,WY,5108,Allied Health and Medical Assisting Services.,Public,score_only,,,0.9930740947518699,
 240657,Northwest College,WY,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,42119.76387799818,0.9944527844609131,0.9979044598209714
 240666,Northern Wyoming Community College District,WY,0101,Agricultural Business and Management.,Public,score_only,,,0.9958339466246836,
@@ -18854,7 +18854,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 242130,ICPR Junior College-Arecibo,PR,1907,"Human Development, Family Studies, and Related Services.",Private for-profit,train,1.0,24609.66996511678,0.9297135845025601,0.9071744187164278
 242130,ICPR Junior College-Arecibo,PR,4399,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services, Other.",Private for-profit,score_only,,,0.8045639039860252,
 242130,ICPR Junior College-Arecibo,PR,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,22208.08472588991,0.04446177572211061,0.07492932967155819
-242130,ICPR Junior College-Arecibo,PR,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.4596128039669437,
+242130,ICPR Junior College-Arecibo,PR,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.45961280396694365,
 242130,ICPR Junior College-Arecibo,PR,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.18928607117169918,
 242130,ICPR Junior College-Arecibo,PR,5138,"Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",Private for-profit,score_only,,,0.6450361687298365,
 242149,ICPR Junior College-Mayaguez,PR,1108,Computer Software and Media Applications.,Private for-profit,score_only,,,0.8986117488959993,
@@ -19473,7 +19473,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 248624,Fayette County Career & Technical Institute Practical Nursing Program,PA,4805,Precision Metal Working.,Public,score_only,,,0.9645645763242157,
 248624,Fayette County Career & Technical Institute Practical Nursing Program,PA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,38475.37039490446,0.9921620287493099,0.9717157603308432
 248633,Franklin County Career and Technology Center,PA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,44573.00311754488,0.9973832163390134,0.9966806364030213
-248703,Ogle School Hair Skin Nails-Hurst,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,20500.49390523924,0.021808281048963724,0.012979130777797125
+248703,Ogle School Hair Skin Nails-Hurst,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,20500.493905239236,0.021808281048963724,0.012979130777797125
 248925,Tennessee College of Applied Technology Nashville,TN,1110,Computer/Information Technology Administration and Management.,Public,score_only,,,0.9972203403110316,
 248925,Tennessee College of Applied Technology Nashville,TN,1204,Cosmetology and Related Personal Grooming Services.,Public,train,0.0,22290.847337343268,0.09297902264164933,0.3158800545178279
 248925,Tennessee College of Applied Technology Nashville,TN,1506,Industrial Production Technologies/Technicians.,Public,score_only,,,0.9920045925680812,
@@ -19674,7 +19674,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 363165,Metro Technology Centers,OK,5208,Finance and Financial Management Services.,Public,score_only,,,0.9689563744482497,
 363633,Luna Community College,NM,1101,"Computer and Information Sciences, General.",Public,score_only,,,0.9982020981514608,
 363633,Luna Community College,NM,1107,Computer Science.,Public,score_only,,,0.9957835647439994,
-363633,Luna Community College,NM,1204,Cosmetology and Related Personal Grooming Services.,Public,score_only,,,0.3471176553172305,
+363633,Luna Community College,NM,1204,Cosmetology and Related Personal Grooming Services.,Public,score_only,,,0.34711765531723054,
 363633,Luna Community College,NM,1205,Culinary Arts and Related Services.,Public,score_only,,,0.9417840813176073,
 363633,Luna Community College,NM,1312,"Teacher Education and Professional Development, Specific Levels and Methods.",Public,score_only,,,0.9701757803579966,
 363633,Luna Community College,NM,1503,Electrical/Electronic Engineering Technologies/Technicians.,Public,score_only,,,0.9977306938073762,
@@ -20191,7 +20191,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 367459,NorthWest Arkansas Community College,AR,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,score_only,,,0.9987764069538287,
 367459,NorthWest Arkansas Community College,AR,5004,Design and Applied Arts.,Public,score_only,,,0.9334171275582143,
 367459,NorthWest Arkansas Community College,AR,5100,"Health Services/Allied Health/Health Sciences, General.",Public,test,1.0,58870.03575035954,0.969102437152773,
-367459,NorthWest Arkansas Community College,AR,5106,Dental Support Services and Allied Professions.,Public,test,1.0,32266.55687123644,0.9888302840633877,
+367459,NorthWest Arkansas Community College,AR,5106,Dental Support Services and Allied Professions.,Public,test,1.0,32266.556871236437,0.9888302840633877,
 367459,NorthWest Arkansas Community College,AR,5107,Health and Medical Administrative Services.,Public,score_only,,,0.9967442774663648,
 367459,NorthWest Arkansas Community College,AR,5108,Allied Health and Medical Assisting Services.,Public,score_only,,,0.9919822680662885,
 367459,NorthWest Arkansas Community College,AR,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,score_only,,,0.9993483773006345,
@@ -20335,7 +20335,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 371052,Fortis College,AL,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.5050805680986226,
 371690,Downey Adult School,CA,2203,Legal Support Services.,Public,score_only,,,0.9326932702748305,
 371690,Downey Adult School,CA,5106,Dental Support Services and Allied Professions.,Public,train,0.0,20740.85323190045,0.053327040482217064,0.3278236569370245
-371690,Downey Adult School,CA,5107,Health and Medical Administrative Services.,Public,train,1.0,24005.3317183258,0.9261764924076779,0.9280990028193828
+371690,Downey Adult School,CA,5107,Health and Medical Administrative Services.,Public,train,1.0,24005.331718325797,0.9261764924076779,0.9280990028193828
 371690,Downey Adult School,CA,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,24741.04751809955,0.903192730539845,0.8153686946679842
 371690,Downey Adult School,CA,5120,"Pharmacy, Pharmaceutical Sciences, and Administration.",Public,score_only,,,0.8003094337384512,
 371690,Downey Adult School,CA,5135,Somatic Bodywork and Related Therapeutic Services.,Public,train,0.0,16217.409203619907,0.028400990146606374,0.21247386048105102
@@ -20403,7 +20403,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 374574,Lincoln Technical Institute-Moorestown,NJ,1109,Computer Systems Networking and Telecommunications.,Private for-profit,train,1.0,34771.3311186878,0.982757593322149,0.9640354717618055
 374574,Lincoln Technical Institute-Moorestown,NJ,1110,Computer/Information Technology Administration and Management.,Private for-profit,score_only,,,0.9941995294689193,
 374574,Lincoln Technical Institute-Moorestown,NJ,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,28999.18654072982,0.9238360739800361,0.7543850479781361
-374574,Lincoln Technical Institute-Moorestown,NJ,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,19532.79407851088,0.03225209762230636,0.10965684509798669
+374574,Lincoln Technical Institute-Moorestown,NJ,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,19532.794078510877,0.03225209762230636,0.10965684509798669
 374574,Lincoln Technical Institute-Moorestown,NJ,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,51231.55084777,0.9963617966492684,0.9951451357607314
 374592,MCVSD,NJ,1204,Cosmetology and Related Personal Grooming Services.,Public,train,0.0,10861.390197198672,0.0045979867431246105,0.004903181197599585
 374592,MCVSD,NJ,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,58516.43436048655,0.9943284168702585,0.9909521935579453
@@ -20545,7 +20545,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 376242,Colegio Mayor de Tecnologia Inc,PR,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,score_only,,,0.82670163005209,
 376242,Colegio Mayor de Tecnologia Inc,PR,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,score_only,,,0.904146012942899,
 376288,Institucion Chaviano de Mayaguez,PR,0106,Applied Horticulture and Horticultural Business Services.,Private for-profit,score_only,,,0.7499496536166529,
-376288,Institucion Chaviano de Mayaguez,PR,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,27429.437812861,0.5233930263527048,0.021513765587731035
+376288,Institucion Chaviano de Mayaguez,PR,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,27429.437812860997,0.5233930263527048,0.021513765587731035
 376288,Institucion Chaviano de Mayaguez,PR,1909,Apparel and Textiles.,Private for-profit,train,1.0,31065.055605808247,0.930052410457804,0.5691593960761906
 376288,Institucion Chaviano de Mayaguez,PR,4803,Leatherworking and Upholstery.,Private for-profit,train,1.0,40840.10654077418,0.9698782614234,0.6574199388183898
 376288,Institucion Chaviano de Mayaguez,PR,5004,Design and Applied Arts.,Private for-profit,score_only,,,0.4161339410888275,
@@ -20758,7 +20758,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 383190,Hawaii Community College,HI,5203,Accounting and Related Services.,Public,score_only,,,0.9997253446280884,
 383190,Hawaii Community College,HI,5204,Business Operations Support and Assistant Services.,Public,train,1.0,37049.64383393017,0.9994326076275257,0.9984025373529684
 383190,Hawaii Community College,HI,5209,Hospitality Administration/Management.,Public,score_only,,,0.9990708880818533,
-383190,Hawaii Community College,HI,5214,Marketing.,Public,train,1.0,30296.74811716652,0.9998250261903506,0.9996146300643786
+383190,Hawaii Community College,HI,5214,Marketing.,Public,train,1.0,30296.748117166517,0.9998250261903506,0.9996146300643786
 383279,Robert Fiance Beauty Schools-North Plainfield,NJ,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21359.19556948028,0.01137447215724306,0.0015542732635173647
 383297,Long Island Beauty School-Hauppauge,NY,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,14063.950831183192,0.002021837764732344,0.003021582252676185
 383312,Buckeye Joint Vocational School,OH,1204,Cosmetology and Related Personal Grooming Services.,Public,score_only,,,0.008733318986087455,
@@ -20824,13 +20824,13 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 384236,UEI College-Ontario,CA,4603,Electrical and Power Transmission Installers.,Private for-profit,score_only,,,0.9310349158176093,
 384236,UEI College-Ontario,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,test,1.0,27865.54836651584,0.9707948743769422,
 384236,UEI College-Ontario,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,test,0.0,16584.01730316742,0.0007529498459573919,
-384236,UEI College-Ontario,CA,5107,Health and Medical Administrative Services.,Private for-profit,test,0.0,21412.4126142534,0.01776956577590816,
+384236,UEI College-Ontario,CA,5107,Health and Medical Administrative Services.,Private for-profit,test,0.0,21412.412614253397,0.01776956577590816,
 384236,UEI College-Ontario,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,0.0,20575.87958710407,0.008263221115350609,
 384236,UEI College-Ontario,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,test,0.0,20908.326477375565,0.002527555858889955,
 384245,UEI College-Reseda,CA,4301,Criminal Justice and Corrections.,Private for-profit,test,1.0,24715.218311085973,0.9009839757953083,
 384245,UEI College-Reseda,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,test,1.0,27865.54836651584,0.9694934914938442,
 384245,UEI College-Reseda,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,test,0.0,16584.01730316742,0.0006983055815559788,
-384245,UEI College-Reseda,CA,5107,Health and Medical Administrative Services.,Private for-profit,test,0.0,21412.4126142534,0.015328889614307522,
+384245,UEI College-Reseda,CA,5107,Health and Medical Administrative Services.,Private for-profit,test,0.0,21412.412614253397,0.015328889614307522,
 384245,UEI College-Reseda,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,0.0,20575.87958710407,0.00718551586464126,
 384245,UEI College-Reseda,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,test,0.0,20908.326477375565,0.003008246687581109,
 384333,Estrella Mountain Community College,AZ,0301,Natural Resources Conservation and Research.,Public,score_only,,,0.9966310310083816,
@@ -21079,7 +21079,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 404684,Emma's Beauty Academy-Juana Diaz,PR,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,22208.08472588991,0.007743969175675089,0.015877918439637113
 404718,Brillare Beauty Institute,TN,1204,Cosmetology and Related Personal Grooming Services.,Private non-profit,train,0.0,22306.86855009172,0.0034672259370659682,0.014795297774285194
 404912,Pima Medical Institute-Denver,CO,0183,Veterinary/Animal Health Technologies/Technicians.,Private for-profit,train,1.0,25752.188164551004,0.9582640929038329,0.9168792727254864
-404912,Pima Medical Institute-Denver,CO,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,27422.59494033884,0.9806798114411479,0.9705437171778285
+404912,Pima Medical Institute-Denver,CO,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,27422.594940338837,0.9806798114411479,0.9705437171778285
 404912,Pima Medical Institute-Denver,CO,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,28344.68358746645,0.9855461322425728,0.9921223020444498
 404912,Pima Medical Institute-Denver,CO,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,32057.14506871228,0.9969617581258038,0.9977818384231972
 404912,Pima Medical Institute-Denver,CO,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Private for-profit,train,1.0,31209.386007518693,0.9890353653369716,0.9914134981457899
@@ -21296,11 +21296,11 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 413893,United Education Institute-Morrow,GA,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,test,1.0,35526.48466279736,0.9785724065853565,
 413893,United Education Institute-Morrow,GA,5106,Dental Support Services and Allied Professions.,Private for-profit,test,0.0,23081.31449041385,0.17690368572061477,
 413893,United Education Institute-Morrow,GA,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,1.0,28637.111200802352,0.8646755116770908,
-413893,United Education Institute-Morrow,GA,5204,Business Operations Support and Assistant Services.,Private for-profit,test,1.0,29099.80435201192,0.08798194028617813,
+413893,United Education Institute-Morrow,GA,5204,Business Operations Support and Assistant Services.,Private for-profit,test,1.0,29099.804352011917,0.08798194028617813,
 414063,Artistic Academy of Hair Design,NJ,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,16270.891879837818,0.030340431528190874,0.015484391981159813
 414124,Motoring Technical Training Institute,MA,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Private for-profit,score_only,,,0.06489764190685009,
 414124,Motoring Technical Training Institute,MA,4603,Electrical and Power Transmission Installers.,Private for-profit,test,1.0,39343.35787009081,0.9556070925344334,
-414124,Motoring Technical Training Institute,MA,4604,"Building/Construction Finishing, Management, and Inspection.",Private for-profit,test,1.0,24610.91402377752,0.9737340157453833,
+414124,Motoring Technical Training Institute,MA,4604,"Building/Construction Finishing, Management, and Inspection.",Private for-profit,test,1.0,24610.914023777517,0.9737340157453833,
 414124,Motoring Technical Training Institute,MA,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Private for-profit,test,1.0,28297.67253273051,0.882826974014565,
 414124,Motoring Technical Training Institute,MA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,test,1.0,46762.46923018025,0.991942185864978,
 414124,Motoring Technical Training Institute,MA,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,test,1.0,31075.27985854571,0.9645199001197111,
@@ -21349,7 +21349,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 415057,Industrial Management Training Institute,CT,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,38019.13169276455,0.9971492556512415,0.9940674939385906
 415987,Allen School-Jamaica,NY,5107,Health and Medical Administrative Services.,Private for-profit,score_only,,,0.7234766851599919,
 415987,Allen School-Jamaica,NY,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,28132.611310357537,0.8569096798017017,0.562006056151098
-416458,Premiere Career College,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.11403329989010727,
+416458,Premiere Career College,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.1140332998901073,
 416458,Premiere Career College,CA,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,test,1.0,31080.034839366515,0.8730951569061443,
 416458,Premiere Career College,CA,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Private for-profit,test,1.0,32877.247727375565,0.7307257512337688,
 416458,Premiere Career College,CA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,test,1.0,36539.162721719455,0.9846046644060166,
@@ -22160,7 +22160,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 433068,Okaloosa Technical College,FL,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,test,1.0,41841.968710532965,0.9958353899563979,
 433101,Lincoln Technical Institute-Lincoln,RI,1110,Computer/Information Technology Administration and Management.,Private for-profit,score_only,,,0.9944574041464092,
 433101,Lincoln Technical Institute-Lincoln,RI,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,27867.261942518835,0.7999160333753843,0.527762523233136
-433101,Lincoln Technical Institute-Lincoln,RI,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,27254.4739835734,0.9311549858526543,0.7139199078192325
+433101,Lincoln Technical Institute-Lincoln,RI,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,27254.473983573396,0.9311549858526543,0.7139199078192325
 433101,Lincoln Technical Institute-Lincoln,RI,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,28074.26025603165,0.968628509617108,0.9477148288271419
 433101,Lincoln Technical Institute-Lincoln,RI,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,18909.797477160115,0.019968930836160387,0.05957679623783928
 433101,Lincoln Technical Institute-Lincoln,RI,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,49597.525427146575,0.9957101321871106,0.990409863533063
@@ -22214,7 +22214,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 434061,South Louisiana Community College,LA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,47190.63129474486,0.9954366883956034,0.9854005864129946
 434061,South Louisiana Community College,LA,5204,Business Operations Support and Assistant Services.,Public,train,1.0,30313.748735719728,0.9991449846873685,0.9976933000171878
 434140,Pima Medical Institute-Chula Vista,CA,0183,Veterinary/Animal Health Technologies/Technicians.,Private for-profit,train,0.0,21361.58740045249,0.05623046372373705,0.30160060532125443
-434140,Pima Medical Institute-Chula Vista,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,22747.19937669684,0.012787526865315956,0.026043555996790976
+434140,Pima Medical Institute-Chula Vista,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,22747.199376696837,0.012787526865315956,0.026043555996790976
 434140,Pima Medical Institute-Chula Vista,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,23512.07718438914,0.7850763049449494,0.7492021529336181
 434140,Pima Medical Institute-Chula Vista,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,26591.58522058824,0.7060453761523926,0.7053965270064926
 434159,Lincoln College of Technology-Marietta,GA,1505,Environmental Control Technologies/Technicians.,Private for-profit,train,1.0,39682.60559997799,0.9989226708585112,0.9989283679334864
@@ -22315,7 +22315,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 436304,River Parishes Community College,LA,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,32480.94730388424,0.9955871984981233,0.9995942489507035
 436304,River Parishes Community College,LA,5126,Health Aides/Attendants/Orderlies.,Public,score_only,,,0.945523698459605,
 436304,River Parishes Community College,LA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,51686.04047220106,0.9965408740252225,0.9987859044441247
-436304,River Parishes Community College,LA,5204,Business Operations Support and Assistant Services.,Public,train,1.0,31784.01197258188,0.9988628994395562,0.9987215580981121
+436304,River Parishes Community College,LA,5204,Business Operations Support and Assistant Services.,Public,train,1.0,31784.011972581877,0.9988628994395562,0.9987215580981121
 436553,Century College,PR,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,22208.08472588991,0.008565988882835758,0.011223525143847045
 436599,FINE Mortuary College,MA,1203,Funeral Service and Mortuary Science.,Private for-profit,score_only,,,0.45016189515776406,
 436614,International Baptist College and Seminary,AZ,3902,Bible/Biblical Studies.,Private non-profit,score_only,,,0.838779559788364,
@@ -22549,11 +22549,11 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 440402,Arkansas State University-Newport,AR,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,44761.60439831921,0.9982825146737284,0.9949423400507516
 440402,Arkansas State University-Newport,AR,5204,Business Operations Support and Assistant Services.,Public,score_only,,,0.9775567964216129,
 440651,Atenas University,PR,5108,Allied Health and Medical Assisting Services.,Private non-profit,score_only,,,0.8082759470253164,
-440651,Atenas University,PR,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private non-profit,train,1.0,25667.894429849643,0.659589972199984,0.29834894242445426
+440651,Atenas University,PR,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private non-profit,train,1.0,25667.894429849643,0.659589972199984,0.2983489424244542
 440730,Onondaga Cortland Madison BOCES,NY,1204,Cosmetology and Related Personal Grooming Services.,Public,score_only,,,0.007944196344371332,
 440730,Onondaga Cortland Madison BOCES,NY,1513,Drafting/Design Engineering Technologies/Technicians.,Public,score_only,,,0.9967420790650159,
 440730,Onondaga Cortland Madison BOCES,NY,4600,"Construction Trades, General.",Public,train,0.0,22727.819275709546,0.0613922553396833,0.9755698989612925
-440730,Onondaga Cortland Madison BOCES,NY,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Public,train,1.0,28395.40966826392,0.897315693228017,0.8217699406226552
+440730,Onondaga Cortland Madison BOCES,NY,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Public,train,1.0,28395.409668263917,0.897315693228017,0.8217699406226552
 440730,Onondaga Cortland Madison BOCES,NY,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Public,train,1.0,39697.62291743457,0.9948864804458493,0.9910586920289757
 440730,Onondaga Cortland Madison BOCES,NY,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Public,score_only,,,0.99583877428428,
 440730,Onondaga Cortland Madison BOCES,NY,4800,"Precision Production Trades, General.",Public,score_only,,,0.6023909844901377,
@@ -22594,7 +22594,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 441229,Smith Chason College,CA,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,train,1.0,49552.08385520362,0.9852236947037268,0.9869150686618685
 441229,Smith Chason College,CA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,46232.61415384615,0.9982442561964046,0.9980755502854286
 441256,Design's School of Cosmetology,CA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,13775.29934049774,0.002205514223610387,0.0015298428173961668
-441371,Ultimate Medical Academy,FL,5106,Dental Support Services and Allied Professions.,Private non-profit,train,0.0,20492.79352740592,0.017386509345521908,0.08259604466589245
+441371,Ultimate Medical Academy,FL,5106,Dental Support Services and Allied Professions.,Private non-profit,train,0.0,20492.793527405916,0.017386509345521908,0.08259604466589245
 441371,Ultimate Medical Academy,FL,5107,Health and Medical Administrative Services.,Private non-profit,train,0.0,21803.45649153827,0.09218472390482926,0.7746500842577593
 441371,Ultimate Medical Academy,FL,5108,Allied Health and Medical Assisting Services.,Private non-profit,score_only,,,0.22351141673423267,
 441371,Ultimate Medical Academy,FL,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Private non-profit,score_only,,,0.253774765379689,
@@ -22706,7 +22706,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 442073,Lincoln Technical Institute-Paramus,NJ,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,28999.18654072982,0.9160349546751677,0.7958457206779997
 442073,Lincoln Technical Institute-Paramus,NJ,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,51231.55084777,0.9953519216722785,0.9933775133851697
 442134,Pima Medical Institute-Colorado Springs,CO,0183,Veterinary/Animal Health Technologies/Technicians.,Private for-profit,train,1.0,25752.188164551004,0.9706967962338208,0.9377612198891778
-442134,Pima Medical Institute-Colorado Springs,CO,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,27422.59494033884,0.9955030142350441,0.9958793602449294
+442134,Pima Medical Institute-Colorado Springs,CO,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,27422.594940338837,0.9955030142350441,0.9958793602449294
 442134,Pima Medical Institute-Colorado Springs,CO,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,28344.68358746645,0.9905303129017939,0.9926094250984915
 442134,Pima Medical Institute-Colorado Springs,CO,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,32057.14506871228,0.9991481276081743,0.9981500940005644
 442240,Paul Mitchell the School-Costa Mesa,CA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,13717.808524886876,0.004691263507350309,0.005690072595843493
@@ -22741,7 +22741,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 442569,University of Arkansas Grantham,AR,5210,Human Resources Management and Services.,Public,score_only,,,0.9792465329257719,
 442602,Carrington College-Albuquerque,NM,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,26433.82947134425,0.734130562528273,0.18010454817454266
 442602,Carrington College-Albuquerque,NM,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,29019.823511754024,0.9860079650706088,0.9588484819411897
-442602,Carrington College-Albuquerque,NM,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,29498.89612441196,0.9819852139258013,0.9455337707496196
+442602,Carrington College-Albuquerque,NM,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,29498.896124411956,0.9819852139258013,0.9455337707496196
 442602,Carrington College-Albuquerque,NM,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,17035.023651761512,0.10379391662464824,0.45852252294227713
 442602,Carrington College-Albuquerque,NM,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,score_only,,,0.9852777366555527,
 442611,Universal Technical Institute-Mooresville,NC,1504,Electromechanical Technologies/Technicians.,Private for-profit,score_only,,,0.9963260431118794,
@@ -22778,7 +22778,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 442888,InterCoast Colleges-Riverside,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,31775.757028280543,0.9942736190030634,0.9870085642148848
 442888,InterCoast Colleges-Riverside,CA,5115,Mental and Social Health Services and Allied Professions.,Private for-profit,train,1.0,31659.108996606337,0.9522696749898701,0.9074722480490068
 442976,Brighton Center's Center for Employment Training,KY,5107,Health and Medical Administrative Services.,Private non-profit,score_only,,,0.5215841920244482,
-442976,Brighton Center's Center for Employment Training,KY,5108,Allied Health and Medical Assisting Services.,Private non-profit,test,1.0,31554.84311052924,0.5587456050929881,
+442976,Brighton Center's Center for Employment Training,KY,5108,Allied Health and Medical Assisting Services.,Private non-profit,test,1.0,31554.843110529237,0.5587456050929881,
 442976,Brighton Center's Center for Employment Training,KY,5204,Business Operations Support and Assistant Services.,Private non-profit,score_only,,,0.36287421132703535,
 442976,Brighton Center's Center for Employment Training,KY,5210,Human Resources Management and Services.,Private non-profit,score_only,,,0.8606982099983425,
 442985,California Healing Arts College,CA,0181,Veterinary Biomedical and Clinical Sciences.,Private for-profit,score_only,,,0.005986339402579907,
@@ -22932,7 +22932,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 444228,LeGrand Institute of Cosmetology Inc,SC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,14221.176328719474,0.0048751480000218846,0.005011698593820818
 444282,Empire Beauty School-Midlothian,VA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,15454.228381971812,0.0007528498866443348,
 444291,Empire Beauty School-Owings Mills,MD,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15807.067091490964,0.000814264676174763,0.0010093977897739927
-444307,Empire Beauty School-West Mifflin,PA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,14960.873357266935,0.0008169756062151189,0.0007745680529123944
+444307,Empire Beauty School-West Mifflin,PA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,14960.873357266935,0.000816975606215119,0.0007745680529123944
 444325,ATI College-Whittier,CA,5107,Health and Medical Administrative Services.,Private for-profit,score_only,,,0.41978469709291,
 444325,ATI College-Whittier,CA,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,train,1.0,25613.408154977376,0.9780427493199746,0.9788416818227913
 444334,Advance Science International College,FL,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.8240302375051783,
@@ -23187,7 +23187,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 447050,United States University,CA,1312,"Teacher Education and Professional Development, Specific Levels and Methods.",Private for-profit,score_only,,,0.6567313229453479,
 447050,United States University,CA,2401,"Liberal Arts and Sciences, General Studies and Humanities.",Private for-profit,score_only,,,0.409952302536082,
 447050,United States University,CA,5138,"Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",Private for-profit,score_only,,,0.9905747269259702,
-447148,Empire Beauty School-Avondale,AZ,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,19321.6219150596,0.0022094066462183828,0.0042798042241126485
+447148,Empire Beauty School-Avondale,AZ,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,19321.621915059597,0.0022094066462183828,0.0042798042241126485
 447166,Empire Beauty School-Littleton,CO,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15390.242103801018,0.0027932731321136505,0.0033346156859757484
 447175,Empire Beauty School-Aurora,CO,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15390.242103801018,0.0007318684427536147,0.0032525359174973762
 447263,Joyce University of Nursing and Health Sciences,UT,5106,Dental Support Services and Allied Professions.,Private for-profit,score_only,,,0.41508867750117506,
@@ -23236,7 +23236,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 447607,UEI College-Chula Vista,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,27865.54836651584,0.9822664948466118,0.9578308876766167
 447607,UEI College-Chula Vista,CA,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,train,1.0,25525.92213122172,0.826168485343512,0.549826846475162
 447607,UEI College-Chula Vista,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,16584.01730316742,0.001302356912107665,0.0015689807475350983
-447607,UEI College-Chula Vista,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.4126142534,0.01677024214299675,0.014946355261861097
+447607,UEI College-Chula Vista,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.412614253397,0.01677024214299675,0.014946355261861097
 447607,UEI College-Chula Vista,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,0.0,20575.87958710407,0.016006397997190287,0.01832555671992083
 447607,UEI College-Chula Vista,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,train,0.0,20908.326477375565,0.003805625755776786,0.004605917914613896
 447616,UEI College-West Covina,CA,4301,Criminal Justice and Corrections.,Private for-profit,train,1.0,24715.218311085973,0.9234112075415043,0.9759429859813696
@@ -23244,7 +23244,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 447616,UEI College-West Covina,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,27865.54836651584,0.9856664589117752,0.9948937925914157
 447616,UEI College-West Covina,CA,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,train,1.0,25525.92213122172,0.8592574637101124,0.767466017422887
 447616,UEI College-West Covina,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,16584.01730316742,0.0011706014848544344,0.0016202470877296905
-447616,UEI College-West Covina,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.4126142534,0.03025825869319268,0.028290375838413415
+447616,UEI College-West Covina,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.412614253397,0.03025825869319268,0.028290375838413415
 447616,UEI College-West Covina,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,0.0,20575.87958710407,0.012967409814310283,0.013041969727911003
 447616,UEI College-West Covina,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,train,0.0,20908.326477375565,0.00428833281580677,0.0024040570588033062
 447689,Georgia Gwinnett College,GA,1110,Computer/Information Technology Administration and Management.,Public,score_only,,,0.9995732928875168,
@@ -23254,7 +23254,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 447722,Palladium Technical Academy Inc,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,score_only,,,0.015909926074406524,
 447722,Palladium Technical Academy Inc,CA,5107,Health and Medical Administrative Services.,Private for-profit,score_only,,,0.028592167434264817,
 447722,Palladium Technical Academy Inc,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.018925866906487804,
-447731,Los Angeles College of Aesthetics,CA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,14586.836360859728,0.0052342828389496604,0.02101254237508087
+447731,Los Angeles College of Aesthetics,CA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,14586.836360859728,0.005234282838949661,0.02101254237508087
 447731,Los Angeles College of Aesthetics,CA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.016464306817052285,
 447759,National Polytechnic College,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,score_only,,,0.9921685846213354,
 447759,National Polytechnic College,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.04531116453038803,
@@ -23290,7 +23290,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 447892,North Florida Cosmetology Institute,FL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15716.700852488002,0.0014419262077157082,0.0008008989596233396
 447908,Florida Academy of Health & Beauty,FL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,15370.874090679465,0.0006917781836451967,
 447917,Augusta School of Massage,GA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,19453.98572604415,0.039765148873490114,0.10024742094725762
-447935,ATA College,KY,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,31695.67882866432,0.9793624273660347,0.9356130746927416
+447935,ATA College,KY,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,31695.678828664317,0.9793624273660347,0.9356130746927416
 447935,ATA College,KY,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,32214.259961332253,0.974898586710193,0.9294702492702565
 447935,ATA College,KY,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,31966.432767404625,0.9875868231034928,0.9639776265260143
 447935,ATA College,KY,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,train,1.0,31570.127607071023,0.9933883912554068,0.9856711627782395
@@ -23336,7 +23336,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 448248,Mountainland Technical College,UT,5108,Allied Health and Medical Assisting Services.,Public,test,1.0,29590.72847950876,0.9565359110247746,
 448248,Mountainland Technical College,UT,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,test,1.0,43762.42900997494,0.9984103371283835,
 448248,Mountainland Technical College,UT,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,test,1.0,27376.06607926165,0.9322412316825868,
-448248,Mountainland Technical College,UT,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,test,1.0,31133.11737239376,0.9570838758224495,
+448248,Mountainland Technical College,UT,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,test,1.0,31133.117372393757,0.9570838758224495,
 448248,Mountainland Technical College,UT,5214,Marketing.,Public,score_only,,,0.9644748465693909,
 448257,Avi Career Training,VA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15383.260562372225,0.0018479515176715582,0.0018378432494851233
 448257,Avi Career Training,VA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.024075079505281483,
@@ -23567,7 +23567,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 450571,Rasmussen University-Wisconsin,WI,5212,Management Information Systems and Services.,Private for-profit,score_only,,,0.8950705025998938,
 450599,Empire Beauty School-Richmond,VA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,15454.228381971812,0.0007464738332838143,
 450605,Empire Beauty School-North Hills,PA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,14626.66917429068,0.0009070224622687072,0.0006755460764434993
-450614,Empire Beauty School-Concord,NC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,18956.4686261692,0.0005524211248151529,0.0004992669090778578
+450614,Empire Beauty School-Concord,NC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,18956.468626169197,0.0005524211248151529,0.0004992669090778578
 450632,Lexington Healing Arts Academy,KY,2609,"Physiology, Pathology and Related Sciences.",Private for-profit,score_only,,,0.9728842846839879,
 450632,Lexington Healing Arts Academy,KY,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Private for-profit,score_only,,,0.9082563655157236,
 450632,Lexington Healing Arts Academy,KY,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,1.0,23763.025123474355,0.8310289824881899,0.3833931297306784
@@ -23701,8 +23701,8 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 451866,Remington College-Shreveport Campus,LA,5108,Allied Health and Medical Assisting Services.,Private non-profit,train,1.0,28249.97396039604,0.9682310019571566,0.9757448924289397
 451918,TC Beauty,TN,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15591.844246791425,0.04811377364366583,0.20897376336847587
 452009,The Hair Academy,ND,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,25343.74892548592,0.4599084977881776,0.006503306715459627
-452072,Ross Medical Education Center-New Baltimore,MI,0183,Veterinary/Animal Health Technologies/Technicians.,Private for-profit,train,0.0,22414.905763036542,0.030783470825436796,0.21061433589484946
-452072,Ross Medical Education Center-New Baltimore,MI,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,23294.8585427916,0.16191150606545843,0.8742449433586172
+452072,Ross Medical Education Center-New Baltimore,MI,0183,Veterinary/Animal Health Technologies/Technicians.,Private for-profit,train,0.0,22414.905763036542,0.03078347082543679,0.21061433589484946
+452072,Ross Medical Education Center-New Baltimore,MI,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,23294.858542791597,0.16191150606545843,0.8742449433586172
 452072,Ross Medical Education Center-New Baltimore,MI,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,26479.21255007261,0.9916556341792601,0.9916851545290516
 452072,Ross Medical Education Center-New Baltimore,MI,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,25670.93013246955,0.9865429308992605,0.991482529836557
 452081,Ross College-Sylvania,OH,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,23471.662027466973,0.10421838819125959,0.7560526662627044
@@ -23885,7 +23885,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 455868,National Career College,CA,5107,Health and Medical Administrative Services.,Private for-profit,score_only,,,0.2687370020605372,
 455868,National Career College,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,0.0,20723.35602714932,0.051464832622132146,0.34680030986281923
 455868,National Career College,CA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,score_only,,,0.9925648227279814,
-455877,The Aveda Institute of Beauty and Wellness Chicago,IL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21411.16896387925,0.030322536378405582,0.04482619210569861
+455877,The Aveda Institute of Beauty and Wellness Chicago,IL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21411.16896387925,0.030322536378405575,0.04482619210569861
 455886,Tricoci University of Beauty Culture-Libertyville,IL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,19043.113410270485,0.005068002174659214,
 455895,Tricoci University of Beauty Culture-Bridgeview,IL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,17188.519740453914,0.003957250005303326,
 455901,The Temple-A Paul Mitchell Partner School,MD,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,20054.93374246988,0.005005547829998501,
@@ -23910,7 +23910,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 456038,Pima Medical Institute-East Valley,AZ,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,29889.99658237182,0.9974901490895608,0.9972728742734125
 456065,Paul Mitchell the School-Cleveland,OH,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,19377.32318651091,0.0007037850002567405,0.001173296359229035
 456074,Paul Mitchell the School-Columbus,OH,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,23306.08574985951,0.0033986453016448806,0.003907561038859301
-456135,Empire Beauty School-Spring Lake Park,MN,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,18439.3644568146,0.0006906522216975134,
+456135,Empire Beauty School-Spring Lake Park,MN,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,18439.364456814597,0.0006906522216975134,
 456205,Miller-Motte College-Raleigh,NC,0183,Veterinary/Animal Health Technologies/Technicians.,Private for-profit,train,1.0,33303.57428130768,0.8254574620323728,0.48377439888621226
 456205,Miller-Motte College-Raleigh,NC,1442,"Mechatronics, Robotics, and Automation Engineering.",Private for-profit,score_only,,,0.9749034608912112,
 456205,Miller-Motte College-Raleigh,NC,1505,Environmental Control Technologies/Technicians.,Private for-profit,train,1.0,33328.289364262266,0.9891012529304269,0.9853159480739725
@@ -23953,13 +23953,13 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 456922,South Texas Vocational Technical Institute-Brownsville,TX,4902,Ground Transportation.,Private for-profit,train,1.0,50838.32039547828,0.9943111878163392,0.9920931471522948
 456922,South Texas Vocational Technical Institute-Brownsville,TX,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,20736.754619520376,0.018662859079598432,0.029914101343670344
 456922,South Texas Vocational Technical Institute-Brownsville,TX,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,24391.209337667275,0.9119423029231122,0.7807457402621082
-456922,South Texas Vocational Technical Institute-Brownsville,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.61593988772,0.9080820074004119,0.7082429601736359
+456922,South Texas Vocational Technical Institute-Brownsville,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.615939887717,0.9080820074004119,0.7082429601736359
 456931,Miller-Motte College-STVT-Corpus Christi,TX,1505,Environmental Control Technologies/Technicians.,Private for-profit,train,1.0,35074.96218805046,0.9966435507315093,0.994964196499827
 456931,Miller-Motte College-STVT-Corpus Christi,TX,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,train,1.0,38091.0794717405,0.9830979582827117,0.9874461391915534
 456931,Miller-Motte College-STVT-Corpus Christi,TX,4805,Precision Metal Working.,Private for-profit,train,1.0,32626.737630430696,0.9959716864470531,0.9966129270619111
 456931,Miller-Motte College-STVT-Corpus Christi,TX,4902,Ground Transportation.,Private for-profit,train,1.0,50838.32039547828,0.9943042873468307,0.991390664363794
 456931,Miller-Motte College-STVT-Corpus Christi,TX,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,20736.754619520376,0.0611362234810548,0.2836448717072794
-456931,Miller-Motte College-STVT-Corpus Christi,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.61593988772,0.9148024134519313,0.9413084928041883
+456931,Miller-Motte College-STVT-Corpus Christi,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.615939887717,0.9148024134519313,0.9413084928041883
 456977,College of Business and Technology,FL,1505,Environmental Control Technologies/Technicians.,Private for-profit,train,1.0,34998.07755746401,0.9933563616413307,0.9933066627907283
 456977,College of Business and Technology,FL,4603,Electrical and Power Transmission Installers.,Private for-profit,score_only,,,0.9882177826860191,
 456977,College of Business and Technology,FL,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,25758.97797423592,0.9672959375989629,0.9605217659494767
@@ -24049,7 +24049,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 457563,Aveda Fredric's Institute-Indianapolis,IN,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,1.0,26830.19359023105,0.05577340354783243,
 457572,Summit Salon Academy,IN,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,23921.283712431537,0.3109881290870714,0.004888573123560814
 457581,Eric Fisher Academy,KS,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,19672.83602438685,0.03443630369414234,0.09022639408688503
-457606,My Le's Beauty College,LA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21131.36130997716,0.001123530041196366,0.0012904421708976126
+457606,My Le's Beauty College,LA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21131.361309977157,0.001123530041196366,0.0012904421708976126
 457615,Blackstone Valley Vocational Regional School District,MA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,score_only,,,0.9953554555797881,
 457633,L'esprit Academy,MI,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,16629.51486265603,0.0059686071419897384,0.010230953054975187
 457642,Marketti Academy of Cosmetology,MI,0104,Agricultural and Food Products Processing.,Private for-profit,score_only,,,0.4330006281369481,
@@ -24153,7 +24153,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 459019,Empire Beauty School-Charlotte,NC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15778.520876258386,0.0017657799425044108,0.0015875308517951663
 459046,Empire Beauty School-Winston-Salem,NC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,16735.200545625572,0.000857739573424937,0.0005386928632953107
 459055,Empire Beauty School-West Palm,FL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,16809.43156731498,0.0008985268769280327,0.0009682610323592179
-459064,Empire Beauty School-Pineville,NC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,18956.4686261692,0.0006100626021379435,0.0009340959966324609
+459064,Empire Beauty School-Pineville,NC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,18956.468626169197,0.0006100626021379435,0.0009340959966324609
 459116,Paul Mitchell the School-Phoenix,AZ,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21913.18019542061,0.020791244767685416,0.04588668641487525
 459170,Paul Mitchell the School-Modesto,CA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,16713.99653846154,0.002032942291251548,0.0017338007948614054
 459198,Paul Mitchell the School-Fresno,CA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,8966.900834841628,0.0011989680424476547,0.0011562703061529847
@@ -24220,7 +24220,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 459851,Herzing University-Brookfield,WI,5203,Accounting and Related Services.,Private non-profit,train,1.0,31232.18731315162,0.9919799978380098,0.9932234703250887
 459851,Herzing University-Brookfield,WI,5204,Business Operations Support and Assistant Services.,Private non-profit,score_only,,,0.7369919822288349,
 459958,Fortis Institute,TX,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,test,1.0,32632.15645415274,0.9993547520292912,
-459958,Fortis Institute,TX,5106,Dental Support Services and Allied Professions.,Private for-profit,test,0.0,21496.47370535104,0.8189357522342016,
+459958,Fortis Institute,TX,5106,Dental Support Services and Allied Professions.,Private for-profit,test,0.0,21496.473705351036,0.8189357522342016,
 459958,Fortis Institute,TX,5107,Health and Medical Administrative Services.,Private for-profit,test,1.0,25887.888449696,0.9828408868975455,
 459958,Fortis Institute,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,1.0,25381.77031405703,0.9694369572233604,
 459958,Fortis Institute,TX,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,test,1.0,39802.344003162194,0.9862571275820012,
@@ -24275,7 +24275,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 460181,Concorde Career College-Dallas,TX,5107,Health and Medical Administrative Services.,Private for-profit,test,1.0,32010.07549086202,0.9927065357256388,
 460181,Concorde Career College-Dallas,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,test,1.0,33495.91695544666,0.9907769533793432,
 460181,Concorde Career College-Dallas,TX,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,test,1.0,62141.98667966337,0.996851244671345,
-460190,Concorde Career Institute-Orlando,FL,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,25995.32703334176,0.9064788776813562,0.7996451394248375
+460190,Concorde Career Institute-Orlando,FL,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,25995.327033341757,0.9064788776813562,0.7996451394248375
 460190,Concorde Career Institute-Orlando,FL,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,29875.13496463753,0.9919434365776595,0.9955702855549601
 460190,Concorde Career Institute-Orlando,FL,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,28732.26960090932,0.9852282379038666,0.9845166073130249
 460190,Concorde Career Institute-Orlando,FL,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,train,1.0,42884.56477645871,0.9952061226448696,0.9913135596291942
@@ -24542,7 +24542,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 461908,The Salon Professional Academy-Kenosha,WI,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21412.123863836205,0.003583713954306366,0.0021339447390463307
 461917,Paul Mitchell the School-Indianapolis,IN,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,26522.413591701465,0.21441532298291477,0.0016401779585349689
 461926,Taylor Andrews Academy-St George,UT,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,17746.465080821134,0.06022984971266097,0.1831204226510766
-461944,Protege Academy,MI,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,13200.287118022365,0.008632815570272056,
+461944,Protege Academy,MI,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,13200.287118022365,0.008632815570272054,
 461962,Northeast Technical Institute,ME,1109,Computer Systems Networking and Telecommunications.,Private for-profit,score_only,,,0.8928422843485521,
 461962,Northeast Technical Institute,ME,1110,Computer/Information Technology Administration and Management.,Private for-profit,score_only,,,0.9809524165722491,
 461962,Northeast Technical Institute,ME,1512,Computer Engineering Technologies/Technicians.,Private for-profit,score_only,,,0.6407435310463021,
@@ -24578,7 +24578,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 468848,UEI College-Oceanside,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,27865.54836651584,0.9896856427845829,0.9685867263674454
 468848,UEI College-Oceanside,CA,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,train,1.0,25525.92213122172,0.793290949172976,0.432680444130055
 468848,UEI College-Oceanside,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,16584.01730316742,0.0007266112350348085,0.0007180206467888564
-468848,UEI College-Oceanside,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.4126142534,0.0443469451092615,0.05112049509639102
+468848,UEI College-Oceanside,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.412614253397,0.0443469451092615,0.05112049509639102
 468848,UEI College-Oceanside,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,0.0,20575.87958710407,0.01032506358149831,0.009817163353157033
 468848,UEI College-Oceanside,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,train,0.0,20908.326477375565,0.002432487157321613,0.0025770987853618163
 468893,Paul Mitchell the School-New Orleans,LA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,19628.190502665653,0.0037849064731229265,
@@ -24586,7 +24586,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 468909,UEI College-Garden Grove,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,27865.54836651584,0.9843430047292451,0.9577200502576845
 468909,UEI College-Garden Grove,CA,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,train,1.0,25525.92213122172,0.6745278832192613,0.4229989720159041
 468909,UEI College-Garden Grove,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,16584.01730316742,0.0009745842911425051,0.0003632079063488152
-468909,UEI College-Garden Grove,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.4126142534,0.015528209164482035,0.011096208366527378
+468909,UEI College-Garden Grove,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.412614253397,0.015528209164482035,0.011096208366527378
 468909,UEI College-Garden Grove,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,0.0,20575.87958710407,0.011444325824229534,0.007403914143757318
 468909,UEI College-Garden Grove,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,train,0.0,20908.326477375565,0.0022322300918034585,0.00107928290524355
 468963,New England Tractor Trailer Training School of Massachusetts,MA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,38784.37123492183,0.9972049111886977,0.9969737427782287
@@ -24597,7 +24597,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 469416,Dewey University-Manati,PR,4603,Electrical and Power Transmission Installers.,Private non-profit,train,1.0,51597.639903119896,0.9122532975150627,0.5283990150948774
 469416,Dewey University-Manati,PR,5107,Health and Medical Administrative Services.,Private non-profit,score_only,,,0.17911082630039843,
 469416,Dewey University-Manati,PR,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private non-profit,score_only,,,0.20260209722648587,
-469610,Allen School-Phoenix,AZ,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,30960.828463817,0.9431773461806285,0.9542181266050699
+469610,Allen School-Phoenix,AZ,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,30960.828463816997,0.9431773461806285,0.9542181266050699
 469629,Oklahoma Technical College,OK,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Private non-profit,score_only,,,0.8876433587892045,
 469629,Oklahoma Technical College,OK,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private non-profit,score_only,,,0.9947068606253404,
 469629,Oklahoma Technical College,OK,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private non-profit,train,1.0,37248.968591,0.9843381130172545,0.9523194351330672
@@ -24673,7 +24673,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 475723,Tooele Technical College,UT,4902,Ground Transportation.,Public,train,1.0,52134.98063022429,0.9989109864073611,0.9976258152860672
 475723,Tooele Technical College,UT,5108,Allied Health and Medical Assisting Services.,Public,train,1.0,26900.662254098872,0.9948949976454717,0.9824735155975856
 475723,Tooele Technical College,UT,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Public,score_only,,,0.999496630175948,
-475723,Tooele Technical College,UT,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,train,1.0,25654.30703148396,0.98859987444704,0.9620731996826373
+475723,Tooele Technical College,UT,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Public,train,1.0,25654.307031483957,0.98859987444704,0.9620731996826373
 475723,Tooele Technical College,UT,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Public,train,1.0,32215.65757549961,0.966858010900819,0.9901454466431092
 475723,Tooele Technical College,UT,5202,"Business Administration, Management and Operations.",Public,score_only,,,0.9990570740924767,
 475723,Tooele Technical College,UT,5204,Business Operations Support and Assistant Services.,Public,train,1.0,30066.132304671544,0.9928621575317425,0.9565333323016206
@@ -24742,7 +24742,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 476975,Colorado State University Global,CO,5210,Human Resources Management and Services.,Public,score_only,,,0.998467951016449,
 476975,Colorado State University Global,CO,5212,Management Information Systems and Services.,Public,score_only,,,0.9978354221185072,
 476975,Colorado State University Global,CO,5214,Marketing.,Public,score_only,,,0.9989684790715327,
-476984,Paul Mitchell the School-Overland Park,KS,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21571.38726544056,0.008936200391292485,0.01406989618586028
+476984,Paul Mitchell the School-Overland Park,KS,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,21571.387265440557,0.008936200391292485,0.01406989618586028
 476993,Medspa Academies,UT,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,24792.941409614363,0.7635415561344295,0.01776059756038252
 477002,Brighton Institute of Cosmetology,MI,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,score_only,,,0.009236462962539865,
 478582,Empire Beauty School-Savannah,GA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,17767.880859230358,0.0011787915739462714,
@@ -24810,7 +24810,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 480471,UEI College-Stockton,CA,4603,Electrical and Power Transmission Installers.,Private for-profit,score_only,,,0.9205493229646332,
 480471,UEI College-Stockton,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,27865.54836651584,0.9784919290050441,0.9785517036818997
 480471,UEI College-Stockton,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,16584.01730316742,0.0007678337176474009,0.001369970030185066
-480471,UEI College-Stockton,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.4126142534,0.012959941193934446,0.016871416651328408
+480471,UEI College-Stockton,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,0.0,21412.412614253397,0.012959941193934446,0.016871416651328408
 480471,UEI College-Stockton,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,0.0,20575.87958710407,0.00681513820976475,0.013860031643957837
 480471,UEI College-Stockton,CA,5204,Business Operations Support and Assistant Services.,Private for-profit,train,0.0,20908.326477375565,0.0023027911162471154,0.0038747116292664127
 480523,Ross Medical Education Center-Dayton,OH,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,23916.4645720456,0.5923101818886305,0.10980272466880832
@@ -24956,7 +24956,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 481890,Ross Medical Education Center-Erlanger,KY,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,29680.308784653764,0.9894793711757465,0.9831785703969214
 481906,Ross Medical Education Center-Charleston,WV,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,26655.381173981907,0.9541433526760815,0.7855183136826283
 481906,Ross Medical Education Center-Charleston,WV,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,29959.967124984792,0.9883004407964006,0.9783244932285113
-481906,Ross Medical Education Center-Charleston,WV,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,27209.4749685026,0.9709107877913338,0.9374307886182667
+481906,Ross Medical Education Center-Charleston,WV,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,27209.474968502596,0.9709107877913338,0.9374307886182667
 481960,InterCoast Colleges-Fairfield,CA,1110,Computer/Information Technology Administration and Management.,Private for-profit,score_only,,,0.9551460192541484,
 481960,InterCoast Colleges-Fairfield,CA,4603,Electrical and Power Transmission Installers.,Private for-profit,train,1.0,33412.16227262444,0.9851420722701622,0.9772184273195281
 481960,InterCoast Colleges-Fairfield,CA,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,train,1.0,31775.757028280543,0.9944178438934773,0.9890937652069729
@@ -25310,7 +25310,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 484376,North-West College-Long Beach,CA,5109,"Allied Health Diagnostic, Intervention, and Treatment Professions.",Private for-profit,train,1.0,32216.519947963803,0.9863199487709219,0.947001190199809
 484376,North-West College-Long Beach,CA,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,43732.18027488688,0.99887473509825,0.9956381035027883
 484394,Taylor Andrews Academy of Hair Design-Provo,UT,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,19891.12937184181,0.02093530434220314,
-484604,Ogle School Hair Skin Nails-Stafford,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,20500.49390523924,0.013227563942393944,0.014417720866268639
+484604,Ogle School Hair Skin Nails-Stafford,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,20500.493905239236,0.013227563942393944,0.014417720866268639
 484613,University of Phoenix-Arizona,AZ,0901,Communication and Media Studies.,Private for-profit,score_only,,,0.9750136848969113,
 484613,University of Phoenix-Arizona,AZ,1101,"Computer and Information Sciences, General.",Private for-profit,score_only,,,0.9981707107636387,
 484613,University of Phoenix-Arizona,AZ,1102,Computer Programming.,Private for-profit,train,1.0,62711.56389148802,0.9964228857896419,0.9902197049415784
@@ -25671,7 +25671,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 487524,Husson University,ME,5004,Design and Applied Arts.,Private non-profit,score_only,,,0.801658611055971,
 487524,Husson University,ME,5005,Drama/Theatre Arts and Stagecraft.,Private non-profit,score_only,,,0.6974775486217314,
 487524,Husson University,ME,5006,Film/Video and Photographic Arts.,Private non-profit,score_only,,,0.883809690300672,
-487524,Husson University,ME,5115,Mental and Social Health Services and Allied Professions.,Private non-profit,score_only,,,0.9910827670632845,
+487524,Husson University,ME,5115,Mental and Social Health Services and Allied Professions.,Private non-profit,score_only,,,0.9910827670632847,
 487524,Husson University,ME,5123,Rehabilitation and Therapeutic Professions.,Private non-profit,score_only,,,0.8907648923472843,
 487524,Husson University,ME,5202,"Business Administration, Management and Operations.",Private non-profit,score_only,,,0.9978983519344836,
 487524,Husson University,ME,5203,Accounting and Related Services.,Private non-profit,score_only,,,0.985296109651153,
@@ -25749,7 +25749,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 488226,Center for Neurosomatic Studies,FL,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.1571584363530262,
 488253,Focus Personal Training Institute,NY,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Private for-profit,train,0.0,16542.16760412827,0.028350645369316006,0.126193058458636
 488262,Hair Academy School of Barbering & Beauty,DE,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,23706.484128271288,0.13454618587774825,0.000538468322077278
-488280,National Personal Training Institute,FL,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Private for-profit,train,0.0,19072.65286057085,0.008024077190518432,0.014460136553337569
+488280,National Personal Training Institute,FL,3105,"Sports, Kinesiology, and Physical Education/Fitness.",Private for-profit,train,0.0,19072.65286057085,0.00802407719051843,0.014460136553337569
 488280,National Personal Training Institute,FL,3199,"Parks, Recreation, Leisure, Fitness, and Kinesiology, Other.",Private for-profit,score_only,,,0.11182317377956538,
 488299,Mission Beauty Institute,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15704.834911229736,0.003913604903902203,0.003529274621523244
 488305,Elim Bible College,NY,3802,Religion/Religious Studies.,Private non-profit,score_only,,,0.35364902205497273,
@@ -25975,12 +25975,12 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 490285,California Institute of Arts & Technology,CA,4701,Electrical/Electronics Maintenance and Repair Technologies/Technicians.,Private for-profit,score_only,,,0.9273553265380087,
 490294,"Elite Cosmetology, Barber & Spa Academy",WA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,score_only,,,0.006592246963459944,
 490294,"Elite Cosmetology, Barber & Spa Academy",WA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.181220732767616,
-490300,Cutting Edge Academy,NJ,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,18283.79543125692,0.008423101872650074,0.01247322961452906
+490300,Cutting Edge Academy,NJ,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,18283.795431256916,0.008423101872650074,0.01247322961452906
 490346,Elyon College,NY,3802,Religion/Religious Studies.,Private non-profit,score_only,,,0.3901635261154514,
 490346,Elyon College,NY,5203,Accounting and Related Services.,Private non-profit,score_only,,,0.9721272443348704,
 490382,Harmony Health Care Institute,NH,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,72794.32184833729,0.9919172581908258,0.9950731139297465
 490391,American Beauty and Trade School,FL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,11963.764277595352,0.0064050333572563956,0.005548116909278254
-490407,Hogan Institute of Cosmetology and Esthetics,GA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,16057.42372130027,0.01143886312500474,0.0371215430564493
+490407,Hogan Institute of Cosmetology and Esthetics,GA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,16057.42372130027,0.011438863125004738,0.0371215430564493
 490416,J's Barber College,LA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15326.700936785986,0.005011849994222795,0.0030758123186171893
 490425,Ann Webb Skin Institute,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,test,0.0,21410.856290542728,0.45037158445691006,
 490434,Apex Academy Hair Skin Nails School of Cosmetology,OH,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,15228.118833448229,0.004535802195844021,0.020973532910581714
@@ -26067,7 +26067,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 491394,Miller-Motte College-STVT-Arlington,TX,4805,Precision Metal Working.,Private for-profit,train,1.0,32626.737630430696,0.9969104640936756,0.994893381654502
 491394,Miller-Motte College-STVT-Arlington,TX,4902,Ground Transportation.,Private for-profit,train,1.0,50838.32039547828,0.9963398668971881,0.9960271569124861
 491394,Miller-Motte College-STVT-Arlington,TX,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,24391.209337667275,0.9176972547129172,0.7096050888685471
-491394,Miller-Motte College-STVT-Arlington,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.61593988772,0.8851054354266491,0.6482260312535122
+491394,Miller-Motte College-STVT-Arlington,TX,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,24784.615939887717,0.8851054354266491,0.6482260312535122
 491394,Miller-Motte College-STVT-Arlington,TX,5202,"Business Administration, Management and Operations.",Private for-profit,score_only,,,0.9748832504603413,
 491446,Bnos Zion Of Bobov Seminary,NY,1315,Teaching Assistants/Aides.,Private non-profit,score_only,,,0.006420432210058031,
 491464,ABC Adult School,CA,1003,Graphic Communications.,Public,score_only,,,0.6528638296063894,
@@ -26169,10 +26169,10 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 492139,DSDT,MI,5006,Film/Video and Photographic Arts.,Private for-profit,train,1.0,27742.40268300153,0.8828452822055616,0.35655039127606164
 492139,DSDT,MI,5108,Allied Health and Medical Assisting Services.,Private for-profit,score_only,,,0.8707366362115518,
 492148,Elite Beauty College,OK,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,score_only,,,0.0037712818583320396,
-492281,GoodFellas Barber College,AR,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,score_only,,,0.004785750500085839,
+492281,GoodFellas Barber College,AR,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,score_only,,,0.004785750500085838,
 492421,No Grease Barber School,NC,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,11916.789164603972,0.004888947455522441,0.004468332594654235
 492449,Pima Medical Institute-San Marcos,CA,0183,Veterinary/Animal Health Technologies/Technicians.,Private for-profit,train,0.0,21361.58740045249,0.04485515794283051,0.0911259140422449
-492449,Pima Medical Institute-San Marcos,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,22747.19937669684,0.038684427939545026,0.09440929293144898
+492449,Pima Medical Institute-San Marcos,CA,5106,Dental Support Services and Allied Professions.,Private for-profit,train,0.0,22747.199376696837,0.038684427939545026,0.09440929293144898
 492449,Pima Medical Institute-San Marcos,CA,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,23512.07718438914,0.829019072658291,0.608627488828135
 492449,Pima Medical Institute-San Marcos,CA,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,26591.58522058824,0.7965048225317074,0.5781513734929756
 492449,Pima Medical Institute-San Marcos,CA,5110,Clinical/Medical Laboratory Science/Research and Allied Professions.,Private for-profit,train,1.0,25888.36422963801,0.9683963910714701,0.8998690526204978
@@ -26359,7 +26359,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 495299,Florida Professional Institute,FL,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,score_only,,,0.020927312217773702,
 495305,The Professional Cosmetology Academy,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,score_only,,,0.005311898692863367,
 495341,Taylor Andrews Academy of Hair Design-Hair Lab Detroit Barber School,MI,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,20366.327911525343,0.002838230786785595,0.004396312294213399
-495369,Paul Mitchell the School-Fort Lauderdale,FL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,17976.8526774438,0.0027513278185031394,0.0020077756530934025
+495369,Paul Mitchell the School-Fort Lauderdale,FL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,17976.8526774438,0.0027513278185031394,0.002007775653093402
 495378,PCI Academy-Iowa City,IA,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,1.0,25595.51883084544,0.8162264237378695,0.30062482803235974
 495378,PCI Academy-Iowa City,IA,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,1.0,28447.46389372482,0.8711847244606074,0.44437578820708795
 495387,Larry's Barber College,IL,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,11937.030846892729,0.0047974945914553485,0.002844932212889611
@@ -26473,7 +26473,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 497046,Madera Community College,CA,5202,"Business Administration, Management and Operations.",Public,score_only,,,0.9979628475590884,
 497046,Madera Community College,CA,5203,Accounting and Related Services.,Public,score_only,,,0.9907828577768539,
 497046,Madera Community College,CA,5204,Business Operations Support and Assistant Services.,Public,score_only,,,0.8747013102882258,
-497073,Ogle School Hair Skin Nails-Willowbrook,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,20500.49390523924,0.009172638536296384,0.015050623444544824
+497073,Ogle School Hair Skin Nails-Willowbrook,TX,1204,Cosmetology and Related Personal Grooming Services.,Private for-profit,train,0.0,20500.493905239236,0.009172638536296384,0.015050623444544824
 497116,Galen Health Institutes-Austin Campus,TX,5139,"Practical Nursing, Vocational Nursing and Nursing Assistants.",Private for-profit,train,1.0,50752.70298066997,0.9985871508187173,0.9953510511789339
 497161,Ohio Business College-Dayton-Driving Academy,OH,4603,Electrical and Power Transmission Installers.,Private for-profit,score_only,,,0.991328701016094,
 497161,Ohio Business College-Dayton-Driving Academy,OH,4902,Ground Transportation.,Private for-profit,score_only,,,0.9910280433700261,
@@ -26492,7 +26492,7 @@ unitid,instnm,state,cipcode,cipdesc,control,split,vae_positive_local,earnings_1y
 497277,Arizona College-Glendale,AZ,5106,Dental Support Services and Allied Professions.,Private for-profit,train,1.0,24699.623658464778,0.7128845840169872,0.22658365214214393
 497277,Arizona College-Glendale,AZ,5107,Health and Medical Administrative Services.,Private for-profit,train,1.0,31693.72114550309,0.9882175077950901,0.9496158440688187
 497277,Arizona College-Glendale,AZ,5108,Allied Health and Medical Assisting Services.,Private for-profit,train,1.0,30464.285897299826,0.9887429186734145,0.968376571873832
-497277,Arizona College-Glendale,AZ,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,21161.628294115915,0.042979787307386594,0.07147865101602595
+497277,Arizona College-Glendale,AZ,5135,Somatic Bodywork and Related Therapeutic Services.,Private for-profit,train,0.0,21161.628294115915,0.0429797873073866,0.07147865101602595
 497286,Universal Technical Institute-West Texas,TX,4702,"Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",Private for-profit,score_only,,,0.9989132374315721,
 497286,Universal Technical Institute-West Texas,TX,4706,Vehicle Maintenance and Repair Technologies/Technicians.,Private for-profit,train,1.0,43858.8754414848,0.9927844836198209,0.995622258514489
 497286,Universal Technical Institute-West Texas,TX,4805,Precision Metal Working.,Private for-profit,train,1.0,42419.635860909744,0.9976084904422547,0.9942225199909072
